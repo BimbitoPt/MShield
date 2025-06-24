@@ -1,0 +1,20 @@
+{
+  "program": "Example Inc Bug Bounty",
+  "in_scope": [
+    "*.example.com",
+    "app.example.io",
+    "api.example.com/*",
+    "staging.example.com"
+  ],
+  "out_of_scope": [
+    "admin.example.com",
+    "*.internal.example.com",
+    "login.example.com",
+    "private.api.example.com/*"
+  ],
+  "notes": [
+    "Exclude all admin panels",
+    "APIs require authentication, test only public endpoints",
+    "Report XSS only on in-scope domains"
+  ]
+}
