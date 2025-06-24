@@ -1,0 +1,6 @@
+payload,source,is_malicious,notes
+<script>alert('xss')</script>,TryHackMe,True,Basic XSS payload for testing
+<img src=x onerror=alert(1)>,Safe,True,Image-based XSS, common in forms
+<svg onload=alert(1)>,Safe,True,SVG-based XSS, modern attack vector
+"><script>alert('test')</script>,TryHackMe,True,Attribute-based XSS
+alert('safe'),Safe,False,Non-malicious JS for testing
