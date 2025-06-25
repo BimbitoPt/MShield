@@ -1,5 +1,5 @@
 "payload","input_field","status","behavior","context"
-"<details open ontoggle=alert(1)>","search_bar","error","Test failed","Error: Message: 
+"<audio src=x onerror=alert(1)>","search_bar","error","Test failed","Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -23,7 +23,7 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
 "
-"<audio src=x onerror=alert(1)>","search_bar","error","Test failed","Error: Message: 
+"<iframe onload=alert(1)>","comments","error","Test failed","Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -47,7 +47,7 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
 "
-"%3Cimg%20src=x%20onerror=alert(1)%3E","search_bar","error","Test failed","Error: Message: 
+"<details open ontoggle=alert(1)>","search_bar","error","Test failed","Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -71,7 +71,7 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
 "
-"""><img src=x onerror=alert(1)>","search_bar","error","Test failed","Error: Message: 
+"<img src=invalid onerror=alert(1)>","search_bar","error","Test failed","Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -95,7 +95,7 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
 "
-"<select onchange=alert(1)>","search_bar","error","Test failed","Error: Message: 
+""" onmouseover=alert(1)","comments","error","Test failed","Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -119,7 +119,7 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
 "
-"<textarea onfocus=alert(1) autofocus>","search_bar","error","Test failed","Error: Message: 
+"%3Cimg%20src=x%20onerror=alert(1)%3E","search_bar","error","Test failed","Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -143,7 +143,7 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
 "
-"<button onclick=alert(1)>Click</button>","search_bar","error","Test failed","Error: Message: 
+"<div onclick=alert(1)>Click</div>","search_bar","error","Test failed","Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -167,7 +167,7 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
 "
-"<script>alert(1)</script>","profile_bio","error","Test failed","Error: Message: 
+"<img src=x onerror=alert(1)>","search_bar","error","Test failed","Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -191,7 +191,7 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
 "
-"<img src=x onerror=alert(1)>","search_bar","error","Test failed","Error: Message: 
+"<textarea onfocus=alert(1) autofocus>","search_bar","error","Test failed","Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -215,7 +215,7 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
 "
-"<video src=x onerror=alert(1)>","search_bar","error","Test failed","Error: Message: 
+"<object data=javascript:alert(1)>","comments","error","Test failed","Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -239,7 +239,7 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
 "
-"javascript:alert(document.location)","profile_bio","error","Test failed","Error: Message: 
+"""><img src=x onerror=alert(1)>","search_bar","error","Test failed","Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -263,7 +263,199 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
 "
-"<img src=invalid onerror=alert(1)>","search_bar","error","Test failed","Error: Message: 
+"<input onfocus=alert(1) autofocus>","search_bar","error","Test failed","Error: Timeout waiting for element - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
+	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
+	(No symbol) [0x0x7ff6ef669dea]
+	(No symbol) [0x0x7ff6ef6c0256]
+	(No symbol) [0x0x7ff6ef6c050c]
+	(No symbol) [0x0x7ff6ef713887]
+	(No symbol) [0x0x7ff6ef6e84af]
+	(No symbol) [0x0x7ff6ef71065c]
+	(No symbol) [0x0x7ff6ef6e8243]
+	(No symbol) [0x0x7ff6ef6b1431]
+	(No symbol) [0x0x7ff6ef6b21c3]
+	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
+	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
+	GetHandleVerifier [0x0x7ff6efba588d+3151261]
+	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
+	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
+	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
+	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
+	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+"
+"&#60;img src=x onerror=alert(1)&#62;","search_bar","error","Test failed","Error: Timeout waiting for element - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
+	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
+	(No symbol) [0x0x7ff6ef669dea]
+	(No symbol) [0x0x7ff6ef6c0256]
+	(No symbol) [0x0x7ff6ef6c050c]
+	(No symbol) [0x0x7ff6ef713887]
+	(No symbol) [0x0x7ff6ef6e84af]
+	(No symbol) [0x0x7ff6ef71065c]
+	(No symbol) [0x0x7ff6ef6e8243]
+	(No symbol) [0x0x7ff6ef6b1431]
+	(No symbol) [0x0x7ff6ef6b21c3]
+	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
+	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
+	GetHandleVerifier [0x0x7ff6efba588d+3151261]
+	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
+	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
+	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
+	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
+	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+"
+"<video src=x onerror=alert(1)>","search_bar","error","Test failed","Error: Timeout waiting for element - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
+	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
+	(No symbol) [0x0x7ff6ef669dea]
+	(No symbol) [0x0x7ff6ef6c0256]
+	(No symbol) [0x0x7ff6ef6c050c]
+	(No symbol) [0x0x7ff6ef713887]
+	(No symbol) [0x0x7ff6ef6e84af]
+	(No symbol) [0x0x7ff6ef71065c]
+	(No symbol) [0x0x7ff6ef6e8243]
+	(No symbol) [0x0x7ff6ef6b1431]
+	(No symbol) [0x0x7ff6ef6b21c3]
+	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
+	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
+	GetHandleVerifier [0x0x7ff6efba588d+3151261]
+	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
+	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
+	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
+	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
+	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+"
+"<button onclick=alert(1)>Click</button>","search_bar","error","Test failed","Error: Timeout waiting for element - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
+	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
+	(No symbol) [0x0x7ff6ef669dea]
+	(No symbol) [0x0x7ff6ef6c0256]
+	(No symbol) [0x0x7ff6ef6c050c]
+	(No symbol) [0x0x7ff6ef713887]
+	(No symbol) [0x0x7ff6ef6e84af]
+	(No symbol) [0x0x7ff6ef71065c]
+	(No symbol) [0x0x7ff6ef6e8243]
+	(No symbol) [0x0x7ff6ef6b1431]
+	(No symbol) [0x0x7ff6ef6b21c3]
+	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
+	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
+	GetHandleVerifier [0x0x7ff6efba588d+3151261]
+	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
+	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
+	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
+	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
+	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+"
+"javascript:alert(1)","comments","error","Test failed","Error: Timeout waiting for element - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
+	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
+	(No symbol) [0x0x7ff6ef669dea]
+	(No symbol) [0x0x7ff6ef6c0256]
+	(No symbol) [0x0x7ff6ef6c050c]
+	(No symbol) [0x0x7ff6ef713887]
+	(No symbol) [0x0x7ff6ef6e84af]
+	(No symbol) [0x0x7ff6ef71065c]
+	(No symbol) [0x0x7ff6ef6e8243]
+	(No symbol) [0x0x7ff6ef6b1431]
+	(No symbol) [0x0x7ff6ef6b21c3]
+	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
+	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
+	GetHandleVerifier [0x0x7ff6efba588d+3151261]
+	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
+	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
+	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
+	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
+	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+"
+"<marquee onstart=alert(1)>","search_bar","error","Test failed","Error: Timeout waiting for element - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
+	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
+	(No symbol) [0x0x7ff6ef669dea]
+	(No symbol) [0x0x7ff6ef6c0256]
+	(No symbol) [0x0x7ff6ef6c050c]
+	(No symbol) [0x0x7ff6ef713887]
+	(No symbol) [0x0x7ff6ef6e84af]
+	(No symbol) [0x0x7ff6ef71065c]
+	(No symbol) [0x0x7ff6ef6e8243]
+	(No symbol) [0x0x7ff6ef6b1431]
+	(No symbol) [0x0x7ff6ef6b21c3]
+	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
+	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
+	GetHandleVerifier [0x0x7ff6efba588d+3151261]
+	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
+	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
+	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
+	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
+	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+"
+"<select onchange=alert(1)>","search_bar","error","Test failed","Error: Timeout waiting for element - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
+	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
+	(No symbol) [0x0x7ff6ef669dea]
+	(No symbol) [0x0x7ff6ef6c0256]
+	(No symbol) [0x0x7ff6ef6c050c]
+	(No symbol) [0x0x7ff6ef713887]
+	(No symbol) [0x0x7ff6ef6e84af]
+	(No symbol) [0x0x7ff6ef71065c]
+	(No symbol) [0x0x7ff6ef6e8243]
+	(No symbol) [0x0x7ff6ef6b1431]
+	(No symbol) [0x0x7ff6ef6b21c3]
+	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
+	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
+	GetHandleVerifier [0x0x7ff6efba588d+3151261]
+	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
+	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
+	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
+	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
+	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+"
+"<a href=javascript:alert(1)>Click</a>","comments","error","Test failed","Error: Timeout waiting for element - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
+	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
+	(No symbol) [0x0x7ff6ef669dea]
+	(No symbol) [0x0x7ff6ef6c0256]
+	(No symbol) [0x0x7ff6ef6c050c]
+	(No symbol) [0x0x7ff6ef713887]
+	(No symbol) [0x0x7ff6ef6e84af]
+	(No symbol) [0x0x7ff6ef71065c]
+	(No symbol) [0x0x7ff6ef6e8243]
+	(No symbol) [0x0x7ff6ef6b1431]
+	(No symbol) [0x0x7ff6ef6b21c3]
+	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
+	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
+	GetHandleVerifier [0x0x7ff6efba588d+3151261]
+	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
+	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
+	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
+	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
+	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+"
+"<script>alert(1)</script>","profile_bio","error","Test failed","Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]

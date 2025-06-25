@@ -1,5 +1,6 @@
-2025-06-25 22:19:53,615 - INFO - WebDriver initialized
-2025-06-25 22:20:00,083 - ERROR - Error testing payload <details open ontoggle=alert(1)>: Message: 
+# Error XSS Payloads - 2025-06-25 23:57:38.784371
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+<audio src=x onerror=alert(1)> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -22,8 +23,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:05,251 - ERROR - Error testing payload <audio src=x onerror=alert(1)>: Message: 
+ | search_bar
+<iframe onload=alert(1)> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -46,8 +47,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:10,377 - ERROR - Error testing payload %3Cimg%20src=x%20onerror=alert(1)%3E: Message: 
+ | comments
+<details open ontoggle=alert(1)> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -70,8 +71,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:15,474 - ERROR - Error testing payload "><img src=x onerror=alert(1)>: Message: 
+ | search_bar
+<img src=invalid onerror=alert(1)> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -94,8 +95,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:20,556 - ERROR - Error testing payload <select onchange=alert(1)>: Message: 
+ | search_bar
+" onmouseover=alert(1) | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -118,8 +119,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:25,672 - ERROR - Error testing payload <textarea onfocus=alert(1) autofocus>: Message: 
+ | comments
+%3Cimg%20src=x%20onerror=alert(1)%3E | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -142,8 +143,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:30,789 - ERROR - Error testing payload <button onclick=alert(1)>Click</button>: Message: 
+ | search_bar
+<div onclick=alert(1)>Click</div> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -166,8 +167,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:35,880 - ERROR - Error testing payload <script>alert(1)</script>: Message: 
+ | search_bar
+<img src=x onerror=alert(1)> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -190,8 +191,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:40,979 - ERROR - Error testing payload <img src=x onerror=alert(1)>: Message: 
+ | search_bar
+<textarea onfocus=alert(1) autofocus> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -214,8 +215,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:46,067 - ERROR - Error testing payload <video src=x onerror=alert(1)>: Message: 
+ | search_bar
+<object data=javascript:alert(1)> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -238,8 +239,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:51,149 - ERROR - Error testing payload javascript:alert(document.location): Message: 
+ | comments
+"><img src=x onerror=alert(1)> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -262,8 +263,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:56,244 - ERROR - Error testing payload <img src=invalid onerror=alert(1)>: Message: 
+ | search_bar
+<input onfocus=alert(1) autofocus> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -286,13 +287,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:56,244 - INFO - Skipping non-malicious payload: Hello World
-2025-06-25 22:20:58,615 - INFO - WebDriver closed
-2025-06-25 22:20:58,618 - INFO - Results saved to data/auto_test_results.csv
-2025-06-25 22:20:58,618 - INFO - Tested 13 payloads: 0 working, 12 failed/error
-2025-06-25 23:54:09,951 - INFO - WebDriver initialized
-2025-06-25 23:54:21,125 - ERROR - Timeout for payload <audio src=x onerror=alert(1)>: Message: 
+ | search_bar
+&#60;img src=x onerror=alert(1)&#62; | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -315,8 +311,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:54:31,334 - ERROR - Timeout for payload <iframe onload=alert(1)>: Message: 
+ | search_bar
+<video src=x onerror=alert(1)> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -339,8 +335,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:54:41,560 - ERROR - Timeout for payload <details open ontoggle=alert(1)>: Message: 
+ | search_bar
+<button onclick=alert(1)>Click</button> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -363,8 +359,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:54:51,795 - ERROR - Timeout for payload <img src=invalid onerror=alert(1)>: Message: 
+ | search_bar
+javascript:alert(1) | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -387,8 +383,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:55:01,979 - ERROR - Timeout for payload " onmouseover=alert(1): Message: 
+ | comments
+<marquee onstart=alert(1)> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -411,8 +407,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:55:12,171 - ERROR - Timeout for payload %3Cimg%20src=x%20onerror=alert(1)%3E: Message: 
+ | search_bar
+<select onchange=alert(1)> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -435,8 +431,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:55:22,354 - ERROR - Timeout for payload <div onclick=alert(1)>Click</div>: Message: 
+ | search_bar
+<a href=javascript:alert(1)>Click</a> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -459,8 +455,8 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:55:32,535 - ERROR - Timeout for payload <img src=x onerror=alert(1)>: Message: 
+ | comments
+<script>alert(1)</script> | Alert expected | Test failed | Error: Timeout waiting for element - Message: 
 Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
 	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
@@ -483,297 +479,4 @@ Stacktrace:
 	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:55:42,706 - ERROR - Timeout for payload <textarea onfocus=alert(1) autofocus>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:55:52,899 - ERROR - Timeout for payload <object data=javascript:alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:56:03,101 - ERROR - Timeout for payload "><img src=x onerror=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:56:13,289 - ERROR - Timeout for payload <input onfocus=alert(1) autofocus>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:56:23,456 - ERROR - Timeout for payload &#60;img src=x onerror=alert(1)&#62;: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:56:33,710 - ERROR - Timeout for payload <video src=x onerror=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:56:43,896 - ERROR - Timeout for payload <button onclick=alert(1)>Click</button>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:56:54,122 - ERROR - Timeout for payload javascript:alert(1): Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:57:04,368 - ERROR - Timeout for payload <marquee onstart=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:57:14,556 - ERROR - Timeout for payload <select onchange=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:57:24,717 - ERROR - Timeout for payload <a href=javascript:alert(1)>Click</a>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:57:34,868 - ERROR - Timeout for payload <script>alert(1)</script>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:57:34,868 - INFO - Skipping non-malicious payload: Hello World
-2025-06-25 23:57:38,779 - INFO - WebDriver closed
-2025-06-25 23:57:38,783 - INFO - Results saved to data/auto_test_results.csv
-2025-06-25 23:57:38,785 - INFO - Error payloads appended to data/mshield_error_xss.txt
-2025-06-25 23:57:38,785 - INFO - Tested 21 payloads: 0 working, 0 failed, 20 error
+ | profile_bio
