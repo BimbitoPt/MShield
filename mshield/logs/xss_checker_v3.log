@@ -301,3 +301,61 @@
 2025-06-25 19:39:45,788 - INFO - Working payloads saved to mshield/data/mshield_working_xss.txt
 2025-06-25 19:39:45,791 - INFO - Results saved to data/xss_results.csv
 2025-06-25 19:39:45,791 - INFO - Detection accuracy: 100.00% (20/20)
+2025-06-25 21:12:24,259 - WARNING - Payload <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt> may fail in search_bar due to sanitization
+2025-06-25 21:12:24,259 - INFO - Checked <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt> in search_bar: XSS=Yes, Expected=True, Context=Low likelihood in search bar (strict sanitization)
+2025-06-25 21:12:24,260 - WARNING - Payload <img src=x onerror=eval(atob('YWxlcnQoMSk='))> may fail in search_bar due to sanitization
+2025-06-25 21:12:24,260 - INFO - Checked <img src=x onerror=eval(atob('YWxlcnQoMSk='))> in search_bar: XSS=Yes, Expected=True, Context=Low likelihood in search bar (strict sanitization)
+2025-06-25 21:12:24,260 - WARNING - Payload <svg/onload=eval(decodeURIComponent('alert%281%29'))> may fail in search_bar due to sanitization
+2025-06-25 21:12:24,260 - INFO - Checked <svg/onload=eval(decodeURIComponent('alert%281%29'))> in search_bar: XSS=Yes, Expected=True, Context=Low likelihood in search bar (strict sanitization)
+2025-06-25 21:12:24,261 - WARNING - Malformed payload detected: " onpointerdown=alert`xss`"
+2025-06-25 21:12:24,261 - WARNING - Payload " onpointerdown=alert`xss`" may fail in search_bar due to sanitization
+2025-06-25 21:12:24,261 - INFO - Checked " onpointerdown=alert`xss`" in search_bar: XSS=Yes, Expected=True, Context=Low likelihood in search bar (strict sanitization)
+2025-06-25 21:12:24,261 - INFO - Checked <a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==> in search_bar: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews or profile bio (data URL)
+2025-06-25 21:12:24,262 - WARNING - Payload <input onfocus=eval('alert\x281\x29')> may fail in search_bar due to sanitization
+2025-06-25 21:12:24,262 - INFO - Checked <input onfocus=eval('alert\x281\x29')> in search_bar: XSS=Yes, Expected=True, Context=Low likelihood in search bar (strict sanitization)
+2025-06-25 21:12:24,262 - WARNING - Payload <div onscroll=alert(String.fromCharCode(88,83,83))> may fail in search_bar due to sanitization
+2025-06-25 21:12:24,262 - INFO - Checked <div onscroll=alert(String.fromCharCode(88,83,83))> in search_bar: XSS=Yes, Expected=True, Context=Low likelihood in search bar (strict sanitization)
+2025-06-25 21:12:24,263 - WARNING - Payload <embed src=vbscript:msgbox('xss')> may fail in search_bar due to sanitization
+2025-06-25 21:12:24,263 - INFO - Checked <embed src=vbscript:msgbox('xss')> in search_bar: XSS=Yes, Expected=True, Context=Low likelihood (vbscript not supported in modern browsers)
+2025-06-25 21:12:24,263 - INFO - Payload <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))> likely to trigger in search_bar
+2025-06-25 21:12:24,263 - INFO - Checked <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))> in search_bar: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (javascript URL)
+2025-06-25 21:12:24,263 - WARNING - Payload <img src=x onmousemove=alert`1`> may fail in search_bar due to sanitization
+2025-06-25 21:12:24,263 - INFO - Checked <img src=x onmousemove=alert`1`> in search_bar: XSS=Yes, Expected=True, Context=Low likelihood in search bar (strict sanitization)
+2025-06-25 21:12:24,264 - INFO - Checked alert('safe') in search_bar: XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio (input: search_bar)
+2025-06-25 21:12:24,264 - INFO - Checked console.log('x') in search_bar: XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio (input: search_bar)
+2025-06-25 21:12:24,264 - INFO - Checked document.getElementById('test') in search_bar: XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio (input: search_bar)
+2025-06-25 21:12:24,264 - INFO - Checked window.location='home' in search_bar: XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio (input: search_bar)
+2025-06-25 21:12:24,264 - INFO - Checked console.warn('debug') in search_bar: XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio (input: search_bar)
+2025-06-25 21:12:24,264 - INFO - Checked alert('welcome') in search_bar: XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio (input: search_bar)
+2025-06-25 21:12:24,265 - WARNING - Malformed payload detected: \"><script>alert('test')</script>\"
+2025-06-25 21:12:24,265 - WARNING - Payload \"><script>alert('test')</script>\" may fail in search_bar due to sanitization
+2025-06-25 21:12:24,265 - INFO - Checked \"><script>alert('test')</script>\" in search_bar: XSS=Yes, Expected=True, Context=Low likelihood in search bar (strict sanitization)
+2025-06-25 21:12:24,265 - WARNING - Malformed payload detected: \"><img src='x' onerror=alert('hack')>\"
+2025-06-25 21:12:24,265 - WARNING - Payload \"><img src='x' onerror=alert('hack')>\" may fail in search_bar due to sanitization
+2025-06-25 21:12:24,265 - INFO - Checked \"><img src='x' onerror=alert('hack')>\" in search_bar: XSS=Yes, Expected=True, Context=Low likelihood in search bar (strict sanitization)
+2025-06-25 21:12:24,265 - INFO - Payload <a href=javascript:alert('click')> likely to trigger in search_bar
+2025-06-25 21:12:24,265 - INFO - Checked <a href=javascript:alert('click')> in search_bar: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (javascript URL)
+2025-06-25 21:12:24,265 - WARNING - Payload <div onmouseover=alert('xss')> may fail in search_bar due to sanitization
+2025-06-25 21:12:24,265 - INFO - Checked <div onmouseover=alert('xss')> in search_bar: XSS=Yes, Expected=True, Context=Low likelihood in search bar (strict sanitization)
+2025-06-25 21:12:24,266 - INFO - Failed payloads saved to mshield/data/mshield_failed_xss.txt
+2025-06-25 21:12:24,267 - INFO - Working payloads saved to mshield/data/mshield_working_xss.txt
+2025-06-25 21:12:24,273 - INFO - Results saved to data/xss_results.csv
+2025-06-25 21:12:24,273 - INFO - Detection accuracy: 100.00% (20/20)
+2025-06-25 21:16:40,418 - INFO - Checked <body onerror="console.log('xss')"> in profile_bio: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews or profile bio (e.g., mouseover, click)
+2025-06-25 21:16:40,418 - INFO - Checked <body onerror="console.log('xss')"> in profile_bio: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews or profile bio (e.g., mouseover, click)
+2025-06-25 21:16:40,419 - INFO - Checked <input type="text" onerror="console.log('xss')" autofocus> in product_reviews: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews or profile bio (e.g., mouseover, click)
+2025-06-25 21:16:40,419 - INFO - Checked <img onmouseover="prompt('xss')"> in product_reviews: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews or profile bio (e.g., mouseover, click)
+2025-06-25 21:16:40,419 - INFO - Checked <body onmouseover="alert('xss')"> in product_reviews: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews or profile bio (e.g., mouseover, click)
+2025-06-25 21:16:40,419 - INFO - Checked <input type="text" onerror="prompt('xss')" autofocus> in product_reviews: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews or profile bio (e.g., mouseover, click)
+2025-06-25 21:16:40,419 - WARNING - Payload <svg onfocus="alert('xss')"> may fail in search_bar due to sanitization
+2025-06-25 21:16:40,419 - INFO - Checked <svg onfocus="alert('xss')"> in search_bar: XSS=Yes, Expected=True, Context=Low likelihood in search bar (strict sanitization)
+2025-06-25 21:16:40,419 - INFO - Payload <a href="javascript:alert('xss')">Click</a> likely to trigger in product_reviews
+2025-06-25 21:16:40,419 - INFO - Checked <a href="javascript:alert('xss')">Click</a> in product_reviews: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (javascript URL)
+2025-06-25 21:16:40,420 - INFO - Checked <body onfocus="alert('xss')"> in profile_bio: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews or profile bio (e.g., mouseover, click)
+2025-06-25 21:16:40,420 - INFO - Payload <iframe src="javascript:console.log('xss')"></iframe> likely to trigger in profile_bio
+2025-06-25 21:16:40,420 - INFO - Checked <iframe src="javascript:console.log('xss')"></iframe> in profile_bio: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (javascript URL)
+2025-06-25 21:16:40,420 - INFO - Checked Hello World in search_bar: XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio (input: search_bar)
+2025-06-25 21:16:40,421 - INFO - Failed payloads saved to mshield/data/mshield_failed_xss.txt
+2025-06-25 21:16:40,422 - INFO - Working payloads saved to mshield/data/mshield_working_xss.txt
+2025-06-25 21:16:40,425 - INFO - Results saved to data/xss_results.csv
+2025-06-25 21:16:40,425 - INFO - Detection accuracy: 100.00% (11/11)
