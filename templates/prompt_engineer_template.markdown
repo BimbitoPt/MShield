@@ -17,7 +17,7 @@
 - **Deliverable**: [e.g., `check_scope.py`, Notion plan, Trello tasks]
 
 ## 3. Context
-- **Skill Level**: Beginner-to-intermediate Python
+- **Skill Level**: 
 - **Tools**: [e.g., TryHackMe Premium, VS Code (Python, Pylance, Code Runner, Jupyter, GitLens, Markdown All in One, REST Client, Regex Previewer, Docker)]
 - **Templates**: [e.g., `scope.json`, `bug_report_template.md`, `mshield_coding_template.md`]
 - **Testing Environment**: [e.g., TryHackMe CTFs (`*.tryhackme.com`), Juice Shop]

@@ -1,215 +1,211 @@
-# MShield: Enhanced XSS Checker for Bug Bounties (Version 2)
-import re
 import pandas as pd
-import numpy as np
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import StandardScaler
-import pickle
-import urllib.parse
-import argparse
-import json
-import csv
+import re
 import logging
+import os
+import csv
+import urllib.parse
+import base64
+from typing import List, Dict, Any
+from functools import lru_cache
 
-# Setup logging for debugging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# Ensure log directory exists
+os.makedirs('mshield/logs', exist_ok=True)
 
-# Comprehensive XSS payload patterns
-XSS_PATTERNS = [
-    r'<\s*script\b[^>]*>[^<]*<\s*/\s*script\s*>',  # <script>...</script>
-    r'on\w+\s*=\s*["\'][^"\']*["\']',              # on* events (e.g., onerror='alert(1)')
-    r'javascript\s*:[^"\']*',                      # javascript: URLs
-    r'<\s*(img|iframe|embed|object)\b',            # Dangerous tags
-    r'%3C\s*script|%3C\s*img',                     # Encoded <script, <img
-    r'document\.\w+',                              # JS functions (e.g., document.write)
-    r'(alert|prompt|confirm)\s*\(',                # JS alert/prompt/confirm
-    r'eval\s*\(',                                  # eval(
-    r'<\s*[a-zA-Z]+\s+[^>]*>',                     # Generic HTML tags with attributes
-    r'data\s*:\s*[^,\s]+,',                        # data: URLs
-    r'<\s*svg\b[^>]*>[^<]*<\s*/\s*svg\s*>',       # SVG tags
-    r'vbscript\s*:[^"\']*',                        # vbscript: URLs
-]
+# Configure logging
+logging.basicConfig(
+    filename='mshield/logs/xss_checker_v3.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
-def extract_features(input_string):
-    """Extract features for XSS detection."""
-    decoded = urllib.parse.unquote(input_string)
-    features = {
-        'length': len(decoded),
-        'script_count': len(re.findall(r'<script\b', decoded, re.IGNORECASE)),
-        'on_event_count': len(re.findall(r'on\w+\s*=', decoded, re.IGNORECASE)),
-        'special_chars': sum(c in '<>"\'&;%' for c in decoded),
-        'js_function_count': len(re.findall(r'(alert|prompt|confirm|eval|document\.\w+)\s*\(', decoded, re.IGNORECASE)),
-        'url_encoded': 1 if input_string != decoded else 0,
-        'tag_count': len(re.findall(r'<\s*[a-zA-Z]+', decoded, re.IGNORECASE)),
-        'quote_count': decoded.count('"') + decoded.count("'"),
-        'encoded_char_count': len(re.findall(r'%[0-9A-Fa-f]{2}', decoded)),
-        'html_entity_count': len(re.findall(r'&#\d+;', decoded)),
-        'case_obfuscation': 1 if re.search(r'[a-zA-Z]+', decoded) and decoded != decoded.lower() else 0,
-    }
-    return features
+# Precompiled regex patterns for performance
+SVG_PATTERN = re.compile(r'<svg\b[^>]*>', re.IGNORECASE)
+IMG_PATTERN = re.compile(r'<img\s+[^>]*?(onerror|onmousemove|src\s*=\s*[\'"]?[^\'">]+[\'"]?)', re.IGNORECASE)
+SCRIPT_PATTERN = re.compile(
+    r'<sc?r?i?p?t\b[^>]*>|eval\s*\(|decodeURIComponent\s*\(|atob\s*\(|String\.fromCharCode\s*\(',
+    re.IGNORECASE
+)
+EVENT_PATTERN = re.compile(
+    r'\b(on(focus|mouseover|load|error|mousemove|click|scroll|pointerdown|pointermove|pointerrawupdate|'
+    r'mouse(enter|leave|down|up|move)|key(down|up|press)|touch(start|end|move|cancel)|'
+    r'drag(start|end|over|drop)|wheel|input|change|submit))\s*=\s*[\'"]?[^\'">]+[\'"]?',
+    re.IGNORECASE
+)
+IFRAME_A_EMBED_PATTERN = re.compile(
+    r'<(iframe|embed|object)\s+[^>]*?src\s*=\s*[\'"]?(javascript|data|vbscript):[^>]+[\'"]?>|'
+    r'<a\s+[^>]*?href\s*=\s*[\'"]?(javascript|data|vbscript):[^\'">]+[\'"]?',
+    re.IGNORECASE
+)
+MALFORMED_QUOTES_PATTERN = re.compile(r'"+\s*$')
+BASE64_PATTERN = re.compile(r'^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$')
+SANITIZATION_RISK_PATTERN = re.compile(
+    r'<sc?r?i?p?t\b[^>]*>|on(scroll|load)\s*=|eval\s*\(',
+    re.IGNORECASE
+)
+LOW_RISK_EVENT_PATTERN = re.compile(
+    r'\b(on(mousemove|onerror|focus))\s*=\s*[\'"]?[^\'">]+[\'"]?',
+    re.IGNORECASE
+)
 
-def check_xss_regex(input_string):
-    """Check for XSS using regex patterns."""
-    decoded = urllib.parse.unquote(input_string)
-    for pattern in XSS_PATTERNS:
-        if re.search(pattern, decoded, re.IGNORECASE):
-            return f"XSS Detected: Matches pattern '{pattern}'"
-    return "No XSS Detected (Regex)"
-
-def train_xss_model():
-    """Train Logistic Regression model for XSS."""
-    # Expanded synthetic dataset
-    data = [
-        {'input': '<script>alert(1)</script>', 'label': 1},
-        {'input': '<img src=x onerror=alert(1)>', 'label': 1},
-        {'input': 'javascript:alert(1)', 'label': 1},
-        {'input': '%3Cscript%3Ealert(1)%3C/script%3E', 'label': 1},
-        {'input': '<svg onload=alert(1)>', 'label': 1},
-        {'input': '<input onfocus=alert(1)>', 'label': 1},
-        {'input': 'vbscript:alert(1)', 'label': 1},
-        {'input': 'data:text/html,<script>alert(1)</script>', 'label': 1},
-        {'input': '<ScRiPt>alert(1)</ScRiPt>', 'label': 1},
-        {'input': 'Hello world', 'label': 0},
-        {'input': 'Search query', 'label': 0},
-        {'input': '<p>Safe text</p>', 'label': 0},
-        {'input': 'User input', 'label': 0},
-        {'input': 'Login page', 'label': 0},
-        {'input': 'Product search', 'label': 0},
-        {'input': '<div>Content</div>', 'label': 0},
-        {'input': 'Safe & sound', 'label': 0},
-        {'input': 'Normal text', 'label': 0},
-    ]
-    df = pd.DataFrame(data)
-    features = df['input'].apply(extract_features)
-    feature_df = pd.DataFrame(features.tolist())
-    X = feature_df
-    y = df['label']
-
-    scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
-    model = LogisticRegression(random_state=42, C=0.5)
-    model.fit(X_scaled, y)
-
-    with open('mshield_xss_model_v2.pkl', 'wb') as f:
-        pickle.dump(model, f)
-    with open('mshield_scaler_v2.pkl', 'wb') as f:
-        pickle.dump(scaler, f)
-    
-    logging.info("XSS model trained and saved.")
-    return model, scaler
-
-def predict_xss(input_string, model, scaler):
-    """Predict XSS using ML model."""
+@lru_cache(maxsize=1024)
+def decode_payload(payload: str) -> str:
+    """Decode URL-encoded or base64-encoded payloads efficiently."""
     try:
-        features = extract_features(input_string)
-        feature_df = pd.DataFrame([features])
-        X_scaled = scaler.transform(feature_df)
-        prob = model.predict_proba(X_scaled)[0][1]
-        prediction = model.predict(X_scaled)[0]
-        result = "XSS Detected" if prediction == 1 else "No XSS Detected"
-        return f"{result} (ML Confidence: {prob:.2%})"
+        decoded = urllib.parse.unquote(payload)
+        if BASE64_PATTERN.match(decoded):
+            try:
+                decoded = base64.b64decode(decoded).decode('utf-8', errors='ignore')
+            except (base64.binascii.Error, UnicodeDecodeError):
+                pass
+        return decoded
     except Exception as e:
-        logging.error(f"ML prediction failed: {str(e)}")
-        return f"ML Error: {str(e)}"
+        logger.warning(f"Failed to decode payload {payload}: {e}")
+        return payload
 
-def mshield_xss_check(input_string):
-    """Check input for XSS vulnerabilities."""
+def analyze_context(payload: str) -> str:
+    """Analyze payload context and triggering likelihood."""
     try:
-        # Load or train model
-        try:
-            with open('mshield_xss_model_v2.pkl', 'rb') as f:
-                model = pickle.load(f)
-            with open('mshield_scaler_v2.pkl', 'rb') as f:
-                scaler = pickle.load(f)
-        except FileNotFoundError:
-            logging.info("Training new XSS model...")
-            model, scaler = train_xss_model()
+        decoded = decode_payload(payload)
+        if SANITIZATION_RISK_PATTERN.search(payload):
+            return "Low likelihood in search bar (script tag, eval, or scroll/load event)"
+        if 'vbscript:' in payload:
+            return "Low likelihood (vbscript not supported in modern browsers)"
+        if MALFORMED_QUOTES_PATTERN.search(payload):
+            return "Low likelihood in search bar (malformed syntax)"
+        if 'data:' in payload:
+            return "Moderate likelihood in product reviews or profile bio (data URL)"
+        if LOW_RISK_EVENT_PATTERN.search(decoded):
+            return "High likelihood in search bar or product reviews (e.g., mousemove, onerror, focus)"
+        if EVENT_PATTERN.search(decoded):
+            return "Moderate likelihood in product reviews (e.g., mouseover, click, pointerdown)"
+        if IFRAME_A_EMBED_PATTERN.search(payload) and 'javascript:' in payload:
+            return "High likelihood in product reviews or profile bio (javascript URL)"
+        if IFRAME_A_EMBED_PATTERN.search(payload):
+            return "Moderate likelihood in product reviews or profile bio (data/vbscript URL)"
+        return "Moderate likelihood, test in product reviews or profile bio"
+    except Exception as e:
+        logger.warning(f"Context analysis failed for {payload}: {e}")
+        return "Unknown context"
 
-        # Run checks
-        regex_result = check_xss_regex(input_string)
-        ml_result = predict_xss(input_string, model, scaler)
-        vulnerability = "XSS" if "XSS Detected" in regex_result or "XSS Detected" in ml_result else "Safe"
+def detect_features(payload: str) -> Dict[str, Any]:
+    """Detect XSS features and context in a payload."""
+    try:
+        decoded = decode_payload(payload)
+        if MALFORMED_QUOTES_PATTERN.search(payload):
+            logger.warning(f"Malformed payload detected: {payload}")
 
-        # Generate report
-        report = {
-            'input': input_string,
-            'regex_result': regex_result,
-            'ml_result': ml_result,
-            'final_result': vulnerability,
-            'report': (
-                f"MShield XSS Report\n"
-                f"Input: {input_string}\n"
-                f"Regex: {regex_result}\n"
-                f"ML: {ml_result}\n"
-                f"Impact: Potential client-side code execution (e.g., cookie theft).\n"
-                f"PoC: If XSS, try injecting in a form or URL parameter.\n"
-                f"Recommendation: Sanitize input, use Content Security Policy (CSP)."
-            )
+        features = {
+            'svg_count': len(SVG_PATTERN.findall(decoded)),
+            'img_detected': bool(IMG_PATTERN.search(decoded)),
+            'script_detected': bool(SCRIPT_PATTERN.search(decoded)),
+            'event_detected': bool(EVENT_PATTERN.search(decoded)),
+            'iframe_a_detected': bool(IFRAME_A_EMBED_PATTERN.search(payload)),
+            'context': analyze_context(payload)
         }
-        return report
+        features['is_xss'] = any([
+            features['svg_count'] > 0,
+            features['img_detected'],
+            features['script_detected'],
+            features['event_detected'],
+            features['iframe_a_detected']
+        ])
+        
+        if features['is_xss'] and features['context'].startswith('Low likelihood'):
+            logger.warning(f"Payload {payload} may fail in Juice Shop due to sanitization")
+        elif features['is_xss'] and features['context'].startswith('High likelihood'):
+            logger.info(f"Payload {payload} likely to trigger in Juice Shop")
+        
+        return features
     except Exception as e:
-        logging.error(f"Error processing input: {str(e)}")
-        return {'error': f"Processing failed: {str(e)}"}
+        logger.error(f"Error detecting features for {payload}: {e}")
+        return {
+            'svg_count': 0,
+            'img_detected': False,
+            'script_detected': False,
+            'event_detected': False,
+            'iframe_a_detected': False,
+            'context': f"Error in analysis: {str(e)}",
+            'is_xss': False
+        }
 
-def save_results(results, json_file, csv_file):
-    """Save results to JSON and CSV."""
-    # JSON
-    with open(json_file, 'w') as f:
-        json.dump(results, f, indent=4)
+def process_payloads(df: pd.DataFrame) -> List[Dict[str, Any]]:
+    """Process payloads and generate results with failure and success logging."""
+    results = []
+    failed_payloads = []
+    working_payloads = []
     
-    # CSV
-    with open(csv_file, 'w', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=['input', 'regex_result', 'ml_result', 'final_result'])
-        writer.writeheader()
-        writer.writerow({
-            'input': results['input'],
-            'regex_result': results['regex_result'],
-            'ml_result': results['ml_result'],
-            'final_result': results['final_result']
-        })
-    logging.info(f"Results saved to {json_file} and {csv_file}")
+    for _, row in df.iterrows():
+        payload = str(row['payload'])
+        features = detect_features(payload)
+        is_xss = features['is_xss']
+        expected = str(row.get('is_malicious', 'False')).lower() == 'true'
+        
+        if pd.isna(row.get('is_malicious')):
+            logger.warning(f"Missing is_malicious for payload: {payload}, defaulting to False")
+        
+        result = {
+            'payload': payload,
+            'is_xss': is_xss,
+            'svg_count': features['svg_count'],
+            'img_detected': bool(features['img_detected']),
+            'script_detected': bool(features['script_detected']),
+            'event_detected': bool(features['event_detected']),
+            'iframe_a_embed_detected': bool(features['iframe_a_detected']),
+            'context': features['context'],
+            'expected': expected
+        }
+        results.append(result)
+        
+        if is_xss and expected:
+            if features['context'].startswith('Low likelihood'):
+                failed_payloads.append(f"{payload} | Alert expected | No alert | {features['context']} | Unknown")
+            elif features['context'].startswith(('High likelihood', 'Moderate likelihood')):
+                working_payloads.append(f"{payload} | Alert expected | Alert triggered | {features['context']} | Unknown")
+        
+        logger.info(f"Checked {payload}: XSS={'Yes' if is_xss else 'No'}, Expected={expected}, Context={features['context']}")
+    
+    # Write failed payloads
+    if failed_payloads:
+        with open('data/mshield_failed_xss.txt', 'w', encoding='utf-8') as f:
+            f.write(f"# Failed XSS Payloads - {pd.Timestamp.now()}\n")
+            f.write("# Payload | Expected Behavior | Actual Behavior | Failure Reason | Test Context\n")
+            f.write('\n'.join(failed_payloads) + '\n')
+        logger.info("Failed payloads saved to mshield/data/mshield_failed_xss.txt")
+    
+    # Write working payloads
+    if working_payloads:
+        with open('data/mshield_working_xss.txt', 'w', encoding='utf-8') as f:
+            f.write(f"# Working XSS Payloads - {pd.Timestamp.now()}\n")
+            f.write("# Payload | Expected Behavior | Actual Behavior | Context | Test Context\n")
+            f.write('\n'.join(working_payloads) + '\n')
+        logger.info("Working payloads saved to mshield/data/mshield_working_xss.txt")
+    
+    return results
 
 def main():
-    """Command-line interface for MShield XSS Checker."""
-    parser = argparse.ArgumentParser(description="MShield: XSS Vulnerability Checker")
-    parser.add_argument('--input', type=str, required=True, help="Input string to check for XSS")
-    parser.add_argument('--json-output', type=str, default='mshield_report.json', help="Output JSON file")
-    parser.add_argument('--csv-output', type=str, default='mshield_report.csv', help="Output CSV file")
-    args = parser.parse_args()
-
-    result = mshield_xss_check(args.input)
-    if 'error' not in result:
-        save_results(result, args.json_output, args.csv_output)
-    
-    # Print result
-    print(f"\nInput: {result.get('input', 'N/A')}")
-    print(f"Regex Result: {result.get('regex_result', 'N/A')}")
-    print(f"ML Result: {result.get('ml_result', 'N/A')}")
-    print(f"Final Result: {result.get('final_result', 'Error')}")
-    print(f"Report:\n{result.get('report', 'Error occurred.')}")
-    if 'error' not in result:
-        print(f"\nResults saved to {args.json_output} and {args.csv_output}")
+    """Main function to process XSS payloads."""
+    try:
+        df = pd.read_csv(
+            'data/mshield_xss_data.csv',
+            quoting=csv.QUOTE_ALL,
+            dtype={'payload': str, 'source': str, 'is_malicious': str, 'notes': str},
+            keep_default_na=False,
+            escapechar='\\'
+        )
+        
+        results = process_payloads(df)
+        
+        pd.DataFrame(results).to_csv('data/xss_results.csv', index=False, quoting=csv.QUOTE_ALL)
+        logger.info("Results saved to data/xss_results.csv")
+        
+        correct = sum(1 for result in results if str(result['is_xss']).lower() == str(result['expected']).lower())
+        accuracy = (correct / len(results)) * 100
+        logger.info(f"Detection accuracy: {accuracy:.2f}% ({correct}/{len(results)})")
+        
+    except Exception as e:
+        logger.error(f"Main error: {e}")
+        raise
 
 if __name__ == "__main__":
-    # Local test inputs (simulating TryHackMe)
-    test_inputs = [
-        "<script>alert('xss')</script>",
-        "<img src=x onerror=alert(1)>",
-        "<svg onload=alert(1)>",
-        "<input onfocus=alert(1)>",
-        "vbscript:alert(1)",
-        "data:text/html,<script>alert(1)</script>",
-        "Hello world",
-        "<p>Safe text</p>",
-        "Search query",
-        "<div>Content</div>",
-    ]
-    
-    # Run local tests
-    for inp in test_inputs:
-        result = mshield_xss_check(inp)
-        print(f"\nInput: {result.get('input', 'N/A')}")
-        print(f"Regex Result: {result.get('regex_result', 'N/A')}")
-        print(f"ML Result: {result.get('ml_result', 'N/A')}")
-        print(f"Final Result: {result.get('final_result', 'Error')}")
-        print(f"Report:\n{result.get('report', 'Error occurred.')}")
+    main()

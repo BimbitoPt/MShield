@@ -1,0 +1,303 @@
+2025-06-25 18:46:20,406 - WARNING - Payload <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt> may fail in Juice Shop due to sanitization
+2025-06-25 18:46:20,406 - INFO - Checked <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 18:46:20,407 - WARNING - Payload <img src=x onerror=eval(atob('YWxlcnQoMSk='))> may fail in Juice Shop due to sanitization
+2025-06-25 18:46:20,407 - INFO - Checked <img src=x onerror=eval(atob('YWxlcnQoMSk='))>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 18:46:20,408 - WARNING - Payload <svg/onload=eval(decodeURIComponent('alert%281%29'))> may fail in Juice Shop due to sanitization
+2025-06-25 18:46:20,408 - INFO - Checked <svg/onload=eval(decodeURIComponent('alert%281%29'))>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 18:46:20,408 - WARNING - Malformed payload detected: " onpointerdown=alert`xss`"
+2025-06-25 18:46:20,408 - INFO - Checked " onpointerdown=alert`xss`": XSS=Yes, Expected=True, Context=Event-based, needs user interaction (e.g., scroll, focus)
+2025-06-25 18:46:20,408 - INFO - Checked <a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==>: XSS=Yes, Expected=True, Context=Requires specific context (e.g., profile bio)
+2025-06-25 18:46:20,409 - WARNING - Payload <input onfocus=eval('alert\x281\x29')> may fail in Juice Shop due to sanitization
+2025-06-25 18:46:20,409 - INFO - Checked <input onfocus=eval('alert\x281\x29')>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 18:46:20,409 - WARNING - Payload <div onscroll=alert(String.fromCharCode(88,83,83))> may fail in Juice Shop due to sanitization
+2025-06-25 18:46:20,409 - INFO - Checked <div onscroll=alert(String.fromCharCode(88,83,83))>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 18:46:20,410 - INFO - Checked <embed src=vbscript:msgbox('xss')>: XSS=Yes, Expected=True, Context=Requires specific context (e.g., profile bio)
+2025-06-25 18:46:20,410 - INFO - Checked <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))>: XSS=Yes, Expected=True, Context=Generic payload, test in multiple contexts
+2025-06-25 18:46:20,410 - INFO - Checked <img src=x onmousemove=alert`1`>: XSS=Yes, Expected=True, Context=Event-based, needs user interaction (e.g., scroll, focus)
+2025-06-25 18:46:20,410 - INFO - Checked alert('safe'): XSS=No, Expected=False, Context=Generic payload, test in multiple contexts
+2025-06-25 18:46:20,410 - INFO - Checked console.log('x'): XSS=No, Expected=False, Context=Generic payload, test in multiple contexts
+2025-06-25 18:46:20,410 - INFO - Checked document.getElementById('test'): XSS=No, Expected=False, Context=Generic payload, test in multiple contexts
+2025-06-25 18:46:20,411 - INFO - Checked window.location='home': XSS=No, Expected=False, Context=Generic payload, test in multiple contexts
+2025-06-25 18:46:20,411 - INFO - Checked console.warn('debug'): XSS=No, Expected=False, Context=Generic payload, test in multiple contexts
+2025-06-25 18:46:20,411 - INFO - Checked alert('welcome'): XSS=No, Expected=False, Context=Generic payload, test in multiple contexts
+2025-06-25 18:46:20,411 - WARNING - Malformed payload detected: \"><script>alert('test')</script>\"
+2025-06-25 18:46:20,411 - WARNING - Payload \"><script>alert('test')</script>\" may fail in Juice Shop due to sanitization
+2025-06-25 18:46:20,411 - INFO - Checked \"><script>alert('test')</script>\": XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 18:46:20,411 - WARNING - Malformed payload detected: \"><img src='x' onerror=alert('hack')>\"
+2025-06-25 18:46:20,411 - WARNING - Payload \"><img src='x' onerror=alert('hack')>\" may fail in Juice Shop due to sanitization
+2025-06-25 18:46:20,411 - INFO - Checked \"><img src='x' onerror=alert('hack')>\": XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 18:46:20,412 - INFO - Checked <a href=javascript:alert('click')>: XSS=Yes, Expected=True, Context=Generic payload, test in multiple contexts
+2025-06-25 18:46:20,412 - INFO - Checked <div onmouseover=alert('xss')>: XSS=Yes, Expected=True, Context=Event-based, needs user interaction (e.g., scroll, focus)
+2025-06-25 18:46:20,416 - INFO - Failed payloads saved to data/mshield_failed_xss.txt
+2025-06-25 18:46:20,420 - INFO - Results saved to data/xss_results.csv
+2025-06-25 18:46:20,421 - INFO - Detection accuracy: 100.00% (20/20)
+2025-06-25 18:49:41,665 - WARNING - Payload <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt> may fail in Juice Shop due to sanitization
+2025-06-25 18:49:41,665 - INFO - Checked <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 18:49:41,665 - WARNING - Payload <img src=x onerror=eval(atob('YWxlcnQoMSk='))> may fail in Juice Shop due to sanitization
+2025-06-25 18:49:41,665 - INFO - Checked <img src=x onerror=eval(atob('YWxlcnQoMSk='))>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 18:49:41,666 - WARNING - Payload <svg/onload=eval(decodeURIComponent('alert%281%29'))> may fail in Juice Shop due to sanitization
+2025-06-25 18:49:41,666 - INFO - Checked <svg/onload=eval(decodeURIComponent('alert%281%29'))>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 18:49:41,666 - WARNING - Malformed payload detected: " onpointerdown=alert`xss`"
+2025-06-25 18:49:41,666 - INFO - Checked " onpointerdown=alert`xss`": XSS=Yes, Expected=True, Context=Event-based, needs user interaction (e.g., scroll, focus)
+2025-06-25 18:49:41,666 - INFO - Checked <a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==>: XSS=Yes, Expected=True, Context=Requires specific context (e.g., profile bio)
+2025-06-25 18:49:41,667 - WARNING - Payload <input onfocus=eval('alert\x281\x29')> may fail in Juice Shop due to sanitization
+2025-06-25 18:49:41,667 - INFO - Checked <input onfocus=eval('alert\x281\x29')>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 18:49:41,667 - WARNING - Payload <div onscroll=alert(String.fromCharCode(88,83,83))> may fail in Juice Shop due to sanitization
+2025-06-25 18:49:41,667 - INFO - Checked <div onscroll=alert(String.fromCharCode(88,83,83))>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 18:49:41,667 - INFO - Checked <embed src=vbscript:msgbox('xss')>: XSS=Yes, Expected=True, Context=Requires specific context (e.g., profile bio)
+2025-06-25 18:49:41,667 - INFO - Checked <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))>: XSS=Yes, Expected=True, Context=Generic payload, test in multiple contexts
+2025-06-25 18:49:41,667 - INFO - Checked <img src=x onmousemove=alert`1`>: XSS=Yes, Expected=True, Context=Event-based, needs user interaction (e.g., scroll, focus)
+2025-06-25 18:49:41,668 - INFO - Checked alert('safe'): XSS=No, Expected=False, Context=Generic payload, test in multiple contexts
+2025-06-25 18:49:41,668 - INFO - Checked console.log('x'): XSS=No, Expected=False, Context=Generic payload, test in multiple contexts
+2025-06-25 18:49:41,668 - INFO - Checked document.getElementById('test'): XSS=No, Expected=False, Context=Generic payload, test in multiple contexts
+2025-06-25 18:49:41,668 - INFO - Checked window.location='home': XSS=No, Expected=False, Context=Generic payload, test in multiple contexts
+2025-06-25 18:49:41,668 - INFO - Checked console.warn('debug'): XSS=No, Expected=False, Context=Generic payload, test in multiple contexts
+2025-06-25 18:49:41,668 - INFO - Checked alert('welcome'): XSS=No, Expected=False, Context=Generic payload, test in multiple contexts
+2025-06-25 18:49:41,668 - WARNING - Malformed payload detected: \"><script>alert('test')</script>\"
+2025-06-25 18:49:41,669 - WARNING - Payload \"><script>alert('test')</script>\" may fail in Juice Shop due to sanitization
+2025-06-25 18:49:41,669 - INFO - Checked \"><script>alert('test')</script>\": XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 18:49:41,669 - WARNING - Malformed payload detected: \"><img src='x' onerror=alert('hack')>\"
+2025-06-25 18:49:41,669 - WARNING - Payload \"><img src='x' onerror=alert('hack')>\" may fail in Juice Shop due to sanitization
+2025-06-25 18:49:41,669 - INFO - Checked \"><img src='x' onerror=alert('hack')>\": XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 18:49:41,669 - INFO - Checked <a href=javascript:alert('click')>: XSS=Yes, Expected=True, Context=Generic payload, test in multiple contexts
+2025-06-25 18:49:41,670 - INFO - Checked <div onmouseover=alert('xss')>: XSS=Yes, Expected=True, Context=Event-based, needs user interaction (e.g., scroll, focus)
+2025-06-25 18:49:41,671 - INFO - Failed payloads saved to data/mshield_failed_xss.txt
+2025-06-25 18:49:41,671 - INFO - Working payloads saved to data/mshield_working_xss.txt
+2025-06-25 18:49:41,677 - INFO - Results saved to data/xss_results.csv
+2025-06-25 18:49:41,677 - INFO - Detection accuracy: 100.00% (20/20)
+2025-06-25 19:01:41,044 - ERROR - Main error: [Errno 2] No such file or directory: 'mshield/data/mshield_xss_data.csv'
+2025-06-25 19:02:13,097 - WARNING - Payload <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt> may fail in Juice Shop due to sanitization
+2025-06-25 19:02:13,097 - INFO - Checked <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 19:02:13,097 - WARNING - Payload <img src=x onerror=eval(atob('YWxlcnQoMSk='))> may fail in Juice Shop due to sanitization
+2025-06-25 19:02:13,097 - INFO - Checked <img src=x onerror=eval(atob('YWxlcnQoMSk='))>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 19:02:13,098 - WARNING - Payload <svg/onload=eval(decodeURIComponent('alert%281%29'))> may fail in Juice Shop due to sanitization
+2025-06-25 19:02:13,098 - INFO - Checked <svg/onload=eval(decodeURIComponent('alert%281%29'))>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 19:02:13,098 - WARNING - Malformed payload detected: " onpointerdown=alert`xss`"
+2025-06-25 19:02:13,098 - INFO - Payload " onpointerdown=alert`xss`" likely to trigger in Juice Shop
+2025-06-25 19:02:13,098 - INFO - Checked " onpointerdown=alert`xss`": XSS=Yes, Expected=True, Context=High likelihood with user interaction (e.g., mousemove, pointerdown)
+2025-06-25 19:02:13,098 - INFO - Payload <a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==> likely to trigger in Juice Shop
+2025-06-25 19:02:13,098 - INFO - Checked <a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==>: XSS=Yes, Expected=True, Context=High likelihood in profile bio (data URL)
+2025-06-25 19:02:13,098 - WARNING - Payload <input onfocus=eval('alert\x281\x29')> may fail in Juice Shop due to sanitization
+2025-06-25 19:02:13,098 - INFO - Checked <input onfocus=eval('alert\x281\x29')>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 19:02:13,098 - WARNING - Payload <div onscroll=alert(String.fromCharCode(88,83,83))> may fail in Juice Shop due to sanitization
+2025-06-25 19:02:13,098 - INFO - Checked <div onscroll=alert(String.fromCharCode(88,83,83))>: XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 19:02:13,099 - INFO - Checked <embed src=vbscript:msgbox('xss')>: XSS=Yes, Expected=True, Context=Low likelihood (vbscript not supported in modern browsers)
+2025-06-25 19:02:13,099 - INFO - Payload <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))> likely to trigger in Juice Shop
+2025-06-25 19:02:13,099 - INFO - Checked <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))>: XSS=Yes, Expected=True, Context=High likelihood in profile bio (javascript/data URL)
+2025-06-25 19:02:13,099 - INFO - Payload <img src=x onmousemove=alert`1`> likely to trigger in Juice Shop
+2025-06-25 19:02:13,099 - INFO - Checked <img src=x onmousemove=alert`1`>: XSS=Yes, Expected=True, Context=High likelihood with user interaction (e.g., mousemove, pointerdown)
+2025-06-25 19:02:13,099 - INFO - Checked alert('safe'): XSS=No, Expected=False, Context=Moderate likelihood, test in multiple contexts
+2025-06-25 19:02:13,099 - INFO - Checked console.log('x'): XSS=No, Expected=False, Context=Moderate likelihood, test in multiple contexts
+2025-06-25 19:02:13,100 - INFO - Checked document.getElementById('test'): XSS=No, Expected=False, Context=Moderate likelihood, test in multiple contexts
+2025-06-25 19:02:13,100 - INFO - Checked window.location='home': XSS=No, Expected=False, Context=Moderate likelihood, test in multiple contexts
+2025-06-25 19:02:13,100 - INFO - Checked console.warn('debug'): XSS=No, Expected=False, Context=Moderate likelihood, test in multiple contexts
+2025-06-25 19:02:13,100 - INFO - Checked alert('welcome'): XSS=No, Expected=False, Context=Moderate likelihood, test in multiple contexts
+2025-06-25 19:02:13,100 - WARNING - Malformed payload detected: \"><script>alert('test')</script>\"
+2025-06-25 19:02:13,100 - WARNING - Payload \"><script>alert('test')</script>\" may fail in Juice Shop due to sanitization
+2025-06-25 19:02:13,100 - INFO - Checked \"><script>alert('test')</script>\": XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 19:02:13,100 - WARNING - Malformed payload detected: \"><img src='x' onerror=alert('hack')>\"
+2025-06-25 19:02:13,100 - WARNING - Payload \"><img src='x' onerror=alert('hack')>\" may fail in Juice Shop due to sanitization
+2025-06-25 19:02:13,100 - INFO - Checked \"><img src='x' onerror=alert('hack')>\": XSS=Yes, Expected=True, Context=High sanitization risk (script tag, eval, or common event)
+2025-06-25 19:02:13,101 - INFO - Payload <a href=javascript:alert('click')> likely to trigger in Juice Shop
+2025-06-25 19:02:13,101 - INFO - Checked <a href=javascript:alert('click')>: XSS=Yes, Expected=True, Context=High likelihood in profile bio (javascript/data URL)
+2025-06-25 19:02:13,101 - INFO - Payload <div onmouseover=alert('xss')> likely to trigger in Juice Shop
+2025-06-25 19:02:13,101 - INFO - Checked <div onmouseover=alert('xss')>: XSS=Yes, Expected=True, Context=High likelihood with user interaction (e.g., mousemove, pointerdown)
+2025-06-25 19:02:13,102 - INFO - Failed payloads saved to data/mshield_failed_xss.txt
+2025-06-25 19:02:13,102 - INFO - Working payloads saved to data/mshield_working_xss.txt
+2025-06-25 19:02:13,106 - INFO - Results saved to data/xss_results.csv
+2025-06-25 19:02:13,106 - INFO - Detection accuracy: 100.00% (20/20)
+2025-06-25 19:12:16,452 - WARNING - Payload <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt> may fail in Juice Shop due to sanitization
+2025-06-25 19:12:16,453 - INFO - Checked <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or common event)
+2025-06-25 19:12:16,453 - WARNING - Payload <img src=x onerror=eval(atob('YWxlcnQoMSk='))> may fail in Juice Shop due to sanitization
+2025-06-25 19:12:16,453 - INFO - Checked <img src=x onerror=eval(atob('YWxlcnQoMSk='))>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or common event)
+2025-06-25 19:12:16,453 - WARNING - Payload <svg/onload=eval(decodeURIComponent('alert%281%29'))> may fail in Juice Shop due to sanitization
+2025-06-25 19:12:16,453 - INFO - Checked <svg/onload=eval(decodeURIComponent('alert%281%29'))>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or common event)
+2025-06-25 19:12:16,453 - WARNING - Malformed payload detected: " onpointerdown=alert`xss`"
+2025-06-25 19:12:16,453 - INFO - Payload " onpointerdown=alert`xss`" likely to trigger in Juice Shop
+2025-06-25 19:12:16,454 - INFO - Checked " onpointerdown=alert`xss`": XSS=Yes, Expected=True, Context=High likelihood in search bar or product reviews (e.g., mousemove, mouseover)
+2025-06-25 19:12:16,454 - INFO - Payload <a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==> likely to trigger in Juice Shop
+2025-06-25 19:12:16,454 - INFO - Checked <a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==>: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (data URL)
+2025-06-25 19:12:16,454 - WARNING - Payload <input onfocus=eval('alert\x281\x29')> may fail in Juice Shop due to sanitization
+2025-06-25 19:12:16,454 - INFO - Checked <input onfocus=eval('alert\x281\x29')>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or common event)
+2025-06-25 19:12:16,454 - WARNING - Payload <div onscroll=alert(String.fromCharCode(88,83,83))> may fail in Juice Shop due to sanitization
+2025-06-25 19:12:16,454 - INFO - Checked <div onscroll=alert(String.fromCharCode(88,83,83))>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or common event)
+2025-06-25 19:12:16,454 - WARNING - Payload <embed src=vbscript:msgbox('xss')> may fail in Juice Shop due to sanitization
+2025-06-25 19:12:16,454 - INFO - Checked <embed src=vbscript:msgbox('xss')>: XSS=Yes, Expected=True, Context=Low likelihood (vbscript not supported in modern browsers)
+2025-06-25 19:12:16,454 - INFO - Payload <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))> likely to trigger in Juice Shop
+2025-06-25 19:12:16,454 - INFO - Checked <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))>: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (javascript/data URL)
+2025-06-25 19:12:16,455 - INFO - Payload <img src=x onmousemove=alert`1`> likely to trigger in Juice Shop
+2025-06-25 19:12:16,455 - INFO - Checked <img src=x onmousemove=alert`1`>: XSS=Yes, Expected=True, Context=High likelihood in search bar or product reviews (e.g., mousemove, mouseover)
+2025-06-25 19:12:16,455 - INFO - Checked alert('safe'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:12:16,455 - INFO - Checked console.log('x'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:12:16,455 - INFO - Checked document.getElementById('test'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:12:16,455 - INFO - Checked window.location='home': XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:12:16,455 - INFO - Checked console.warn('debug'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:12:16,455 - INFO - Checked alert('welcome'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:12:16,456 - WARNING - Malformed payload detected: \"><script>alert('test')</script>\"
+2025-06-25 19:12:16,456 - WARNING - Payload \"><script>alert('test')</script>\" may fail in Juice Shop due to sanitization
+2025-06-25 19:12:16,456 - INFO - Checked \"><script>alert('test')</script>\": XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or common event)
+2025-06-25 19:12:16,456 - WARNING - Malformed payload detected: \"><img src='x' onerror=alert('hack')>\"
+2025-06-25 19:12:16,456 - WARNING - Payload \"><img src='x' onerror=alert('hack')>\" may fail in Juice Shop due to sanitization
+2025-06-25 19:12:16,456 - INFO - Checked \"><img src='x' onerror=alert('hack')>\": XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or common event)
+2025-06-25 19:12:16,456 - INFO - Payload <a href=javascript:alert('click')> likely to trigger in Juice Shop
+2025-06-25 19:12:16,456 - INFO - Checked <a href=javascript:alert('click')>: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (javascript/data URL)
+2025-06-25 19:12:16,456 - INFO - Payload <div onmouseover=alert('xss')> likely to trigger in Juice Shop
+2025-06-25 19:12:16,456 - INFO - Checked <div onmouseover=alert('xss')>: XSS=Yes, Expected=True, Context=High likelihood in search bar or product reviews (e.g., mousemove, mouseover)
+2025-06-25 19:12:16,457 - INFO - Failed payloads saved to data/mshield_failed_xss.txt
+2025-06-25 19:12:16,458 - INFO - Working payloads saved to data/mshield_working_xss.txt
+2025-06-25 19:12:16,461 - INFO - Results saved to data/xss_results.csv
+2025-06-25 19:12:16,461 - INFO - Detection accuracy: 100.00% (20/20)
+2025-06-25 19:28:08,612 - WARNING - Payload <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt> may fail in Juice Shop due to sanitization
+2025-06-25 19:28:08,613 - INFO - Checked <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag or scroll event)
+2025-06-25 19:28:08,613 - INFO - Checked <img src=x onerror=eval(atob('YWxlcnQoMSk='))>: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews (e.g., click)
+2025-06-25 19:28:08,613 - INFO - Checked <svg/onload=eval(decodeURIComponent('alert%281%29'))>: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews (e.g., click)
+2025-06-25 19:28:08,614 - WARNING - Malformed payload detected: " onpointerdown=alert`xss`"
+2025-06-25 19:28:08,614 - INFO - Payload " onpointerdown=alert`xss`" likely to trigger in Juice Shop
+2025-06-25 19:28:08,614 - INFO - Checked " onpointerdown=alert`xss`": XSS=Yes, Expected=True, Context=High likelihood in search bar or product reviews (e.g., mousemove, mouseover, onerror, focus)
+2025-06-25 19:28:08,614 - INFO - Payload <a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==> likely to trigger in Juice Shop
+2025-06-25 19:28:08,614 - INFO - Checked <a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==>: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (data URL)
+2025-06-25 19:28:08,614 - INFO - Payload <input onfocus=eval('alert\x281\x29')> likely to trigger in Juice Shop
+2025-06-25 19:28:08,614 - INFO - Checked <input onfocus=eval('alert\x281\x29')>: XSS=Yes, Expected=True, Context=High likelihood in search bar or product reviews (e.g., mousemove, mouseover, onerror, focus)
+2025-06-25 19:28:08,614 - WARNING - Payload <div onscroll=alert(String.fromCharCode(88,83,83))> may fail in Juice Shop due to sanitization
+2025-06-25 19:28:08,614 - INFO - Checked <div onscroll=alert(String.fromCharCode(88,83,83))>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag or scroll event)
+2025-06-25 19:28:08,614 - WARNING - Payload <embed src=vbscript:msgbox('xss')> may fail in Juice Shop due to sanitization
+2025-06-25 19:28:08,614 - INFO - Checked <embed src=vbscript:msgbox('xss')>: XSS=Yes, Expected=True, Context=Low likelihood (vbscript not supported in modern browsers)
+2025-06-25 19:28:08,615 - INFO - Payload <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))> likely to trigger in Juice Shop
+2025-06-25 19:28:08,615 - INFO - Checked <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))>: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (javascript URL)
+2025-06-25 19:28:08,615 - INFO - Payload <img src=x onmousemove=alert`1`> likely to trigger in Juice Shop
+2025-06-25 19:28:08,615 - INFO - Checked <img src=x onmousemove=alert`1`>: XSS=Yes, Expected=True, Context=High likelihood in search bar or product reviews (e.g., mousemove, mouseover, onerror, focus)
+2025-06-25 19:28:08,615 - INFO - Checked alert('safe'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:28:08,615 - INFO - Checked console.log('x'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:28:08,615 - INFO - Checked document.getElementById('test'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:28:08,615 - INFO - Checked window.location='home': XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:28:08,615 - INFO - Checked console.warn('debug'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:28:08,616 - INFO - Checked alert('welcome'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:28:08,616 - WARNING - Malformed payload detected: \"><script>alert('test')</script>\"
+2025-06-25 19:28:08,616 - WARNING - Payload \"><script>alert('test')</script>\" may fail in Juice Shop due to sanitization
+2025-06-25 19:28:08,616 - INFO - Checked \"><script>alert('test')</script>\": XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag or scroll event)
+2025-06-25 19:28:08,616 - WARNING - Malformed payload detected: \"><img src='x' onerror=alert('hack')>\"
+2025-06-25 19:28:08,616 - INFO - Checked \"><img src='x' onerror=alert('hack')>\": XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews (e.g., click)
+2025-06-25 19:28:08,616 - INFO - Payload <a href=javascript:alert('click')> likely to trigger in Juice Shop
+2025-06-25 19:28:08,616 - INFO - Checked <a href=javascript:alert('click')>: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (javascript URL)
+2025-06-25 19:28:08,616 - INFO - Payload <div onmouseover=alert('xss')> likely to trigger in Juice Shop
+2025-06-25 19:28:08,616 - INFO - Checked <div onmouseover=alert('xss')>: XSS=Yes, Expected=True, Context=High likelihood in search bar or product reviews (e.g., mousemove, mouseover, onerror, focus)
+2025-06-25 19:28:08,617 - INFO - Failed payloads saved to mshield/data/mshield_failed_xss.txt
+2025-06-25 19:28:08,618 - INFO - Working payloads saved to data/mshield_working_xss.txt
+2025-06-25 19:28:08,621 - INFO - Results saved to data/xss_results.csv
+2025-06-25 19:28:08,621 - INFO - Detection accuracy: 100.00% (20/20)
+2025-06-25 19:28:45,962 - WARNING - Payload <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt> may fail in Juice Shop due to sanitization
+2025-06-25 19:28:45,962 - INFO - Checked <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag or scroll event)
+2025-06-25 19:28:45,962 - INFO - Checked <img src=x onerror=eval(atob('YWxlcnQoMSk='))>: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews (e.g., click)
+2025-06-25 19:28:45,962 - INFO - Checked <svg/onload=eval(decodeURIComponent('alert%281%29'))>: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews (e.g., click)
+2025-06-25 19:28:45,963 - WARNING - Malformed payload detected: " onpointerdown=alert`xss`"
+2025-06-25 19:28:45,963 - INFO - Payload " onpointerdown=alert`xss`" likely to trigger in Juice Shop
+2025-06-25 19:28:45,963 - INFO - Checked " onpointerdown=alert`xss`": XSS=Yes, Expected=True, Context=High likelihood in search bar or product reviews (e.g., mousemove, mouseover, onerror, focus)
+2025-06-25 19:28:45,963 - INFO - Payload <a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==> likely to trigger in Juice Shop
+2025-06-25 19:28:45,963 - INFO - Checked <a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==>: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (data URL)
+2025-06-25 19:28:45,963 - INFO - Payload <input onfocus=eval('alert\x281\x29')> likely to trigger in Juice Shop
+2025-06-25 19:28:45,963 - INFO - Checked <input onfocus=eval('alert\x281\x29')>: XSS=Yes, Expected=True, Context=High likelihood in search bar or product reviews (e.g., mousemove, mouseover, onerror, focus)
+2025-06-25 19:28:45,963 - WARNING - Payload <div onscroll=alert(String.fromCharCode(88,83,83))> may fail in Juice Shop due to sanitization
+2025-06-25 19:28:45,963 - INFO - Checked <div onscroll=alert(String.fromCharCode(88,83,83))>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag or scroll event)
+2025-06-25 19:28:45,963 - WARNING - Payload <embed src=vbscript:msgbox('xss')> may fail in Juice Shop due to sanitization
+2025-06-25 19:28:45,964 - INFO - Checked <embed src=vbscript:msgbox('xss')>: XSS=Yes, Expected=True, Context=Low likelihood (vbscript not supported in modern browsers)
+2025-06-25 19:28:45,964 - INFO - Payload <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))> likely to trigger in Juice Shop
+2025-06-25 19:28:45,964 - INFO - Checked <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))>: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (javascript URL)
+2025-06-25 19:28:45,964 - INFO - Payload <img src=x onmousemove=alert`1`> likely to trigger in Juice Shop
+2025-06-25 19:28:45,964 - INFO - Checked <img src=x onmousemove=alert`1`>: XSS=Yes, Expected=True, Context=High likelihood in search bar or product reviews (e.g., mousemove, mouseover, onerror, focus)
+2025-06-25 19:28:45,964 - INFO - Checked alert('safe'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:28:45,964 - INFO - Checked console.log('x'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:28:45,964 - INFO - Checked document.getElementById('test'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:28:45,964 - INFO - Checked window.location='home': XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:28:45,965 - INFO - Checked console.warn('debug'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:28:45,965 - INFO - Checked alert('welcome'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:28:45,965 - WARNING - Malformed payload detected: \"><script>alert('test')</script>\"
+2025-06-25 19:28:45,965 - WARNING - Payload \"><script>alert('test')</script>\" may fail in Juice Shop due to sanitization
+2025-06-25 19:28:45,965 - INFO - Checked \"><script>alert('test')</script>\": XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag or scroll event)
+2025-06-25 19:28:45,965 - WARNING - Malformed payload detected: \"><img src='x' onerror=alert('hack')>\"
+2025-06-25 19:28:45,965 - INFO - Checked \"><img src='x' onerror=alert('hack')>\": XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews (e.g., click)
+2025-06-25 19:28:45,965 - INFO - Payload <a href=javascript:alert('click')> likely to trigger in Juice Shop
+2025-06-25 19:28:45,965 - INFO - Checked <a href=javascript:alert('click')>: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (javascript URL)
+2025-06-25 19:28:45,966 - INFO - Payload <div onmouseover=alert('xss')> likely to trigger in Juice Shop
+2025-06-25 19:28:45,966 - INFO - Checked <div onmouseover=alert('xss')>: XSS=Yes, Expected=True, Context=High likelihood in search bar or product reviews (e.g., mousemove, mouseover, onerror, focus)
+2025-06-25 19:28:45,966 - INFO - Failed payloads saved to mshield/data/mshield_failed_xss.txt
+2025-06-25 19:28:45,967 - INFO - Working payloads saved to data/mshield_working_xss.txt
+2025-06-25 19:28:45,970 - INFO - Results saved to data/xss_results.csv
+2025-06-25 19:28:45,970 - INFO - Detection accuracy: 100.00% (20/20)
+2025-06-25 19:39:02,893 - WARNING - Payload <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt> may fail in Juice Shop due to sanitization
+2025-06-25 19:39:02,893 - INFO - Checked <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or scroll/load event)
+2025-06-25 19:39:02,893 - WARNING - Payload <img src=x onerror=eval(atob('YWxlcnQoMSk='))> may fail in Juice Shop due to sanitization
+2025-06-25 19:39:02,893 - INFO - Checked <img src=x onerror=eval(atob('YWxlcnQoMSk='))>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or scroll/load event)
+2025-06-25 19:39:02,894 - WARNING - Payload <svg/onload=eval(decodeURIComponent('alert%281%29'))> may fail in Juice Shop due to sanitization
+2025-06-25 19:39:02,894 - INFO - Checked <svg/onload=eval(decodeURIComponent('alert%281%29'))>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or scroll/load event)
+2025-06-25 19:39:02,894 - WARNING - Malformed payload detected: " onpointerdown=alert`xss`"
+2025-06-25 19:39:02,894 - WARNING - Payload " onpointerdown=alert`xss`" may fail in Juice Shop due to sanitization
+2025-06-25 19:39:02,894 - INFO - Checked " onpointerdown=alert`xss`": XSS=Yes, Expected=True, Context=Low likelihood in search bar (malformed syntax)
+2025-06-25 19:39:02,894 - INFO - Checked <a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==>: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews or profile bio (data URL)
+2025-06-25 19:39:02,894 - WARNING - Payload <input onfocus=eval('alert\x281\x29')> may fail in Juice Shop due to sanitization
+2025-06-25 19:39:02,894 - INFO - Checked <input onfocus=eval('alert\x281\x29')>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or scroll/load event)
+2025-06-25 19:39:02,895 - WARNING - Payload <div onscroll=alert(String.fromCharCode(88,83,83))> may fail in Juice Shop due to sanitization
+2025-06-25 19:39:02,895 - INFO - Checked <div onscroll=alert(String.fromCharCode(88,83,83))>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or scroll/load event)
+2025-06-25 19:39:02,895 - WARNING - Payload <embed src=vbscript:msgbox('xss')> may fail in Juice Shop due to sanitization
+2025-06-25 19:39:02,895 - INFO - Checked <embed src=vbscript:msgbox('xss')>: XSS=Yes, Expected=True, Context=Low likelihood (vbscript not supported in modern browsers)
+2025-06-25 19:39:02,895 - INFO - Payload <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))> likely to trigger in Juice Shop
+2025-06-25 19:39:02,895 - INFO - Checked <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))>: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (javascript URL)
+2025-06-25 19:39:02,895 - INFO - Payload <img src=x onmousemove=alert`1`> likely to trigger in Juice Shop
+2025-06-25 19:39:02,895 - INFO - Checked <img src=x onmousemove=alert`1`>: XSS=Yes, Expected=True, Context=High likelihood in search bar or product reviews (e.g., mousemove, onerror, focus)
+2025-06-25 19:39:02,895 - INFO - Checked alert('safe'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:39:02,895 - INFO - Checked console.log('x'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:39:02,896 - INFO - Checked document.getElementById('test'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:39:02,896 - INFO - Checked window.location='home': XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:39:02,896 - INFO - Checked console.warn('debug'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:39:02,896 - INFO - Checked alert('welcome'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:39:02,896 - WARNING - Malformed payload detected: \"><script>alert('test')</script>\"
+2025-06-25 19:39:02,896 - WARNING - Payload \"><script>alert('test')</script>\" may fail in Juice Shop due to sanitization
+2025-06-25 19:39:02,896 - INFO - Checked \"><script>alert('test')</script>\": XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or scroll/load event)
+2025-06-25 19:39:02,896 - WARNING - Malformed payload detected: \"><img src='x' onerror=alert('hack')>\"
+2025-06-25 19:39:02,896 - WARNING - Payload \"><img src='x' onerror=alert('hack')>\" may fail in Juice Shop due to sanitization
+2025-06-25 19:39:02,896 - INFO - Checked \"><img src='x' onerror=alert('hack')>\": XSS=Yes, Expected=True, Context=Low likelihood in search bar (malformed syntax)
+2025-06-25 19:39:02,897 - INFO - Payload <a href=javascript:alert('click')> likely to trigger in Juice Shop
+2025-06-25 19:39:02,897 - INFO - Checked <a href=javascript:alert('click')>: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (javascript URL)
+2025-06-25 19:39:02,897 - INFO - Checked <div onmouseover=alert('xss')>: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews (e.g., mouseover, click, pointerdown)
+2025-06-25 19:39:02,898 - INFO - Failed payloads saved to mshield/data/mshield_failed_xss.txt
+2025-06-25 19:39:02,898 - INFO - Working payloads saved to mshield/data/mshield_working_xss.txt
+2025-06-25 19:39:02,901 - INFO - Results saved to data/xss_results.csv
+2025-06-25 19:39:02,901 - INFO - Detection accuracy: 100.00% (20/20)
+2025-06-25 19:39:45,782 - WARNING - Payload <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt> may fail in Juice Shop due to sanitization
+2025-06-25 19:39:45,782 - INFO - Checked <ScRiPt>alert(String.fromCharCode(88,83,83))</ScRiPt>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or scroll/load event)
+2025-06-25 19:39:45,782 - WARNING - Payload <img src=x onerror=eval(atob('YWxlcnQoMSk='))> may fail in Juice Shop due to sanitization
+2025-06-25 19:39:45,782 - INFO - Checked <img src=x onerror=eval(atob('YWxlcnQoMSk='))>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or scroll/load event)
+2025-06-25 19:39:45,783 - WARNING - Payload <svg/onload=eval(decodeURIComponent('alert%281%29'))> may fail in Juice Shop due to sanitization
+2025-06-25 19:39:45,783 - INFO - Checked <svg/onload=eval(decodeURIComponent('alert%281%29'))>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or scroll/load event)
+2025-06-25 19:39:45,783 - WARNING - Malformed payload detected: " onpointerdown=alert`xss`"
+2025-06-25 19:39:45,783 - WARNING - Payload " onpointerdown=alert`xss`" may fail in Juice Shop due to sanitization
+2025-06-25 19:39:45,783 - INFO - Checked " onpointerdown=alert`xss`": XSS=Yes, Expected=True, Context=Low likelihood in search bar (malformed syntax)
+2025-06-25 19:39:45,783 - INFO - Checked <a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==>: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews or profile bio (data URL)
+2025-06-25 19:39:45,783 - WARNING - Payload <input onfocus=eval('alert\x281\x29')> may fail in Juice Shop due to sanitization
+2025-06-25 19:39:45,783 - INFO - Checked <input onfocus=eval('alert\x281\x29')>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or scroll/load event)
+2025-06-25 19:39:45,783 - WARNING - Payload <div onscroll=alert(String.fromCharCode(88,83,83))> may fail in Juice Shop due to sanitization
+2025-06-25 19:39:45,784 - INFO - Checked <div onscroll=alert(String.fromCharCode(88,83,83))>: XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or scroll/load event)
+2025-06-25 19:39:45,784 - WARNING - Payload <embed src=vbscript:msgbox('xss')> may fail in Juice Shop due to sanitization
+2025-06-25 19:39:45,784 - INFO - Checked <embed src=vbscript:msgbox('xss')>: XSS=Yes, Expected=True, Context=Low likelihood (vbscript not supported in modern browsers)
+2025-06-25 19:39:45,784 - INFO - Payload <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))> likely to trigger in Juice Shop
+2025-06-25 19:39:45,784 - INFO - Checked <iframe src=javascript:alert(decodeURIComponent('%58%53%53'))>: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (javascript URL)
+2025-06-25 19:39:45,784 - INFO - Payload <img src=x onmousemove=alert`1`> likely to trigger in Juice Shop
+2025-06-25 19:39:45,784 - INFO - Checked <img src=x onmousemove=alert`1`>: XSS=Yes, Expected=True, Context=High likelihood in search bar or product reviews (e.g., mousemove, onerror, focus)
+2025-06-25 19:39:45,784 - INFO - Checked alert('safe'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:39:45,785 - INFO - Checked console.log('x'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:39:45,785 - INFO - Checked document.getElementById('test'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:39:45,785 - INFO - Checked window.location='home': XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:39:45,785 - INFO - Checked console.warn('debug'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:39:45,785 - INFO - Checked alert('welcome'): XSS=No, Expected=False, Context=Moderate likelihood, test in product reviews or profile bio
+2025-06-25 19:39:45,785 - WARNING - Malformed payload detected: \"><script>alert('test')</script>\"
+2025-06-25 19:39:45,785 - WARNING - Payload \"><script>alert('test')</script>\" may fail in Juice Shop due to sanitization
+2025-06-25 19:39:45,785 - INFO - Checked \"><script>alert('test')</script>\": XSS=Yes, Expected=True, Context=Low likelihood in search bar (script tag, eval, or scroll/load event)
+2025-06-25 19:39:45,785 - WARNING - Malformed payload detected: \"><img src='x' onerror=alert('hack')>\"
+2025-06-25 19:39:45,786 - WARNING - Payload \"><img src='x' onerror=alert('hack')>\" may fail in Juice Shop due to sanitization
+2025-06-25 19:39:45,786 - INFO - Checked \"><img src='x' onerror=alert('hack')>\": XSS=Yes, Expected=True, Context=Low likelihood in search bar (malformed syntax)
+2025-06-25 19:39:45,786 - INFO - Payload <a href=javascript:alert('click')> likely to trigger in Juice Shop
+2025-06-25 19:39:45,786 - INFO - Checked <a href=javascript:alert('click')>: XSS=Yes, Expected=True, Context=High likelihood in product reviews or profile bio (javascript URL)
+2025-06-25 19:39:45,786 - INFO - Checked <div onmouseover=alert('xss')>: XSS=Yes, Expected=True, Context=Moderate likelihood in product reviews (e.g., mouseover, click, pointerdown)
+2025-06-25 19:39:45,787 - INFO - Failed payloads saved to mshield/data/mshield_failed_xss.txt
+2025-06-25 19:39:45,788 - INFO - Working payloads saved to mshield/data/mshield_working_xss.txt
+2025-06-25 19:39:45,791 - INFO - Results saved to data/xss_results.csv
+2025-06-25 19:39:45,791 - INFO - Detection accuracy: 100.00% (20/20)
