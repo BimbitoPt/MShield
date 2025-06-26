@@ -1,0 +1,1154 @@
+[
+  {
+    "field_type": "search_bar",
+    "input_selectors": [
+      {
+        "selectors": [
+          "#mat-input-1",
+          "input.mat-mdc-input-element.mat-mdc-form-field-input-control.mdc-text-field__input.ng-untouched.ng-pristine.cdk-text-field-autofill-monitored"
+        ],
+        "attributes": {
+          "tag": "input",
+          "id": "mat-input-1",
+          "class": "mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "text",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "mat-mdc-form-field-infix"
+        }
+      }
+    ],
+    "submit_selectors": [
+      {
+        "selectors": [
+          "button.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-nav-list",
+          "parent_class": "mat-mdc-nav-list mat-mdc-list-base mdc-list"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "button.mat-mdc-tooltip-trigger.mdc-icon-button.mat-mdc-icon-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mat-mdc-tooltip-trigger mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-toolbar-row",
+          "parent_class": "mat-toolbar-row"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "mat-mdc-tooltip-trigger mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+        }
+      },
+      {
+        "selectors": [
+          "button.buttons.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-toolbar-row",
+          "parent_class": "mat-toolbar-row"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-close.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate mat-ripple mat-search_icon-close ng-tns-c2529363319-0 material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-search_icons ng-tns-c2529363319-0"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate mat-ripple mat-search_icon-search ng-tns-c2529363319-0 material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-search_icons ng-tns-c2529363319-0"
+        }
+      },
+      {
+        "selectors": [
+          "#navbarAccount",
+          "button.mat-mdc-menu-trigger.buttons.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "navbarAccount",
+          "class": "mat-mdc-menu-trigger buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-toolbar-row",
+          "parent_class": "mat-toolbar-row"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "mat-mdc-menu-trigger buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base"
+        }
+      },
+      {
+        "selectors": [
+          "#navbarLanguageButton",
+          "button.mat-mdc-tooltip-trigger.mat-mdc-menu-trigger.buttons.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "navbarLanguageButton",
+          "class": "mat-mdc-tooltip-trigger mat-mdc-menu-trigger buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-toolbar-row",
+          "parent_class": "mat-toolbar-row"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "mat-mdc-tooltip-trigger mat-mdc-menu-trigger buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base"
+        }
+      },
+      {
+        "selectors": [
+          "button.mat-mdc-tooltip-trigger.mat-mdc-paginator-navigation-previous.mdc-icon-button.mat-mdc-icon-button.mat-mdc-button-disabled.mat-mdc-button-disabled-interactive.mat-unthemed.mat-mdc-button-base.mat-mdc-tooltip-disabled"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-mdc-button-disabled-interactive mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "button",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "mat-mdc-paginator-range-actions"
+        }
+      },
+      {
+        "selectors": [
+          "button.mat-mdc-tooltip-trigger.mat-mdc-paginator-navigation-next.mdc-icon-button.mat-mdc-icon-button.mat-mdc-button-disabled-interactive.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-next mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled-interactive mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "button",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "mat-mdc-paginator-range-actions"
+        }
+      },
+      {
+        "selectors": [
+          "button.mat-mdc-tooltip-trigger.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-warn.mat-mdc-button-base.ng-star-inserted"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mat-mdc-tooltip-trigger mdc-button mdc-button--raised mat-mdc-raised-button mat-warn mat-mdc-button-base ng-star-inserted",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "button-footer"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "mat-mdc-tooltip-trigger mdc-button mdc-button--raised mat-mdc-raised-button mat-warn mat-mdc-button-base ng-star-inserted"
+        }
+      },
+      {
+        "selectors": [
+          "button.close-dialog.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-primary.mat-mdc-button-base.ng-star-inserted"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "close-dialog mdc-button mdc-button--raised mat-mdc-raised-button mat-primary mat-mdc-button-base ng-star-inserted",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "button-footer"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "close-dialog mdc-button mdc-button--raised mat-mdc-raised-button mat-primary mat-mdc-button-base ng-star-inserted"
+        }
+      }
+    ]
+  },
+  {
+    "field_type": "profile_bio",
+    "input_selectors": [
+      {
+        "selectors": [
+          "#mat-input-1",
+          "input.mat-mdc-input-element.mat-mdc-form-field-input-control.mdc-text-field__input.ng-untouched.ng-pristine.cdk-text-field-autofill-monitored"
+        ],
+        "attributes": {
+          "tag": "input",
+          "id": "mat-input-1",
+          "class": "mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "text",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "mat-mdc-form-field-infix"
+        }
+      }
+    ],
+    "submit_selectors": [
+      {
+        "selectors": [
+          "button.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-nav-list",
+          "parent_class": "mat-mdc-nav-list mat-mdc-list-base mdc-list"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "button.mat-mdc-tooltip-trigger.mdc-icon-button.mat-mdc-icon-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mat-mdc-tooltip-trigger mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-toolbar-row",
+          "parent_class": "mat-toolbar-row"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "mat-mdc-tooltip-trigger mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+        }
+      },
+      {
+        "selectors": [
+          "button.buttons.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-toolbar-row",
+          "parent_class": "mat-toolbar-row"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-close.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate mat-ripple mat-search_icon-close ng-tns-c2529363319-0 material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-search_icons ng-tns-c2529363319-0"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate mat-ripple mat-search_icon-search ng-tns-c2529363319-0 material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-search_icons ng-tns-c2529363319-0"
+        }
+      },
+      {
+        "selectors": [
+          "#navbarAccount",
+          "button.mat-mdc-menu-trigger.buttons.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "navbarAccount",
+          "class": "mat-mdc-menu-trigger buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-toolbar-row",
+          "parent_class": "mat-toolbar-row"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "mat-mdc-menu-trigger buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base"
+        }
+      },
+      {
+        "selectors": [
+          "#navbarLanguageButton",
+          "button.mat-mdc-tooltip-trigger.mat-mdc-menu-trigger.buttons.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "navbarLanguageButton",
+          "class": "mat-mdc-tooltip-trigger mat-mdc-menu-trigger buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-toolbar-row",
+          "parent_class": "mat-toolbar-row"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "mat-mdc-tooltip-trigger mat-mdc-menu-trigger buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base"
+        }
+      },
+      {
+        "selectors": [
+          "button.mat-mdc-tooltip-trigger.mat-mdc-paginator-navigation-previous.mdc-icon-button.mat-mdc-icon-button.mat-mdc-button-disabled.mat-mdc-button-disabled-interactive.mat-unthemed.mat-mdc-button-base.mat-mdc-tooltip-disabled"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-mdc-button-disabled-interactive mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "button",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "mat-mdc-paginator-range-actions"
+        }
+      },
+      {
+        "selectors": [
+          "button.mat-mdc-tooltip-trigger.mat-mdc-paginator-navigation-next.mdc-icon-button.mat-mdc-icon-button.mat-mdc-button-disabled-interactive.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-next mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled-interactive mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "button",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "mat-mdc-paginator-range-actions"
+        }
+      },
+      {
+        "selectors": [
+          "button.mat-mdc-tooltip-trigger.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-warn.mat-mdc-button-base.ng-star-inserted"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mat-mdc-tooltip-trigger mdc-button mdc-button--raised mat-mdc-raised-button mat-warn mat-mdc-button-base ng-star-inserted",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "button-footer"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "mat-mdc-tooltip-trigger mdc-button mdc-button--raised mat-mdc-raised-button mat-warn mat-mdc-button-base ng-star-inserted"
+        }
+      },
+      {
+        "selectors": [
+          "button.close-dialog.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-primary.mat-mdc-button-base.ng-star-inserted"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "close-dialog mdc-button mdc-button--raised mat-mdc-raised-button mat-primary mat-mdc-button-base ng-star-inserted",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "button-footer"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "close-dialog mdc-button mdc-button--raised mat-mdc-raised-button mat-primary mat-mdc-button-base ng-star-inserted"
+        }
+      }
+    ]
+  },
+  {
+    "field_type": "comments",
+    "input_selectors": [
+      {
+        "selectors": [
+          "#mat-input-1",
+          "input.mat-mdc-input-element.mat-mdc-form-field-input-control.mdc-text-field__input.ng-untouched.ng-pristine.cdk-text-field-autofill-monitored"
+        ],
+        "attributes": {
+          "tag": "input",
+          "id": "mat-input-1",
+          "class": "mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "text",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "mat-mdc-form-field-infix"
+        }
+      }
+    ],
+    "submit_selectors": [
+      {
+        "selectors": [
+          "button.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-nav-list",
+          "parent_class": "mat-mdc-nav-list mat-mdc-list-base mdc-list"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-mdc-list-item-unscoped-content mdc-list-item__primary-text"
+        }
+      },
+      {
+        "selectors": [
+          "button.mat-mdc-tooltip-trigger.mdc-icon-button.mat-mdc-icon-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mat-mdc-tooltip-trigger mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-toolbar-row",
+          "parent_class": "mat-toolbar-row"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "mat-mdc-tooltip-trigger mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+        }
+      },
+      {
+        "selectors": [
+          "button.buttons.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-toolbar-row",
+          "parent_class": "mat-toolbar-row"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-close.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate mat-ripple mat-search_icon-close ng-tns-c2529363319-0 material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-search_icons ng-tns-c2529363319-0"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate mat-ripple mat-search_icon-search ng-tns-c2529363319-0 material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "span",
+          "parent_class": "mat-search_icons ng-tns-c2529363319-0"
+        }
+      },
+      {
+        "selectors": [
+          "#navbarAccount",
+          "button.mat-mdc-menu-trigger.buttons.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "navbarAccount",
+          "class": "mat-mdc-menu-trigger buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-toolbar-row",
+          "parent_class": "mat-toolbar-row"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "mat-mdc-menu-trigger buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base"
+        }
+      },
+      {
+        "selectors": [
+          "#navbarLanguageButton",
+          "button.mat-mdc-tooltip-trigger.mat-mdc-menu-trigger.buttons.mdc-button.mat-mdc-button.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "navbarLanguageButton",
+          "class": "mat-mdc-tooltip-trigger mat-mdc-menu-trigger buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "mat-toolbar-row",
+          "parent_class": "mat-toolbar-row"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "mat-mdc-tooltip-trigger mat-mdc-menu-trigger buttons mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base"
+        }
+      },
+      {
+        "selectors": [
+          "button.mat-mdc-tooltip-trigger.mat-mdc-paginator-navigation-previous.mdc-icon-button.mat-mdc-icon-button.mat-mdc-button-disabled.mat-mdc-button-disabled-interactive.mat-unthemed.mat-mdc-button-base.mat-mdc-tooltip-disabled"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-mdc-button-disabled-interactive mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "button",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "mat-mdc-paginator-range-actions"
+        }
+      },
+      {
+        "selectors": [
+          "button.mat-mdc-tooltip-trigger.mat-mdc-paginator-navigation-next.mdc-icon-button.mat-mdc-icon-button.mat-mdc-button-disabled-interactive.mat-unthemed.mat-mdc-button-base"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-next mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled-interactive mat-unthemed mat-mdc-button-base",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "button",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "mat-mdc-paginator-range-actions"
+        }
+      },
+      {
+        "selectors": [
+          "button.mat-mdc-tooltip-trigger.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-warn.mat-mdc-button-base.ng-star-inserted"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "mat-mdc-tooltip-trigger mdc-button mdc-button--raised mat-mdc-raised-button mat-warn mat-mdc-button-base ng-star-inserted",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "button-footer"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "mat-mdc-tooltip-trigger mdc-button mdc-button--raised mat-mdc-raised-button mat-warn mat-mdc-button-base ng-star-inserted"
+        }
+      },
+      {
+        "selectors": [
+          "button.close-dialog.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-primary.mat-mdc-button-base.ng-star-inserted"
+        ],
+        "attributes": {
+          "tag": "button",
+          "id": "",
+          "class": "close-dialog mdc-button mdc-button--raised mat-mdc-raised-button mat-primary mat-mdc-button-base ng-star-inserted",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "submit",
+          "formcontrolname": "",
+          "parent_tag": "div",
+          "parent_class": "button-footer"
+        }
+      },
+      {
+        "selectors": [
+          "mat-icon.mat-icon.notranslate.material-icons.mat-ligature-font.mat-icon-no-color"
+        ],
+        "attributes": {
+          "tag": "mat-icon",
+          "id": "",
+          "class": "mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color",
+          "name": "",
+          "matinput": "",
+          "placeholder": "",
+          "type": "",
+          "formcontrolname": "",
+          "parent_tag": "button",
+          "parent_class": "close-dialog mdc-button mdc-button--raised mat-mdc-raised-button mat-primary mat-mdc-button-base ng-star-inserted"
+        }
+      }
+    ]
+  }
+]

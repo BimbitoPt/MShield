@@ -1,4 +1,0 @@
-# Failed XSS Payloads - 2025-06-25 21:59:46.753444
-# Payload | Expected Behavior | Actual Behavior | Context | Test Context
-" onmouseover=alert(1) | Alert expected | No alert | Low likelihood in search bar (sanitized onmouseover) | search_bar
-javascript:alert(1) | Alert expected | No alert | Low likelihood in search bar (sanitized javascript URL) | search_bar

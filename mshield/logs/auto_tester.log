@@ -1,779 +1,513 @@
-2025-06-25 22:19:53,615 - INFO - WebDriver initialized
-2025-06-25 22:20:00,083 - ERROR - Error testing payload <details open ontoggle=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:05,251 - ERROR - Error testing payload <audio src=x onerror=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:10,377 - ERROR - Error testing payload %3Cimg%20src=x%20onerror=alert(1)%3E: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:15,474 - ERROR - Error testing payload "><img src=x onerror=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:20,556 - ERROR - Error testing payload <select onchange=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:25,672 - ERROR - Error testing payload <textarea onfocus=alert(1) autofocus>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:30,789 - ERROR - Error testing payload <button onclick=alert(1)>Click</button>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:35,880 - ERROR - Error testing payload <script>alert(1)</script>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:40,979 - ERROR - Error testing payload <img src=x onerror=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:46,067 - ERROR - Error testing payload <video src=x onerror=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:51,149 - ERROR - Error testing payload javascript:alert(document.location): Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:56,244 - ERROR - Error testing payload <img src=invalid onerror=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 22:20:56,244 - INFO - Skipping non-malicious payload: Hello World
-2025-06-25 22:20:58,615 - INFO - WebDriver closed
-2025-06-25 22:20:58,618 - INFO - Results saved to data/auto_test_results.csv
-2025-06-25 22:20:58,618 - INFO - Tested 13 payloads: 0 working, 12 failed/error
-2025-06-25 23:54:09,951 - INFO - WebDriver initialized
-2025-06-25 23:54:21,125 - ERROR - Timeout for payload <audio src=x onerror=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:54:31,334 - ERROR - Timeout for payload <iframe onload=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:54:41,560 - ERROR - Timeout for payload <details open ontoggle=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:54:51,795 - ERROR - Timeout for payload <img src=invalid onerror=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:55:01,979 - ERROR - Timeout for payload " onmouseover=alert(1): Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:55:12,171 - ERROR - Timeout for payload %3Cimg%20src=x%20onerror=alert(1)%3E: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:55:22,354 - ERROR - Timeout for payload <div onclick=alert(1)>Click</div>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:55:32,535 - ERROR - Timeout for payload <img src=x onerror=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:55:42,706 - ERROR - Timeout for payload <textarea onfocus=alert(1) autofocus>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:55:52,899 - ERROR - Timeout for payload <object data=javascript:alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:56:03,101 - ERROR - Timeout for payload "><img src=x onerror=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:56:13,289 - ERROR - Timeout for payload <input onfocus=alert(1) autofocus>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:56:23,456 - ERROR - Timeout for payload &#60;img src=x onerror=alert(1)&#62;: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:56:33,710 - ERROR - Timeout for payload <video src=x onerror=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:56:43,896 - ERROR - Timeout for payload <button onclick=alert(1)>Click</button>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:56:54,122 - ERROR - Timeout for payload javascript:alert(1): Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:57:04,368 - ERROR - Timeout for payload <marquee onstart=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:57:14,556 - ERROR - Timeout for payload <select onchange=alert(1)>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:57:24,717 - ERROR - Timeout for payload <a href=javascript:alert(1)>Click</a>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:57:34,868 - ERROR - Timeout for payload <script>alert(1)</script>: Message: 
-Stacktrace:
-	GetHandleVerifier [0x0x7ff6ef8b6f65+76917]
-	GetHandleVerifier [0x0x7ff6ef8b6fc0+77008]
-	(No symbol) [0x0x7ff6ef669dea]
-	(No symbol) [0x0x7ff6ef6c0256]
-	(No symbol) [0x0x7ff6ef6c050c]
-	(No symbol) [0x0x7ff6ef713887]
-	(No symbol) [0x0x7ff6ef6e84af]
-	(No symbol) [0x0x7ff6ef71065c]
-	(No symbol) [0x0x7ff6ef6e8243]
-	(No symbol) [0x0x7ff6ef6b1431]
-	(No symbol) [0x0x7ff6ef6b21c3]
-	GetHandleVerifier [0x0x7ff6efb8d29d+3051437]
-	GetHandleVerifier [0x0x7ff6efb878f3+3028483]
-	GetHandleVerifier [0x0x7ff6efba588d+3151261]
-	GetHandleVerifier [0x0x7ff6ef8d182e+185662]
-	GetHandleVerifier [0x0x7ff6ef8d96ef+218111]
-	GetHandleVerifier [0x0x7ff6ef8bfae4+112628]
-	GetHandleVerifier [0x0x7ff6ef8bfc99+113065]
-	GetHandleVerifier [0x0x7ff6ef8a6c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-25 23:57:34,868 - INFO - Skipping non-malicious payload: Hello World
-2025-06-25 23:57:38,779 - INFO - WebDriver closed
-2025-06-25 23:57:38,783 - INFO - Results saved to data/auto_test_results.csv
-2025-06-25 23:57:38,785 - INFO - Error payloads appended to data/mshield_error_xss.txt
-2025-06-25 23:57:38,785 - INFO - Tested 21 payloads: 0 working, 0 failed, 20 error
+2025-06-26 21:33:31,839 - INFO - WebDriver initialized
+2025-06-26 21:33:31,840 - INFO - Testing 14 search_bar payloads
+2025-06-26 21:33:39,294 - INFO - Angular page stabilized
+2025-06-26 21:33:39,294 - INFO - Page state reset for search bar
+2025-06-26 21:33:44,527 - INFO - Search bar is closed; attempting to open (attempt 1)
+2025-06-26 21:33:44,577 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
+2025-06-26 21:33:45,694 - INFO - Clicked search icon to open search bar
+2025-06-26 21:33:46,238 - INFO - Focused search bar input after opening
+2025-06-26 21:33:46,279 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:33:46,300 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:33:46,320 - INFO - Set payload and maintained focus on input
+2025-06-26 21:33:46,331 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:33:46,529 - INFO - Screenshot saved: mshield/logs/screenshot_audiosrc_attempt_1_20250626_213346.png
+2025-06-26 21:33:51,552 - INFO - Payload <audio src=x onerror=alert(1)> did not trigger alert on attempt 1; retrying
+2025-06-26 21:33:51,579 - INFO - Removed overlay via JavaScript
+2025-06-26 21:33:52,617 - INFO - Angular page stabilized
+2025-06-26 21:33:52,617 - INFO - Page state reset for search bar
+2025-06-26 21:33:52,665 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:33:52,669 - INFO - Focused search bar input
+2025-06-26 21:33:52,721 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:33:52,754 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:33:52,773 - INFO - Set payload and maintained focus on input
+2025-06-26 21:33:52,782 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:33:53,007 - INFO - Screenshot saved: mshield/logs/screenshot_audiosrc_attempt_2_20250626_213352.png
+2025-06-26 21:33:58,039 - INFO - Payload <audio src=x onerror=alert(1)> did not trigger alert on attempt 2; retrying
+2025-06-26 21:33:58,072 - INFO - Angular page stabilized
+2025-06-26 21:33:58,072 - INFO - Page state reset for search bar
+2025-06-26 21:33:58,107 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:33:58,115 - INFO - Focused search bar input
+2025-06-26 21:33:58,149 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:33:58,170 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:33:58,182 - INFO - Set payload and maintained focus on input
+2025-06-26 21:33:58,188 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:33:58,364 - INFO - Screenshot saved: mshield/logs/screenshot_audiosrc_attempt_3_20250626_213358.png
+2025-06-26 21:34:03,388 - INFO - Payload <audio src=x onerror=alert(1)> did not trigger alert in search_bar after 3 attempts
+2025-06-26 21:34:03,429 - INFO - Angular page stabilized
+2025-06-26 21:34:03,429 - INFO - Page state reset for search bar
+2025-06-26 21:34:03,498 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:34:03,510 - INFO - Focused search bar input
+2025-06-26 21:34:03,586 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:34:03,606 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:34:03,634 - INFO - Set payload and maintained focus on input
+2025-06-26 21:34:03,642 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:34:03,852 - INFO - Screenshot saved: mshield/logs/screenshot_detailso_attempt_1_20250626_213403.png
+2025-06-26 21:34:08,898 - INFO - Payload <details open ontoggle=alert(1)> did not trigger alert on attempt 1; retrying
+2025-06-26 21:34:08,932 - INFO - Angular page stabilized
+2025-06-26 21:34:08,932 - INFO - Page state reset for search bar
+2025-06-26 21:34:08,967 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:34:08,970 - INFO - Focused search bar input
+2025-06-26 21:34:09,007 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:34:09,024 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:34:09,040 - INFO - Set payload and maintained focus on input
+2025-06-26 21:34:09,050 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:34:09,240 - INFO - Screenshot saved: mshield/logs/screenshot_detailso_attempt_2_20250626_213409.png
+2025-06-26 21:34:10,466 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Uma ligação existente foi forçada a fechar pelo anfitrião remoto', None, 10054, None)': /session/64a468b98bd6b015045a1b771055fa67
+2025-06-26 21:34:14,538 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018621485BD0>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/64a468b98bd6b015045a1b771055fa67
+2025-06-26 21:37:11,715 - INFO - WebDriver initialized
+2025-06-26 21:37:11,716 - INFO - Testing 14 search_bar payloads
+2025-06-26 21:37:20,546 - INFO - Angular page stabilized
+2025-06-26 21:37:20,546 - INFO - Page state reset for search bar
+2025-06-26 21:37:25,796 - INFO - Search bar is closed; attempting to open (attempt 1)
+2025-06-26 21:37:25,870 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
+2025-06-26 21:37:27,028 - INFO - Clicked search icon to open search bar
+2025-06-26 21:37:27,083 - INFO - Focused search bar input after opening
+2025-06-26 21:37:27,136 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:37:27,173 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:37:27,180 - INFO - Clicked search bar input to activate
+2025-06-26 21:37:27,210 - INFO - Set payload and maintained focus on input
+2025-06-26 21:37:27,229 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:37:27,510 - INFO - Screenshot saved: mshield/logs/screenshot_audiosrc_attempt_1_20250626_213727.png
+2025-06-26 21:37:32,542 - INFO - Payload <audio src=x onerror=alert(1)> did not trigger alert on attempt 1; retrying
+2025-06-26 21:37:32,581 - INFO - Removed overlay via JavaScript
+2025-06-26 21:37:33,626 - INFO - Angular page stabilized
+2025-06-26 21:37:33,627 - INFO - Page state reset for search bar
+2025-06-26 21:37:33,688 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:37:33,693 - INFO - Focused search bar input
+2025-06-26 21:37:33,735 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:37:33,758 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:37:33,763 - INFO - Clicked search bar input to activate
+2025-06-26 21:37:33,776 - INFO - Set payload and maintained focus on input
+2025-06-26 21:37:33,786 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:37:33,940 - INFO - Screenshot saved: mshield/logs/screenshot_audiosrc_attempt_2_20250626_213733.png
+2025-06-26 21:37:38,973 - INFO - Payload <audio src=x onerror=alert(1)> did not trigger alert on attempt 2; retrying
+2025-06-26 21:37:39,032 - INFO - Angular page stabilized
+2025-06-26 21:37:39,032 - INFO - Page state reset for search bar
+2025-06-26 21:37:39,082 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:37:39,088 - INFO - Focused search bar input
+2025-06-26 21:37:39,145 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:37:39,175 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:37:39,181 - INFO - Clicked search bar input to activate
+2025-06-26 21:37:39,194 - INFO - Set payload and maintained focus on input
+2025-06-26 21:37:39,201 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:37:39,430 - INFO - Screenshot saved: mshield/logs/screenshot_audiosrc_attempt_3_20250626_213739.png
+2025-06-26 21:37:44,462 - INFO - Payload <audio src=x onerror=alert(1)> did not trigger alert in search_bar after 3 attempts
+2025-06-26 21:37:44,499 - INFO - Angular page stabilized
+2025-06-26 21:37:44,499 - INFO - Page state reset for search bar
+2025-06-26 21:37:44,549 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:37:44,555 - INFO - Focused search bar input
+2025-06-26 21:37:44,604 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:37:44,626 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:37:44,635 - INFO - Clicked search bar input to activate
+2025-06-26 21:37:44,648 - INFO - Set payload and maintained focus on input
+2025-06-26 21:37:44,655 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:37:44,884 - INFO - Screenshot saved: mshield/logs/screenshot_detailso_attempt_1_20250626_213744.png
+2025-06-26 21:37:49,917 - INFO - Payload <details open ontoggle=alert(1)> did not trigger alert on attempt 1; retrying
+2025-06-26 21:37:49,956 - INFO - Angular page stabilized
+2025-06-26 21:37:49,956 - INFO - Page state reset for search bar
+2025-06-26 21:37:49,997 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:37:50,000 - INFO - Focused search bar input
+2025-06-26 21:37:50,044 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:37:50,067 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:37:50,071 - INFO - Clicked search bar input to activate
+2025-06-26 21:37:50,082 - INFO - Set payload and maintained focus on input
+2025-06-26 21:37:50,093 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:37:50,261 - INFO - Screenshot saved: mshield/logs/screenshot_detailso_attempt_2_20250626_213750.png
+2025-06-26 21:37:55,289 - INFO - Payload <details open ontoggle=alert(1)> did not trigger alert on attempt 2; retrying
+2025-06-26 21:37:55,324 - INFO - Angular page stabilized
+2025-06-26 21:37:55,325 - INFO - Page state reset for search bar
+2025-06-26 21:37:55,365 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:37:55,369 - INFO - Focused search bar input
+2025-06-26 21:37:55,416 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:37:55,439 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:37:55,444 - INFO - Clicked search bar input to activate
+2025-06-26 21:37:55,457 - INFO - Set payload and maintained focus on input
+2025-06-26 21:37:55,462 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:37:55,631 - INFO - Screenshot saved: mshield/logs/screenshot_detailso_attempt_3_20250626_213755.png
+2025-06-26 21:38:00,665 - INFO - Payload <details open ontoggle=alert(1)> did not trigger alert in search_bar after 3 attempts
+2025-06-26 21:38:00,749 - INFO - Angular page stabilized
+2025-06-26 21:38:00,749 - INFO - Page state reset for search bar
+2025-06-26 21:38:00,828 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:38:00,835 - INFO - Focused search bar input
+2025-06-26 21:38:00,907 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:38:00,941 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:38:00,950 - INFO - Clicked search bar input to activate
+2025-06-26 21:38:00,970 - INFO - Set payload and maintained focus on input
+2025-06-26 21:38:00,984 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:38:01,227 - INFO - Screenshot saved: mshield/logs/screenshot_imgsrci_attempt_1_20250626_213800.png
+2025-06-26 21:38:06,260 - INFO - Payload <img src=invalid onerror=alert(1)> did not trigger alert on attempt 1; retrying
+2025-06-26 21:38:06,330 - INFO - Angular page stabilized
+2025-06-26 21:38:06,330 - INFO - Page state reset for search bar
+2025-06-26 21:38:06,386 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:38:06,391 - INFO - Focused search bar input
+2025-06-26 21:38:06,445 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:38:06,471 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:38:06,478 - INFO - Clicked search bar input to activate
+2025-06-26 21:38:06,497 - INFO - Set payload and maintained focus on input
+2025-06-26 21:38:06,506 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:38:06,662 - INFO - Screenshot saved: mshield/logs/screenshot_imgsrci_attempt_2_20250626_213806.png
+2025-06-26 21:38:11,689 - INFO - Payload <img src=invalid onerror=alert(1)> did not trigger alert on attempt 2; retrying
+2025-06-26 21:38:11,725 - INFO - Angular page stabilized
+2025-06-26 21:38:11,725 - INFO - Page state reset for search bar
+2025-06-26 21:38:11,762 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:38:11,766 - INFO - Focused search bar input
+2025-06-26 21:38:11,798 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:38:11,818 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:38:11,823 - INFO - Clicked search bar input to activate
+2025-06-26 21:38:11,836 - INFO - Set payload and maintained focus on input
+2025-06-26 21:38:11,841 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:38:12,020 - INFO - Screenshot saved: mshield/logs/screenshot_imgsrci_attempt_3_20250626_213811.png
+2025-06-26 21:38:17,051 - INFO - Payload <img src=invalid onerror=alert(1)> did not trigger alert in search_bar after 3 attempts
+2025-06-26 21:38:17,093 - INFO - Angular page stabilized
+2025-06-26 21:38:17,093 - INFO - Page state reset for search bar
+2025-06-26 21:38:17,141 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:38:17,147 - INFO - Focused search bar input
+2025-06-26 21:38:17,206 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:38:17,230 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:38:17,238 - INFO - Clicked search bar input to activate
+2025-06-26 21:38:17,258 - INFO - Set payload and maintained focus on input
+2025-06-26 21:38:17,266 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:38:17,438 - INFO - Screenshot saved: mshield/logs/screenshot_3Cimg20s_attempt_1_20250626_213817.png
+2025-06-26 21:38:22,467 - INFO - Payload %3Cimg%20src=x%20onerror=alert(1)%3E did not trigger alert on attempt 1; retrying
+2025-06-26 21:38:22,497 - INFO - Angular page stabilized
+2025-06-26 21:38:22,497 - INFO - Page state reset for search bar
+2025-06-26 21:38:22,525 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:38:22,528 - INFO - Focused search bar input
+2025-06-26 21:38:22,561 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:38:22,576 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:38:22,580 - INFO - Clicked search bar input to activate
+2025-06-26 21:38:22,590 - INFO - Set payload and maintained focus on input
+2025-06-26 21:38:22,595 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:38:22,736 - INFO - Screenshot saved: mshield/logs/screenshot_3Cimg20s_attempt_2_20250626_213822.png
+2025-06-26 21:38:27,992 - INFO - Payload %3Cimg%20src=x%20onerror=alert(1)%3E did not trigger alert on attempt 2; retrying
+2025-06-26 21:38:28,034 - INFO - Angular page stabilized
+2025-06-26 21:38:28,034 - INFO - Page state reset for search bar
+2025-06-26 21:38:28,085 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:38:28,091 - INFO - Focused search bar input
+2025-06-26 21:38:28,146 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:38:28,175 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:38:28,183 - INFO - Clicked search bar input to activate
+2025-06-26 21:38:28,203 - INFO - Set payload and maintained focus on input
+2025-06-26 21:38:28,215 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:38:28,465 - INFO - Screenshot saved: mshield/logs/screenshot_3Cimg20s_attempt_3_20250626_213828.png
+2025-06-26 21:38:33,494 - INFO - Payload %3Cimg%20src=x%20onerror=alert(1)%3E did not trigger alert in search_bar after 3 attempts
+2025-06-26 21:38:33,525 - INFO - Angular page stabilized
+2025-06-26 21:38:33,525 - INFO - Page state reset for search bar
+2025-06-26 21:38:33,562 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:38:33,567 - INFO - Focused search bar input
+2025-06-26 21:38:33,607 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:38:33,627 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:38:33,632 - INFO - Clicked search bar input to activate
+2025-06-26 21:38:33,646 - INFO - Set payload and maintained focus on input
+2025-06-26 21:38:33,655 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:38:33,816 - INFO - Screenshot saved: mshield/logs/screenshot_divoncli_attempt_1_20250626_213833.png
+2025-06-26 21:38:38,841 - INFO - Payload <div onclick=alert(1)>Click</div> did not trigger alert on attempt 1; retrying
+2025-06-26 21:38:38,867 - INFO - Angular page stabilized
+2025-06-26 21:38:38,867 - INFO - Page state reset for search bar
+2025-06-26 21:38:38,898 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:38:38,903 - INFO - Focused search bar input
+2025-06-26 21:38:38,942 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:38:38,959 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:38:38,965 - INFO - Clicked search bar input to activate
+2025-06-26 21:38:38,976 - INFO - Set payload and maintained focus on input
+2025-06-26 21:38:38,981 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:38:39,142 - INFO - Screenshot saved: mshield/logs/screenshot_divoncli_attempt_2_20250626_213838.png
+2025-06-26 21:38:44,169 - INFO - Payload <div onclick=alert(1)>Click</div> did not trigger alert on attempt 2; retrying
+2025-06-26 21:38:44,200 - INFO - Angular page stabilized
+2025-06-26 21:38:44,200 - INFO - Page state reset for search bar
+2025-06-26 21:38:44,234 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:38:44,237 - INFO - Focused search bar input
+2025-06-26 21:38:44,267 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:38:44,282 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:38:44,287 - INFO - Clicked search bar input to activate
+2025-06-26 21:38:44,297 - INFO - Set payload and maintained focus on input
+2025-06-26 21:38:44,303 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:38:44,461 - INFO - Screenshot saved: mshield/logs/screenshot_divoncli_attempt_3_20250626_213844.png
+2025-06-26 21:38:49,488 - INFO - Payload <div onclick=alert(1)>Click</div> did not trigger alert in search_bar after 3 attempts
+2025-06-26 21:38:49,520 - INFO - Angular page stabilized
+2025-06-26 21:38:49,520 - INFO - Page state reset for search bar
+2025-06-26 21:38:49,559 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:38:49,564 - INFO - Focused search bar input
+2025-06-26 21:38:49,608 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:38:49,629 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:38:49,635 - INFO - Clicked search bar input to activate
+2025-06-26 21:38:49,653 - INFO - Set payload and maintained focus on input
+2025-06-26 21:38:49,660 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:38:49,828 - INFO - Screenshot saved: mshield/logs/screenshot_imgsrcx_attempt_1_20250626_213849.png
+2025-06-26 21:38:54,864 - INFO - Payload <img src=x onerror=alert(1)> did not trigger alert on attempt 1; retrying
+2025-06-26 21:38:54,887 - INFO - Angular page stabilized
+2025-06-26 21:38:54,887 - INFO - Page state reset for search bar
+2025-06-26 21:38:54,913 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:38:54,917 - INFO - Focused search bar input
+2025-06-26 21:38:54,945 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:38:54,959 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:38:54,963 - INFO - Clicked search bar input to activate
+2025-06-26 21:38:54,973 - INFO - Set payload and maintained focus on input
+2025-06-26 21:38:54,978 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:38:55,137 - INFO - Screenshot saved: mshield/logs/screenshot_imgsrcx_attempt_2_20250626_213854.png
+2025-06-26 21:39:00,169 - INFO - Payload <img src=x onerror=alert(1)> did not trigger alert on attempt 2; retrying
+2025-06-26 21:39:00,199 - INFO - Angular page stabilized
+2025-06-26 21:39:00,199 - INFO - Page state reset for search bar
+2025-06-26 21:39:00,233 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:39:00,237 - INFO - Focused search bar input
+2025-06-26 21:39:00,273 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:39:00,292 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:39:00,297 - INFO - Clicked search bar input to activate
+2025-06-26 21:39:00,308 - INFO - Set payload and maintained focus on input
+2025-06-26 21:39:00,313 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:39:00,483 - INFO - Screenshot saved: mshield/logs/screenshot_imgsrcx_attempt_3_20250626_213900.png
+2025-06-26 21:39:05,507 - INFO - Payload <img src=x onerror=alert(1)> did not trigger alert in search_bar after 3 attempts
+2025-06-26 21:39:05,535 - INFO - Angular page stabilized
+2025-06-26 21:39:05,535 - INFO - Page state reset for search bar
+2025-06-26 21:39:05,567 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:39:05,571 - INFO - Focused search bar input
+2025-06-26 21:39:05,605 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:39:05,622 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:39:05,627 - INFO - Clicked search bar input to activate
+2025-06-26 21:39:05,639 - INFO - Set payload and maintained focus on input
+2025-06-26 21:39:05,644 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:39:05,778 - INFO - Screenshot saved: mshield/logs/screenshot_textarea_attempt_1_20250626_213905.png
+2025-06-26 21:39:10,805 - INFO - Payload <textarea onfocus=alert(1) autofocus> did not trigger alert on attempt 1; retrying
+2025-06-26 21:39:10,851 - INFO - Angular page stabilized
+2025-06-26 21:39:10,851 - INFO - Page state reset for search bar
+2025-06-26 21:39:10,895 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:39:10,899 - INFO - Focused search bar input
+2025-06-26 21:39:10,938 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:39:10,959 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:39:10,964 - INFO - Clicked search bar input to activate
+2025-06-26 21:39:10,978 - INFO - Set payload and maintained focus on input
+2025-06-26 21:39:10,985 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:39:11,384 - INFO - Screenshot saved: mshield/logs/screenshot_textarea_attempt_2_20250626_213910.png
+2025-06-26 21:39:16,409 - INFO - Payload <textarea onfocus=alert(1) autofocus> did not trigger alert on attempt 2; retrying
+2025-06-26 21:39:16,438 - INFO - Angular page stabilized
+2025-06-26 21:39:16,439 - INFO - Page state reset for search bar
+2025-06-26 21:39:16,471 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:39:16,475 - INFO - Focused search bar input
+2025-06-26 21:39:16,508 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:39:16,526 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:39:16,530 - INFO - Clicked search bar input to activate
+2025-06-26 21:39:16,541 - INFO - Set payload and maintained focus on input
+2025-06-26 21:39:16,546 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:39:16,701 - INFO - Screenshot saved: mshield/logs/screenshot_textarea_attempt_3_20250626_213916.png
+2025-06-26 21:39:21,728 - INFO - Payload <textarea onfocus=alert(1) autofocus> did not trigger alert in search_bar after 3 attempts
+2025-06-26 21:39:21,766 - INFO - Angular page stabilized
+2025-06-26 21:39:21,766 - INFO - Page state reset for search bar
+2025-06-26 21:39:21,809 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:39:21,819 - INFO - Focused search bar input
+2025-06-26 21:39:21,876 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:39:21,900 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:39:21,910 - INFO - Clicked search bar input to activate
+2025-06-26 21:39:21,930 - INFO - Set payload and maintained focus on input
+2025-06-26 21:39:21,939 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:39:22,144 - INFO - Screenshot saved: mshield/logs/screenshot_imgsrc_attempt_1_20250626_213921.png
+2025-06-26 21:39:27,179 - INFO - Payload "><img src=x onerror=alert(1)> did not trigger alert on attempt 1; retrying
+2025-06-26 21:39:27,249 - INFO - Angular page stabilized
+2025-06-26 21:39:27,250 - INFO - Page state reset for search bar
+2025-06-26 21:39:27,325 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:39:27,335 - INFO - Focused search bar input
+2025-06-26 21:39:27,405 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:39:27,441 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:39:27,453 - INFO - Clicked search bar input to activate
+2025-06-26 21:39:27,480 - INFO - Set payload and maintained focus on input
+2025-06-26 21:39:27,500 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:39:27,780 - INFO - Screenshot saved: mshield/logs/screenshot_imgsrc_attempt_2_20250626_213927.png
+2025-06-26 21:39:32,818 - INFO - Payload "><img src=x onerror=alert(1)> did not trigger alert on attempt 2; retrying
+2025-06-26 21:39:32,858 - INFO - Angular page stabilized
+2025-06-26 21:39:32,859 - INFO - Page state reset for search bar
+2025-06-26 21:39:32,915 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:39:32,922 - INFO - Focused search bar input
+2025-06-26 21:39:32,976 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:39:33,001 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:39:33,010 - INFO - Clicked search bar input to activate
+2025-06-26 21:39:33,024 - INFO - Set payload and maintained focus on input
+2025-06-26 21:39:33,029 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:39:33,265 - INFO - Screenshot saved: mshield/logs/screenshot_imgsrc_attempt_3_20250626_213933.png
+2025-06-26 21:39:38,293 - INFO - Payload "><img src=x onerror=alert(1)> did not trigger alert in search_bar after 3 attempts
+2025-06-26 21:39:38,333 - INFO - Angular page stabilized
+2025-06-26 21:39:38,333 - INFO - Page state reset for search bar
+2025-06-26 21:39:38,383 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:39:38,389 - INFO - Focused search bar input
+2025-06-26 21:39:38,442 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:39:38,483 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:39:38,490 - INFO - Clicked search bar input to activate
+2025-06-26 21:39:38,513 - INFO - Set payload and maintained focus on input
+2025-06-26 21:39:38,523 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:39:38,728 - INFO - Screenshot saved: mshield/logs/screenshot_inputonf_attempt_1_20250626_213938.png
+2025-06-26 21:39:43,761 - INFO - Payload <input onfocus=alert(1) autofocus> did not trigger alert on attempt 1; retrying
+2025-06-26 21:39:43,811 - INFO - Angular page stabilized
+2025-06-26 21:39:43,811 - INFO - Page state reset for search bar
+2025-06-26 21:39:43,863 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:39:43,869 - INFO - Focused search bar input
+2025-06-26 21:39:43,912 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:39:43,938 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:39:43,943 - INFO - Clicked search bar input to activate
+2025-06-26 21:39:43,954 - INFO - Set payload and maintained focus on input
+2025-06-26 21:39:43,964 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:39:44,163 - INFO - Screenshot saved: mshield/logs/screenshot_inputonf_attempt_2_20250626_213943.png
+2025-06-26 21:39:49,197 - INFO - Payload <input onfocus=alert(1) autofocus> did not trigger alert on attempt 2; retrying
+2025-06-26 21:39:49,242 - INFO - Angular page stabilized
+2025-06-26 21:39:49,242 - INFO - Page state reset for search bar
+2025-06-26 21:39:49,287 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:39:49,291 - INFO - Focused search bar input
+2025-06-26 21:39:49,336 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:39:49,359 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:39:49,363 - INFO - Clicked search bar input to activate
+2025-06-26 21:39:49,373 - INFO - Set payload and maintained focus on input
+2025-06-26 21:39:49,378 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:39:49,554 - INFO - Screenshot saved: mshield/logs/screenshot_inputonf_attempt_3_20250626_213949.png
+2025-06-26 21:39:54,584 - INFO - Payload <input onfocus=alert(1) autofocus> did not trigger alert in search_bar after 3 attempts
+2025-06-26 21:39:54,618 - INFO - Angular page stabilized
+2025-06-26 21:39:54,619 - INFO - Page state reset for search bar
+2025-06-26 21:39:54,660 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:39:54,664 - INFO - Focused search bar input
+2025-06-26 21:39:54,703 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:39:54,719 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:39:54,730 - INFO - Clicked search bar input to activate
+2025-06-26 21:39:54,745 - INFO - Set payload and maintained focus on input
+2025-06-26 21:39:54,752 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:39:54,951 - INFO - Screenshot saved: mshield/logs/screenshot_60imgs_attempt_1_20250626_213954.png
+2025-06-26 21:40:00,006 - INFO - Payload &#60;img src=x onerror=alert(1)&#62; did not trigger alert on attempt 1; retrying
+2025-06-26 21:40:00,044 - INFO - Angular page stabilized
+2025-06-26 21:40:00,045 - INFO - Page state reset for search bar
+2025-06-26 21:40:00,086 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:40:00,090 - INFO - Focused search bar input
+2025-06-26 21:40:00,128 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:40:00,146 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:40:00,153 - INFO - Clicked search bar input to activate
+2025-06-26 21:40:00,166 - INFO - Set payload and maintained focus on input
+2025-06-26 21:40:00,171 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:40:00,340 - INFO - Screenshot saved: mshield/logs/screenshot_60imgs_attempt_2_20250626_214000.png
+2025-06-26 21:40:05,374 - INFO - Payload &#60;img src=x onerror=alert(1)&#62; did not trigger alert on attempt 2; retrying
+2025-06-26 21:40:05,434 - INFO - Angular page stabilized
+2025-06-26 21:40:05,435 - INFO - Page state reset for search bar
+2025-06-26 21:40:05,502 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:40:05,508 - INFO - Focused search bar input
+2025-06-26 21:40:05,563 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:40:05,595 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:40:05,602 - INFO - Clicked search bar input to activate
+2025-06-26 21:40:05,628 - INFO - Set payload and maintained focus on input
+2025-06-26 21:40:05,636 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:40:05,843 - INFO - Screenshot saved: mshield/logs/screenshot_60imgs_attempt_3_20250626_214005.png
+2025-06-26 21:40:10,870 - INFO - Payload &#60;img src=x onerror=alert(1)&#62; did not trigger alert in search_bar after 3 attempts
+2025-06-26 21:40:10,926 - INFO - Angular page stabilized
+2025-06-26 21:40:10,926 - INFO - Page state reset for search bar
+2025-06-26 21:40:10,995 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:40:11,004 - INFO - Focused search bar input
+2025-06-26 21:40:11,065 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:40:11,100 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:40:11,109 - INFO - Clicked search bar input to activate
+2025-06-26 21:40:11,142 - INFO - Set payload and maintained focus on input
+2025-06-26 21:40:11,151 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:40:11,375 - INFO - Screenshot saved: mshield/logs/screenshot_videosrc_attempt_1_20250626_214011.png
+2025-06-26 21:40:16,419 - INFO - Payload <video src=x onerror=alert(1)> did not trigger alert on attempt 1; retrying
+2025-06-26 21:40:16,460 - INFO - Angular page stabilized
+2025-06-26 21:40:16,460 - INFO - Page state reset for search bar
+2025-06-26 21:40:16,508 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:40:16,513 - INFO - Focused search bar input
+2025-06-26 21:40:16,559 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:40:16,582 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:40:16,590 - INFO - Clicked search bar input to activate
+2025-06-26 21:40:16,608 - INFO - Set payload and maintained focus on input
+2025-06-26 21:40:16,619 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:40:16,826 - INFO - Screenshot saved: mshield/logs/screenshot_videosrc_attempt_2_20250626_214016.png
+2025-06-26 21:40:21,861 - INFO - Payload <video src=x onerror=alert(1)> did not trigger alert on attempt 2; retrying
+2025-06-26 21:40:21,903 - INFO - Angular page stabilized
+2025-06-26 21:40:21,903 - INFO - Page state reset for search bar
+2025-06-26 21:40:21,958 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:40:21,967 - INFO - Focused search bar input
+2025-06-26 21:40:22,021 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:40:22,051 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:40:22,058 - INFO - Clicked search bar input to activate
+2025-06-26 21:40:22,075 - INFO - Set payload and maintained focus on input
+2025-06-26 21:40:22,089 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:40:22,313 - INFO - Screenshot saved: mshield/logs/screenshot_videosrc_attempt_3_20250626_214022.png
+2025-06-26 21:40:27,342 - INFO - Payload <video src=x onerror=alert(1)> did not trigger alert in search_bar after 3 attempts
+2025-06-26 21:40:27,391 - INFO - Angular page stabilized
+2025-06-26 21:40:27,391 - INFO - Page state reset for search bar
+2025-06-26 21:40:27,440 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:40:27,445 - INFO - Focused search bar input
+2025-06-26 21:40:27,509 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:40:27,540 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:40:27,552 - INFO - Clicked search bar input to activate
+2025-06-26 21:40:27,574 - INFO - Set payload and maintained focus on input
+2025-06-26 21:40:27,581 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:40:27,777 - INFO - Screenshot saved: mshield/logs/screenshot_buttonon_attempt_1_20250626_214027.png
+2025-06-26 21:40:32,813 - INFO - Payload <button onclick=alert(1)>Click</button> did not trigger alert on attempt 1; retrying
+2025-06-26 21:40:32,862 - INFO - Angular page stabilized
+2025-06-26 21:40:32,862 - INFO - Page state reset for search bar
+2025-06-26 21:40:32,916 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:40:32,921 - INFO - Focused search bar input
+2025-06-26 21:40:32,967 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:40:32,990 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:40:32,995 - INFO - Clicked search bar input to activate
+2025-06-26 21:40:33,007 - INFO - Set payload and maintained focus on input
+2025-06-26 21:40:33,019 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:40:33,201 - INFO - Screenshot saved: mshield/logs/screenshot_buttonon_attempt_2_20250626_214033.png
+2025-06-26 21:40:38,234 - INFO - Payload <button onclick=alert(1)>Click</button> did not trigger alert on attempt 2; retrying
+2025-06-26 21:40:38,262 - INFO - Angular page stabilized
+2025-06-26 21:40:38,262 - INFO - Page state reset for search bar
+2025-06-26 21:40:38,305 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:40:38,315 - INFO - Focused search bar input
+2025-06-26 21:40:38,364 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:40:38,384 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:40:38,391 - INFO - Clicked search bar input to activate
+2025-06-26 21:40:38,409 - INFO - Set payload and maintained focus on input
+2025-06-26 21:40:38,417 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:40:38,575 - INFO - Screenshot saved: mshield/logs/screenshot_buttonon_attempt_3_20250626_214038.png
+2025-06-26 21:40:43,611 - INFO - Payload <button onclick=alert(1)>Click</button> did not trigger alert in search_bar after 3 attempts
+2025-06-26 21:40:43,640 - INFO - Angular page stabilized
+2025-06-26 21:40:43,641 - INFO - Page state reset for search bar
+2025-06-26 21:40:43,680 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:40:43,684 - INFO - Focused search bar input
+2025-06-26 21:40:43,730 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:40:43,757 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:40:43,763 - INFO - Clicked search bar input to activate
+2025-06-26 21:40:43,788 - INFO - Set payload and maintained focus on input
+2025-06-26 21:40:43,794 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:40:43,960 - INFO - Screenshot saved: mshield/logs/screenshot_marqueeo_attempt_1_20250626_214043.png
+2025-06-26 21:40:48,983 - INFO - Payload <marquee onstart=alert(1)> did not trigger alert on attempt 1; retrying
+2025-06-26 21:40:49,017 - INFO - Angular page stabilized
+2025-06-26 21:40:49,017 - INFO - Page state reset for search bar
+2025-06-26 21:40:49,062 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:40:49,070 - INFO - Focused search bar input
+2025-06-26 21:40:49,136 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:40:49,166 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:40:49,171 - INFO - Clicked search bar input to activate
+2025-06-26 21:40:49,186 - INFO - Set payload and maintained focus on input
+2025-06-26 21:40:49,194 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:40:49,349 - INFO - Screenshot saved: mshield/logs/screenshot_marqueeo_attempt_2_20250626_214049.png
+2025-06-26 21:40:54,378 - INFO - Payload <marquee onstart=alert(1)> did not trigger alert on attempt 2; retrying
+2025-06-26 21:40:54,421 - INFO - Angular page stabilized
+2025-06-26 21:40:54,421 - INFO - Page state reset for search bar
+2025-06-26 21:40:54,468 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:40:54,473 - INFO - Focused search bar input
+2025-06-26 21:40:54,520 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:40:54,544 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:40:54,550 - INFO - Clicked search bar input to activate
+2025-06-26 21:40:54,564 - INFO - Set payload and maintained focus on input
+2025-06-26 21:40:54,571 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:40:54,737 - INFO - Screenshot saved: mshield/logs/screenshot_marqueeo_attempt_3_20250626_214054.png
+2025-06-26 21:40:59,798 - INFO - Payload <marquee onstart=alert(1)> did not trigger alert in search_bar after 3 attempts
+2025-06-26 21:40:59,851 - INFO - Angular page stabilized
+2025-06-26 21:40:59,851 - INFO - Page state reset for search bar
+2025-06-26 21:40:59,909 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:40:59,920 - INFO - Focused search bar input
+2025-06-26 21:41:00,050 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:41:00,092 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:41:00,107 - INFO - Clicked search bar input to activate
+2025-06-26 21:41:00,152 - INFO - Set payload and maintained focus on input
+2025-06-26 21:41:00,164 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:41:00,379 - INFO - Screenshot saved: mshield/logs/screenshot_selecton_attempt_1_20250626_214100.png
+2025-06-26 21:41:05,418 - INFO - Payload <select onchange=alert(1)> did not trigger alert on attempt 1; retrying
+2025-06-26 21:41:05,453 - INFO - Angular page stabilized
+2025-06-26 21:41:05,453 - INFO - Page state reset for search bar
+2025-06-26 21:41:05,496 - INFO - Search bar is open with classes: mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid
+2025-06-26 21:41:05,504 - INFO - Focused search bar input
+2025-06-26 21:41:05,548 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-26 21:41:05,568 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-26 21:41:05,573 - INFO - Clicked search bar input to activate
+2025-06-26 21:41:05,589 - INFO - Set payload and maintained focus on input
+2025-06-26 21:41:05,597 - INFO - Submitted search bar with JavaScript ENTER key
+2025-06-26 21:41:05,762 - INFO - Screenshot saved: mshield/logs/screenshot_selecton_attempt_2_20250626_214105.png
+2025-06-26 21:41:08,464 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Uma ligação existente foi forçada a fechar pelo anfitrião remoto', None, 10054, None)': /session/6fd1baa97a93d652c8283210c5ae1497
+2025-06-26 21:41:12,568 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019117065BD0>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/6fd1baa97a93d652c8283210c5ae1497
